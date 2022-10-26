@@ -1,0 +1,43 @@
+\version "2.20.0"
+
+
+voixa = \relative c'' {
+  \repeat volta 2 {g,4 e' d c | g2. r4 |  g4 e' d c | a2. r4 | a4 f' e d | b g' g g  | a g f d |}
+  \alternative { {e1} {c2 g'4 r4} }
+  \bar "|."
+}
+
+voixb = \relative c'' {
+  \repeat volta 2 {g,4 e' f g | g,2. r4 |  g4 e' f g | a,2. r4 | a4 f' g a | b,2 b4 b  | c' b a f |}
+  \alternative { {g1} {e2 g'4 r4} }
+  \bar "|."
+}
+
+voixc = \relative c'' {
+  \repeat volta 2 {g,2. g4 | g2. g8 g |  g2. g4  | a2. a8 a | a2. a4 | b1~ | b4 b a a |}
+  \alternative { {g1} {c2 g'4 r4} }
+  \bar "|."
+}
+
+
+\new StaffGroup <<
+  \new Staff \with {
+    instrumentName = "Flûte" 
+  } {\voixa}
+  \new Staff \with {
+    instrumentName = "Trompette"  
+  } {\voixb}
+  \new Staff \with {
+    instrumentName = "Clarinette"  
+  } {\voixc}
+>>
+
+\score{
+\new StaffGroup <<
+  \new Staff  \unfoldRepeats{\voixa}
+  \new Staff  \unfoldRepeats{\voixb}
+  \new Staff  \unfoldRepeats{\voixc}
+>>
+
+\midi{\tempo 4 =200}
+}

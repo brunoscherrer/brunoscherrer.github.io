@@ -1,0 +1,49 @@
+indent = 0
+
+melodie =  \relative c''{
+  \key c \major
+  \numericTimeSignature
+  \time 6/4
+  d1.~ d1.  r2. d4. ees f g d bes | \break g1. ~ g1. r1. r1. |
+  b1.~ b1.  r2. a4. g a2. g4. fis | \break fis1. ~ fis1. r1. r1. |
+  g1.~ g1.  r2. g4. aes bes c g ees | \break c1. ~ c1. r1. r1. |
+}
+
+
+
+harmonie =  \chordmode{  
+  \time 6/4
+  \repeat unfold 2 { c1.:9 c:5+.9 c:6.9 c:5+.9 }
+  \repeat unfold 2 { e1.:9 e:5+.9 e:6.9 e:5+.9 }
+  \repeat unfold 2 { aes1.:9 aes:5+.9 aes:6.9 aes:5+.9 }
+}
+
+
+
+\header {
+  title = #(string-append "Wuhan connect" ton )
+  tagline =  ""
+  composer = "B. Scherrer"
+}
+
+
+
+\score{
+  <<
+    \new ChordNames {
+      \transpose c \noteCibleTransposition{
+	\harmonie
+      }
+    }
+    \new Staff { 
+      \transpose c \noteCibleTransposition {
+      \melodie
+      }
+    }
+  >>
+  \layout{ \context {      \Score      proportionalNotationDuration = #(ly:make-moment 4 30     )   } }
+}
+
+
+
+

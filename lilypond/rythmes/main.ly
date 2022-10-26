@@ -1,0 +1,47 @@
+indent = 0
+
+melodie =  \relative c''{
+  \key c \major
+  \numericTimeSignature
+  \time 3/4
+  \repeat volta 4 {
+    c8 \tuplet 3/2 { c16 c c} c8 \tuplet 3/2 { c16 c c} c8 c
+    c8 \tuplet 3/2 { c16 c c} c8 \tuplet 3/2 { c16 c c} \tuplet 3/2 { c16 c c} \tuplet 3/2 { c16 c c}
+  }
+}
+
+
+
+harmonie =  \chordmode{  
+ %c1:maj7 | c:maj7
+}
+
+
+
+\header {
+  title = #(string-append "Rythmes" ton )
+  tagline =  ""
+  composer = "B. Scherrer"
+}
+
+
+
+\score{
+  <<
+    \new ChordNames {
+      \transpose c \noteCibleTransposition{
+	\harmonie
+      }
+    }
+    \new Staff { 
+      \transpose c \noteCibleTransposition {
+      \melodie
+      }
+    }
+  >>
+  \layout{ \context {      \Score      proportionalNotationDuration = #(ly:make-moment 4 30     )   } }
+}
+
+
+
+

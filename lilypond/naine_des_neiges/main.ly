@@ -1,0 +1,91 @@
+indent = 0
+
+melodie =  \relative c''{
+  \key g \major
+  \numericTimeSignature
+  \time 4/4
+  %% Intro
+
+  \mark \markup {\box \bold A}
+  \repeat volta 2 {
+    <<{<g' b>8 e <g b> e   <g d'> e <g d'> e   <g c> e <g c> e   <g b> e <g b> e}\\ {e,2 e2 e2 e4~ e16 d,8. }>> 
+    <<{<g'' b>8 e <g b> e   <g d'> e <g d'> e }\\ {c,2 c2  }>>
+    }
+    \alternative{
+      {<<{<g'' c>8 e <g c> e   <g b> e <g b> e}\\ {c,2 c4~ c16 d,8. }>>}
+      {<<{<g'' c>8 e <g c> e   <g b> e <g b> e}\\ {c,2 c2 }>>}
+    }
+    \break
+
+  <<
+    {<fis' d a>8 e <fis d a> e <fis d a> e <fis d a> e   <b g'> e <b g'> e   <b g'> e <b g'> e  <e a,> cis <e a,> cis   <e a,> cis <e a,> cis   <e b> d <e b> d   <e b> d <e b> d }
+    \\
+    {d,2 d c c a a g g }
+  >> \break
+  
+  \repeat unfold 4 {r1} \break
+
+  
+  \mark \markup {\box \bold B}
+
+  \repeat volta 2 {
+    
+    \repeat unfold 2 {
+      r4 e' fis g | d4. b2 e8 | d2 a4 c | b4. b8 c4 d | \break
+    }
+    r4 e fis g | e'4. d8 c4 a | c4. b8 b2 | r1 | \break
+  }
+  \alternative {
+    { r4 e, fis g | a4. e fis4 | dis1 | r \break }
+    { r4 e fis g | a c e dis | b1 | r \break }
+  }
+}
+
+
+
+harmonie =  \chordmode{  
+
+  \repeat volta 2 {\repeat unfold 3 {s1}} \alternative { {s1}{s1} }
+  \repeat unfold 4 {s1}
+  e2:min d/e e:min d/e e1:min s
+  
+  \repeat volta 2 {
+    \repeat unfold 2 {
+      e1:min7 | c:maj7 | d:7 | g:maj7 |
+    }
+    c:maj7 | fis:3-.5-.7 | g:maj7 | g:maj7 |
+    c:maj7 | fis:3-.5-.7 | b:7 | s |
+    c:maj7 | fis:3-.5-.7 | d2:sus6 d:5+ | d s |
+
+
+  }
+}
+
+
+\header {
+  title = #(string-append "La naine des neiges" ton )
+  tagline =  ""
+  composer = "B. Scherrer"
+}
+
+
+
+\score{
+  <<
+    \new ChordNames {
+      \transpose c \noteCibleTransposition{
+	\harmonie
+      }
+    }
+    \new Staff { 
+      \transpose c \noteCibleTransposition {
+      \melodie
+      }
+    }
+  >>
+  \layout{ \context {      \Score      proportionalNotationDuration = #(ly:make-moment 4 20     )   } }
+}
+
+
+
+

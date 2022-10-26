@@ -1,0 +1,53 @@
+indent = 0
+
+melodie =  \relative c,{
+  \key c \major
+  \numericTimeSignature
+  \set stringNumberOrientations = #'(down)
+  \override StringNumber.transparent = ##t
+  \time 4/4
+  \repeat volta 2 {
+    e4  b''8 a e e' b a | e,4  b''8 a  d,  e' b a |
+    g,4 b'8 a  d,  e' b a | g,4 d''8 a  d,  e' d a | \break
+    c,4 e'8\2 g, fis e'8 e\2 g, |  c,4 b'8 c\3  fis, e' b c\3 |
+    \repeat unfold 2 {e,,4 b''8 d\3 a\4 e' b d\3 |} \break
+  }  
+  \repeat unfold 2 {e,,4 b''8 e\3 b\4 e b e\3 |}
+  \repeat unfold 2 {a,,4 a''8\2 g, c\4 e a\2 g,   |} \break
+  \repeat unfold 2 {a,4 fis''8\2 d\3 a\4  e' fis\2 d\3   |}
+  \repeat unfold 2 {e,4\5 g'8\2 d\3 d,\4  e' g\2 d\3   |} \break
+  d,4\5 b'8 d\3 a\4 e' b d\3 | c,4 b'8 c\3 g\4 e' b c\3 |
+  a,4 b'8 a e e' b a |  a,4 c'8 a e e' c a | \break
+  \repeat volta 2 {
+    e,4  b''8 a e e' b a | e,4  b''8 g e e' b g|
+    a,4 cis'8 a e e' cis a | a,4 c'8 a e e' c a \break
+    }
+}
+
+
+
+harmonie =  \chordmode{  
+ 
+}
+
+
+
+\header {
+  title = #(string-append "Balade (partie 2)" ton )
+  tagline =  ""
+  composer = "B. Scherrer"
+}
+
+
+
+\score {
+  <<
+    \new Staff { \clef "G_8" \melodie }
+    \new TabStaff   { \melodie }
+  >>
+}
+
+
+
+
+

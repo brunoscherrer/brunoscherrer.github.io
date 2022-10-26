@@ -1,0 +1,216 @@
+\version "2.18.2"
+
+indent = 0
+% short-indent = 0
+
+% 3 variables à changer pour la transposition
+noteCibleTransposition = c     % c         % d pour Si b %  a pour Mi b
+instrument = "(instruments en Do)"  % Ut Si bémol Mi bémol)"
+pied = "How my heart sings (Earl Zindars) - instruments en Si bémol" % Ut Si bémol Mi bémol"
+
+
+melodie =  \relative c''{
+
+    \key c \major
+    \time 3/4
+    
+    \partial 4 fis8 a8    % pour l'anacrouse
+
+    \bar ".|:" 
+
+     g2  b,4     | c2 d8 e               | f2 a,4       | b2 c8 d | 
+
+     e2 c4       | \tuplet 4/3 {a b c e} | d2 b4        | gis2 e4 | 
+
+     a4 b4 c4    | d4 b4. gis8           | a4. b8 c8 a8 | e'2.    | 
+
+     b4. cis8 e4 | fis4 dis4 c4          | cis4. e8 cis4 | gis'2 fis8 gis8 | 
+
+     \numericTimeSignature   % juste pour l'écriture 4/4 au lieu du défaut qui est C
+     \time 4/4
+
+     % ces 2 lignes pour qu'une mesure 4/4 soit à peu près de même taille qu'en 3/4 
+     \newSpacingSection   
+     \override Score.SpacingSpanner.spacing-increment = #1
+
+     a2.   fis4 | e2.   cis4  |  a'2.  fis4      | e1                |
+    
+     g2.  e4    | d2.  b4     | g2~  g8 e8 g8 b8 | d2~ d8 fis8 g8 a8 | 
+
+     \time 3/4  
+
+     % ces 2 lignes pour annuler la modif précédente
+     \newSpacingSection
+     \revert Score.SpacingSpanner.spacing-increment
+
+     g2   b,4  | c2 d8 e               | f2 a,4       | b2 c8 d | 
+
+     e2 c4     | \tuplet 4/3 {a b c e} | d2 b4        | gis2 e4 | 
+
+     a4 b4 c4  | d4 b4. gis8           | a4. b8 c8 a8 | e'2 fis4| 
+
+     g2.       | c,2   d8 e8            | f2.          | e2.   \mark \markup { \musicglyph #"scripts.coda" }
+
+     c2.~      | c2.~                   |c2.~          |c2.~     
+
+     \bar ":|." 
+}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% essai de modif de représentation pour les accords
+% (actuellement très peu d'accords...)
+
+chExceptionMusic = {
+      <c e g b>1-\markup {\super "M7" }
+      <c e g bes>1-\markup {\super "7" }
+      <c ees g bes>1-\markup {"m" \super "7" }
+      <c ees ges bes>1-\markup {"m" \super "7 " \super \flat \super "5"}
+      <c e g bes aes dis'>1-\markup {\super "7 Alt" }
+}
+
+chExceptions = #( append
+        ( sequential-music-to-chord-exceptions chExceptionMusic #t)
+		  ignatzekExceptions)
+
+
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+harmonie =  \chordmode{
+
+    \set Score.markFormatter = #format-mark-box-alphabet
+
+    %\set majorSevenSymbol = \markup{M7}
+    %\set minorChordModifier = \markup { "-" }
+
+    \set chordNameExceptions = #chExceptions   % pour les modifs de représentation des accords
+    
+
+    \key c \major
+    \time 3/4
+    
+    % petit truc dans la ligne suivante : si on utilise r (silence) on a un symbole N.C. (no chords)
+    % pour éviter cela on utilise s 
+    \partial 4 s4   \mark \markup{ {\box \huge \bold A} en 3/4}   % anacrouse
+
+    
+    e2.:min7  |  a2.:min7           |  d2.:min7         |  g2.:7        |
+
+    c2.:maj7  |  f2.:maj7           |  b2.:min7.5-      |  e2.:7        |
+
+    a2.:min7  |  aes2.:dim7         |  a2.:min7/g       | fis2.:min7.5- |
+
+    e2.:maj7  |  gis4.:min7 cis4.:7 |  fis2.:min7       | b2.:7         | 
+
+    \time 4/4    \mark \markup{ {\box \huge \bold B} en 4/4}
+
+    d1:maj7/e | a1:maj7/e           | d1:maj7/e         |  a1:maj7/e    |
+
+    c1:maj7/d | g1:maj7/d           | c2:maj7/d c2:maj7 |  b1:7.6-.9+      |
+    
+    \time 3/4   \mark \markup{ {\box \huge \bold A'} en 3/4}
+
+    e2.:min7  |  a2.:min7           |  d2.:min7         |  g2.:7        |
+
+    c2.:maj7  |  f2.:maj7           |  b2.:min7.5-      |  e2.:7        |
+
+    a2.:min7  |  aes2.:dim7         |  a2.:min7/g       |  d2.:7/fis    |
+
+    e2.:min7  |  a2.:min7           |  aes2.:7          |  g2.:7        |
+
+    c2.:6     |  g2.:min7           |  f2.:min7.5-      |  b2.:7.6-.9+  |
+}
+
+finmelodie = \relative c''{
+
+    \key c \major
+    \time 3/4
+    
+    \bar ".|:"   \mark \markup { \musicglyph #"scripts.coda" }
+
+     c2.      | c2.                   |c2.          |c2.     
+
+    \bar ":|."
+
+}
+
+finharmonie = \chordmode{
+
+    \key c \major
+    \time 3/4
+    
+    ees2.:/c     |  d2.:/c           |  des2.:/c      |  c2.:/c     |
+}
+
+ 
+
+\header {
+  title = "HOW MY HEART SINGS"
+  subtitle = \instrument
+  tagline = \pied
+  composer = "EARL ZINDARS"
+}
+
+\markup {
+ \column {
+  \vspace #2
+  \line { Partition du RealBook d'après Bill Evans - "How My Heart Sings" }
+    \vspace #0.5
+  \line { Structure du morceau A-B-A' avec A (en 3/4) puis B (en 4/4) puis A' (en 3/4). }
+    \vspace #0.5
+  \line { Pour le thème final penser à aller à "Fin" au lieu des 4 dernières mesures. }
+  \vspace #2
+}
+}
+
+\score {
+  <<
+  \new ChordNames {
+     \transpose c \noteCibleTransposition
+         \harmonie
+    }
+  \new Staff  
+     \transpose c \noteCibleTransposition
+        \melodie 
+  >>
+
+  \layout {
+    \context {
+      \Score
+      proportionalNotationDuration = #(ly:make-moment 4 48)
+    }
+  }
+}
+
+\markup {
+ \column {
+  \line { Fin (à répéter decrescendo) : }
+}
+}
+
+\score {
+  <<
+  \new ChordNames {
+      \transpose c \noteCibleTransposition
+        \finharmonie
+    }
+  \new Staff  
+       \transpose c\noteCibleTransposition
+        \finmelodie 
+  >>
+
+  \layout {
+    \context {
+      \Score
+      proportionalNotationDuration = #(ly:make-moment 4 48)
+    }
+  }
+}
+
+
+% modif de l'espacement entre 2 "systèmes" (cad entre 2 lignes musicales, ici une ligne
+% comprend la "portée" des accords et la portée de la mélodie )
+\paper {
+           system-system-spacing #'padding = #10 }

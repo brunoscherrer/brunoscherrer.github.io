@@ -1,0 +1,50 @@
+indent = 0
+
+guita =  \relative c'{
+  \key g \major
+  \numericTimeSignature
+  \time 3/4
+  \partial 2 {e8 b fis' b,}
+  \repeat volta 2 {
+    g'8 b, g fis'8 g b,  | a' b, c\3 g'8 a b,| b' b, a' b, b' b, | c' b, b' b, a' b, | g' b, g fis'8 g b, | fis' b, a  e' fis b, | e b g e g b  |
+  }
+  \alternative  {
+    {g'4   e8 b fis' b,}
+    {e'2.}
+  }
+}
+
+
+guitb =  \relative c {
+  \key g \major
+  \partial 2 {s2}
+  \repeat volta 2 {
+    e2. | fis2. | g4\4 fis g\4 | a\4 g\4 fis | e2. | b2 dis4 | e,2. |
+  }
+  \alternative {
+    {<e' g b> 4 s2}
+    {e2.}
+  }
+}
+
+
+
+\header {
+  title = #(string-append "Sérénade" ton )
+  tagline =  ""
+  composer = "B. Scherrer"
+}
+
+
+
+\score {
+  <<
+    \new Staff { \clef "G_8" << {\guita} \\ {\guitb} >> }
+    \new TabStaff { << {\guita} \\ {\guitb} >> }
+  >>
+}
+
+
+
+
+

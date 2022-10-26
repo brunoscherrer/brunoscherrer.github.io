@@ -1,0 +1,74 @@
+indent = 0
+
+melodie =  \relative c''{
+  \key e \major
+  %\numericTimeSignature
+  \time 2/2
+  \repeat volta 1 {
+    b4. b8~ b2 | cis4. cis8~ cis2 | r8 b4 cis8 b4 gis | a gis8 fis~ fis2 | \break
+    gis4. gis8~ gis2 | a4. a8~ a2 | r8 gis4 a8 gis4 e | fis e8 dis~ dis2 | \break
+    e4 cis e gis | dis bis dis fis |e4 cis e gis | fis1 | \break
+    e4 cis e gis | fis gis, ais bis | cis2 c2 | b1 \break
+
+    b'4. b8~ b2 | cis4. cis8~ cis2 | r8 b4 cis8 b4 gis | a gis8 fis~ fis2 | \break
+    gis4. gis8~ gis2 | a4. a8~ a2 | r8 gis4 a8 gis4 e | fis e8 dis~ dis2 | \break
+    e4 e e e | fis fis fis fis | gis gis e gis | cis1
+%    \once \override Score.RehearsalMark.break-visibility =
+%    #end-of-line-visible
+%  \once \override Score.RehearsalMark.self-alignment-X =
+%    #RIGHT
+%    \mark \markup { \musicglyph "scripts.coda" } 
+    e4. e8~ e2 | c4. c8~ c2 | b2 b4 cis | e1 | \break
+}
+%  \mark \markup { \musicglyph "scripts.coda" } \break
+%  e4. e8~ e2 | e4. e8~ e2 | c4. c8~ c2 |  c4. c8~ c2 | b2 b2~ | b4 cis e2~ | e1~ | e4  r4 r2 \bar "|." \break
+  
+}
+
+
+
+harmonie =  \chordmode{  
+  \repeat volta 1 {
+  e1 | cis:min | e | gis:7 |
+  cis:min | fis:min | cis:min | gis:7 |
+  cis:min | gis:7 | cis:min | fis2:min gis2:7.9- |
+  cis1:min | gis:7 | cis1:min  | b1:7
+
+  e1 | cis:min | e | gis:7 |
+  cis:min | fis:min | cis:min | gis:7 |
+  a | d:7 | e | cis:7
+  fis:min | c:7 | b:7 | e
+}
+%  fis:min | s | c:7 | s | b:7 | s2 e | c1:7 |  e:6
+  
+}
+
+
+
+\header {
+  title = #(string-append "Maman, Papa" ton )
+  tagline =  ""
+  composer = "Brassens"
+}
+
+
+
+\score{
+  <<
+    \new ChordNames {
+      \transpose fis \noteCibleTransposition{
+	\harmonie
+      }
+    }
+    \new Staff { 
+      \transpose fis \noteCibleTransposition {
+      \melodie
+      }
+    }
+  >>
+  \layout{ \context {      \Score      proportionalNotationDuration = #(ly:make-moment 4 30     )   } }
+}
+
+
+
+

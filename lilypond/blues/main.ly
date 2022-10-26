@@ -1,0 +1,53 @@
+indent = 0
+
+
+
+melodie =  \relative c''{
+  \key c \major
+  \numericTimeSignature
+  \time 12/8
+  r4  g8 e'  r  g,  dis'4 e8 r4. | r1 g,8 e'  r  g, | dis'4 e8 r4 g8 r2. | r4  g,8 e'  r  g, dis'4 e8 r4  f8~| \break
+  f4 dis8 c r2 a8 f'4 a,8 | dis4 f8 r4 a,8 f'4 a,8 dis4 f8 | e4 c8 r4 g8 e'4 g,8 dis'4 e8 | c8 r4 r4. dis4 e4. g8~ | \break
+  g2.~ g4. fis4 f8~ |  f2. r4  dis4. \grace{dis8} e8~ | e4. r4 c4.  ais4. \grace{ais8} b8~ | b4. r4 g4. r2 |
+}
+
+
+
+
+
+harmonie =  \chordmode{  
+  \repeat percent 4 {c1.:7}
+  \repeat percent 2 {f1.:7}
+  \repeat percent 2 {c1.:7}
+  g1.:7 f:7 c:7 g:7
+}
+
+
+
+\header {
+  title = #(string-append "Blues" ton )
+  tagline =  ""
+  composer = "B. Scherrer"
+}
+
+
+
+\score{
+  <<
+    \new ChordNames {
+      \transpose c \noteCibleTransposition{
+	\harmonie
+      }
+    }
+    \new Staff { 
+      \transpose c \noteCibleTransposition {
+      \melodie
+      }
+    }
+  >>
+  %\layout{ \context {      \Score      proportionalNotationDuration = #(ly:make-moment 4 44     )   } }
+}
+
+
+
+
