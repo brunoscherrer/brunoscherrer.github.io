@@ -1,0 +1,6 @@
+#!/usr/bin/bash
+
+./generate_songs.py > songs.html
+cat header.html songs.html foot.html > index.html
+zip -r mp3.zip mp3/
+zip -r midi.zip midi/
