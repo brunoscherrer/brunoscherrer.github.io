@@ -78,8 +78,7 @@ songs = [ ( ("acoustic","Acoustique"),
               ("04_kenavo_les_bouseux","","Kenavo les bouseux / Trad. breton"),
               ("05_le_marche_turc","marche_turc","Le marché turc / Mozart - Raoul Petite"),
               ("06_mordor","","Mordor (Giorgio by Moroder) / Daft Punk"),
-              ("07_i_wish_78","","I wish 7/8 / Stevie Wonder"),
-              ("08_paradaija","","Paradaija / SESAM")
+              ("07_i_wish_78","","I wish 7/8 / Stevie Wonder")
               ])
           ]
  
