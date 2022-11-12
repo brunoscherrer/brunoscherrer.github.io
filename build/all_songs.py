@@ -26,7 +26,8 @@ songs = [ ( ("acoustic","Acoustique"),
               ("10_wuhan_disconnect","","Wuhan disconnect"),
               ("11_7_4_repetitif","","7/4 répétitif"),
               ("12_bolerototo_newage","bolero","Boléro-toto New-Age-Olympique (pour Arnaud)"),
-              ("13_apres_un_reve_faure","","Après un rêve (ma guitare ne roule pas les rrr) / Fauré")
+              ("13_apres_un_reve_faure","","Après un rêve (ma guitare ne roule pas les rrr) / Fauré"),
+              ("14_bouge_ton_corps","","Bouge ton corps")
               ] ),
           (  ("zeuhl","Zeuhl"),
              [ ("01_disco_tanz","","Disco Tanz"),
