@@ -3,7 +3,7 @@
 import sys
 from all_songs import songs
 
-sys.stderr.write("Génération du fichier songs.html")
+sys.stderr.write("Génération du fichier songs.html...\n")
 
 count = 1
 
