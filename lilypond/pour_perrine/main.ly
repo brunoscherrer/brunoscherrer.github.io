@@ -80,16 +80,17 @@ harmonie =  \chordmode{
 }
 
 
-\break
+
+%\break
 %\newSpacingSection
 %\override Score.SpacingSpanner.spacing-increment = #.5
-d2.:min7 \mark \markup {\bold Pont/Intro (facultatif):} | g:7 | e:min7.5- | a:7 | \break
-d:min7 | g:7 | c:maj7 | a:7.5-.6- | \break
-  d2.:min7 | g:7 | e:min7.5- | a:7 | \break
-  d:min7 | g:7 | c:maj7 | c:maj7 | 
+%d2.:min7 \mark \markup {\bold Pont/Intro (facultatif):} | g:7 | e:min7.5- | a:7 | \break
+%d:min7 | g:7 | c:maj7 | a:7.5-.6- | \break
+%  d2.:min7 | g:7 | e:min7.5- | a:7 | \break
+%  d:min7 | g:7 | c:maj7 | c:maj7 | 
 
-\break
-c \mark \markup \bold {Solos et 6/6 possibles sur B:}   | aes:6 | bes:6 | c | aes:6 | bes:6 
+%\break
+%c \mark \markup \bold {Solos et 6/6 possibles sur B:}   | aes:6 | bes:6 | c | aes:6 | bes:6 
  
 }
 

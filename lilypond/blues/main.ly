@@ -6,9 +6,9 @@ melodie =  \relative c''{
   \key c \major
   \numericTimeSignature
   \time 12/8
-  r4  g8 e'  r  g,  dis'4 e8 r4. | r1 g,8 e'  r  g, | dis'4 e8 r4 g8 r2. | r4  g,8 e'  r  g, dis'4 e8 r4  f8~| \break
-  f4 dis8 c r2 a8 f'4 a,8 | dis4 f8 r4 a,8 f'4 a,8 dis4 f8 | e4 c8 r4 g8 e'4 g,8 dis'4 e8 | c8 r4 r4. dis4 e4. g8~ | \break
-  g2.~ g4. fis4 f8~ |  f2. r4  dis4. \grace{dis8} e8~ | e4. r4 c4.  ais4. \grace{ais8} b8~ | b4. r4 g4. r2 |
+  r4  g8[ e']  r  g,  dis'4 e8 r8 r4  | r1 g,8[ e']  r  g, | dis'4 e8 r4 g8 r4 r2 | r4  g,8[ e']  r  g, dis'4 e8 r4  f8~| %\break
+  f4 dis8[ c] r2 a8 f'4 a,8 | dis4 f8 r4 a,8 f'4 a,8 dis4 f8 | e4 c8 r4 g8 e'4 g,8 dis'4 e8 | c8 r8 r2  dis4 e4. g8~ | \break
+  g2.~ g4. fis4 f8~ |  f2. r4  dis4. \grace{dis8} e8~ | e4. r8 r8 c4.  ais4. \grace{ais8} b8~ | b4. r8 r8 g4. r2 |
 }
 
 

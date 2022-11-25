@@ -7,7 +7,7 @@ accompagnement =  \relative c''{
   \repeat volta 2 {
   \repeat unfold 2 {<c e>4 <d f> <e g> <bes d> <g c> <f g>}
   <c' e> <d f> <e g> <g bes> <f a> <d f> |
-  <e g> <bes d>  <g c> <g bes> <f g>2
+  <e g> <bes d>  <g c> <g bes> <f g>2 \break
 }
 
   \repeat volta 2 {
@@ -16,7 +16,7 @@ accompagnement =  \relative c''{
   \alternative {
     \repeat unfold 2 {<c e>4 <g c> <g c> <g bes> <f g>2 }
     \repeat unfold 2 {<ees' g>4 <c ees> <c ees> <bes d> <f bes>2}
-  }
+  } \break
   
   \repeat volta 2 {
   <des' f>4 <ees g> <f aes> <c ees> <c ees> <bes des>
@@ -24,7 +24,7 @@ accompagnement =  \relative c''{
   \repeat unfold 2 {
     <aes c> <ees g> <c ees> <bes ees> <aes c> <ees aes>
   }
-  }
+  } \break
   
   <bes' des> <c ees> <des f>  <bes des> <ges bes> <des ges>
   <bes' des> <c ees> <des f> <c ees> <bes des> <c ees>
@@ -32,7 +32,7 @@ accompagnement =  \relative c''{
   <bes des>4 <c ees> <des f>  <bes des> <ges bes> <des ges>
   <cis' e!> <dis fis> <e gis> <dis fis> <cis e> <dis fis>
   <e g> <fis a> <g b> <fis a><e g> <fis a>
-  <f! a> <g b> <f a> <e g> <d f> <c e>
+  <f! a> <g b> <f a> <e g> <d f> <c e> \break
 
   
  }
@@ -84,7 +84,7 @@ voix_a= \relative c''{
 
 harmonie =  \chordmode{  
   \repeat volta 2 {
-    c1.:7  s  bes:maj7  c:7 \break
+    c1.:7  s  bes:maj7  c:7 
   }
 
   \repeat volta 2 {
@@ -95,10 +95,10 @@ harmonie =  \chordmode{
     {ees:maj7  s} \break
   }
   \repeat volta 2 {
-    ees1.:7  s  aes:maj7  s \break
+    ees1.:7  s  aes:maj7  s 
   }
-  ges1.:maj7  s  des:maj7  s \break
-  ges1.:maj7   a:maj7  g:maj7 g:7 \break
+  ges1.:maj7  s  des:maj7  s 
+  ges1.:maj7   a:maj7  g:maj7 g:7 
 }
 
 

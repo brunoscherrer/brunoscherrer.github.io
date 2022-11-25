@@ -11,7 +11,8 @@ melodieintro =  \relative c''{
 melodiea =  \relative c''{
   %\key c \major
   \numericTimeSignature
-  %\time 5/4
+  \time 5/4
+  \partial 2 e4 d
   \mark \markup {\box \bold A}
   \repeat volta 2 {
   b2. a4 g | a4. b fis2  | g4. e8~ e2. | r2. d'4 cis |
@@ -55,7 +56,8 @@ bassea = \relative c,{
   \clef bass
   \key c \major
   \numericTimeSignature
-  %\time 5/4
+  \time 5/4
+  \partial 2 s2
   \repeat volta 2 {
     \basseintro 
     e4. b' d4 e | fis,4. a d4 e | g,4. b d4 e | fis4. e d4 b | \break
@@ -91,7 +93,8 @@ harmonieintro =  \chordmode{
 }
 
 harmoniea =  \chordmode{  
-  %\time 5/4
+  \time 5/4
+  \partial 2 s2
   \repeat volta 2 {
     \tuplet 4/5 {
       e1:min7 | d | c:maj7 | s |
@@ -108,7 +111,6 @@ harmoniea =  \chordmode{
 
 
 harmonieb =  \chordmode{  
-  %\time 5/4
   \tuplet 4/5 {
     g:min | s | fis:3-.5- | s |
     f:min | s | g:7 | s |
@@ -136,13 +138,13 @@ harmonie = {
   <<
     \new ChordNames {
       \transpose c \noteCibleTransposition{
-	\harmonieintro
+	%\harmonieintro
 	\harmonie
       }
     }
     \new Staff {
       \transpose c \noteCibleTransposition{
-	\melodieintro
+	%\melodieintro
 	\melodie
       }
     }

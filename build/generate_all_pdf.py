@@ -7,6 +7,7 @@ from all_songs import songs
 
 
 pdflist = []
+songlist = []
 
 for (rep,titre),liste in songs:
     
@@ -15,6 +16,10 @@ for (rep,titre),liste in songs:
         if pdf!="":
             if pdf not in pdflist:
                 pdflist.append(pdf)
+                songlist.append(song)
+
+pdflist = [x for _, x in sorted(zip(songlist, pdflist))]
+             
 
 print("Génération des intégrales des partitions:")
 
