@@ -4,9 +4,9 @@ melodie =  \relative c''{
   \key c \major
   \numericTimeSignature
   \time 3/4
-  d2.~ d2.  r4. d8. ees f g d bes | \break g2. ~ g2. r2. r2. |
-  b2.~ b2.  r4. a8. g a4. g8. fis | \break fis2. ~ fis2. r2. r2. |
-  g2.~ g2.  r4. g8. aes bes c g ees | \break c2. ~ c2. r2. r2. |
+  d2.~ d2.  r4. d8. ees f g d bes | \break g2. ~ g2. r2. r2. | \break
+  b2.~ b2.  r4. a8. g a4. g8. fis | \break fis2. ~ fis2. r2. r2. | \break
+  g2.~ g2.  r4. g8. aes bes c g ees | \break c2. ~ c2. r2. r2. | \break
 }
 
 
