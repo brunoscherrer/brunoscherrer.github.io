@@ -66,7 +66,7 @@ songs = [ ( ("01_originaux","Morceaux originaux"),
               ("09_whisper_not","","Whisper not / Benny Golson"),
               ("10_mordor","","Mordor (Giorgio by Moroder) / Daft Punk"),
               ("11_i_wish_78","","I wish 7/8 / Stevie Wonder"),
-              ("12_apres_un_reve_faure","","Après un rêve (ma guitare ne roule pas les rrr) / Fauré"),
+              ("12_apres_un_verre","","Après un verre / Gabriel Fauré"),
               ("13_risasdebolivia","risas","Risas de Bolivia / Trad. bolivien"),
               ("14_paradaija","","Paradaija / SESAM")
               ])
