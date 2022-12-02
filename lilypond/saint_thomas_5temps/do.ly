@@ -13,5 +13,5 @@ ton = ""
     \new Staff << \unfoldRepeats{\maingauche
                           } >> 
   >>
-\midi{ \tempo 4 = 160 }
+\midi{ \tempo 4 = 100 }
 }

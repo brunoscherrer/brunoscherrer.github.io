@@ -8,7 +8,7 @@ maingauche = \relative c' {
     {c,8 e f fis g }
   }
   e, b' e ais aes | a, e' a dis des | d, a' d gis ges | g, d' g ges f 
-  c,4 e f8~ | f fis4 g
+  r8 c,4-. e-. | f-. fis8-. g4
 }
 }
 
@@ -25,7 +25,7 @@ melodie =  \relative c''{
     \variantec  \repeat unfold 2 { r8 r2 }
   }
   <g bes e>4. <g bes f'>4 | <cis e g>4. << \voiceOne {\stemDown cis4} \new Voice {\voiceTwo {\stemUp {f8 e}}}>> | <c d f>4. <c e>4 | <b d>4. << \voiceOne {\stemDown b4} \new Voice {\voiceTwo {\stemUp {e8 d}}}>>  |
-  <g, c e>4 <g bes d> \grace{aes16} <a c>8~ | <a c> <fis a>4 <f g>16 c' r8
+  <g, c e>4-. <g bes d>-. \grace{aes16} <a c>8-.~ | <a c>-. <fis a>4-. <f g>16 c' r8
 }
   
 }
@@ -48,7 +48,7 @@ harmonie =  \chordmode{
 \header {
   title = #(string-append "Saint Thomas 5/8" ton )
   tagline =  ""
-  composer = "Sonny Rollins"
+  composer = "Sonny Rollins, Arr. BS"
 }
 
 
