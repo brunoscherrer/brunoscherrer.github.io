@@ -1,0 +1,4 @@
+#!/usr/bin/bash
+
+abcm2ps compos.abc -s 0.65 -O compos.ps
+ps2pdf compos.ps

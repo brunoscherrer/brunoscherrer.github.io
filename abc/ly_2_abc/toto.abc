@@ -1,0 +1,14 @@
+X:1
+T:America the Beautiful
+M:4/4
+L:1/8
+K:C
+%%score (p1 p2)
+V:p1
+a2 | \
+V:p2
+b c' \ 
+%%score (p1 p2 p3)
+V:p1
+b c d
+

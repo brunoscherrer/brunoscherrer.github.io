@@ -1,0 +1,35 @@
+X:1
+T:Title
+L:1/8
+M:7/8
+K:Ab
+V:1
+z4f_ec_ezcz_Bz_A|_BcF2-F3-|F4-F3|z4f_ef_az_bz_c'_b_a
+%Error : Bar 3 is 7/4 not 7/8
+|%4
+_b_af2-f3-|f4-f3|z4f_ec_ezcz_Bz_A
+%Error : Bar 6 is 7/4 not 7/8
+|_BcF2-FGz_A4-_A(3G_AG
+%Error : Bar 7 is 7/4 not 7/8
+|F4-F3-|%9
+F4-F3|z4z2z|z4z2z_b4-_b_agf4-f3
+%Error : Bar 11 is 21/8 not 7/8
+|f4-f_ec=ezcz_Bzc
+%Error : Bar 12 is 7/4 not 7/8
+|%13
+_d4-_d_e_dc4-c3
+%Error : Bar 13 is 7/4 not 7/8
+|_B4-_B_AGFz=EzC2z
+%Error : Bar 14 is 7/4 not 7/8
+|_a4-_ag_agzfzc2z
+%Error : Bar 15 is 7/4 not 7/8
+|%16
+f4-fgf=ezcz_Bzc
+%Error : Bar 16 is 7/4 not 7/8
+|_d4-_d_e_dc4-c2-c
+%Error : Bar 17 is 7/4 not 7/8
+|_B4-_B_AG^F4-^F3-
+%Error : Bar 18 is 7/4 not 7/8
+|^F4-^F3-|%20
+^F4-^F3||%22
+

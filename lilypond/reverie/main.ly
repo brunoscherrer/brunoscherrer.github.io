@@ -5,8 +5,8 @@ maingauche = \relative c {
   \numericTimeSignature
   \time 4/4
   \partial 4 r4 |
-  \repeat volta 2 { \repeat volta 2 {\repeat unfold 3 {g4. d' g4 | ees1}
-  g,4. d' g4 |
+  \repeat volta 2 { \repeat volta 2 {\repeat unfold 3 {g4. d'4 g4 ees8~ | ees1}
+  g,4. d'4 g4 ees8~|
   }
   \alternative{
     {ees1}
@@ -23,7 +23,7 @@ maingauche = \relative c {
   f,4. c' d4~ | d1 |
   f,4. c' d4~ | d1 | \break
 
-  \repeat unfold 4 {g,4. d' g4 | ees1}}
+  \repeat unfold 4 {g,4. d'4 g4 ees8~ | ees1}}
 }
 
 
@@ -51,7 +51,7 @@ harmonie =  \chordmode{
   \partial 4 r4 |
 
 \repeat volta 2 {
-\repeat volta 2 {\repeat unfold 3 {g1 | ees/g |} g1 |}
+\repeat volta 2 {\repeat unfold 3 {g2. s8 ees1/g s8 |} g1 |}
 \alternative{
   {ees/g}
   {ees/g}
@@ -60,7 +60,7 @@ harmonie =  \chordmode{
 aes:maj | s | a:3-7 | s | bes:6 | s | bes:6 | s |
 ees:maj | s | e:3-7 | s | f:6 | s | f:6 | s |
 
-\repeat unfold 4 {g1 | ees/g |}
+\repeat unfold 4 {g2. s8 ees1/g s8 |}
 }
   
 }

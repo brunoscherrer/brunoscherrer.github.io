@@ -1,0 +1,22 @@
+X:1
+T:Title
+L:1/8
+M:4/4
+K:C
+V:1
+GA|:B4-Bc3-|c4(3B2A2G2|ABF6-|F2_E3_D3|D3A-A4-|A8|z8z6GA
+%Error : Bar 7 is 2/1 not 4/4
+|%8
+z8g3d3c2-:|c8g3d3c2-
+%Error : Bar 9 is 4/1 not 4/4
+|c8g3d3c2-
+%Error : Bar 10 is 2/1 not 4/4
+|c6_Bc-|c8|z8|g3d3c2-|c8g3d3c2-
+%Error : Bar 15 is 2/1 not 4/4
+|%16
+c8g3d3c2-
+%Error : Bar 16 is 2/1 not 4/4
+|c6_BA-|A8|AG3GF3|FG2G-G4-|G8z8
+%Error : Bar 21 is 2/1 not 4/4
+|z8|z8|z8|z8|z6GA||%28
+
