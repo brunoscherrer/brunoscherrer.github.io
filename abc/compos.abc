@@ -5,10 +5,10 @@
 %
 %%pageheight 29.7cm
 %%pagewidth 21cm
-%%topmargin 1cm
-%%botmargin 1cm
-%%leftmargin 1cm
-%%rightmargin 1cm
+%%topmargin 0.5cm
+%%botmargin 0.5cm
+%%leftmargin 2cm
+%%rightmargin 2cm
 % SPACING
 %%topspace 0cm % space before the piece
 %%titlespace 0cm % space before the title
@@ -39,7 +39,7 @@ Q:1/4=180
 K:Eb 
 "^A""Cm9"AG-G8 | ^F.G z8 | AG-G8 | c.G z8 |
 "DbΔ"AG-G8 | E._D z8 | "Cm9"C2-C8 | z2 z8 :|
-"^B""FΔ"AG-G8 | "F#dim"^F.G z8 | "G7b9"AG-G8 | "AbΔ"c.G z8 |
+"^B""Fm7"AG-G8 | "F#dim"^F.G z8 | "G7b9"AG-G8 | "AbΔ"c.G z8 |
 "EbΔ"AG-G8 | "DbΔ"E._D z8 | "Cm9"C2-C8 | z2 z8 ||
 %%begintext
 Intro sur A
