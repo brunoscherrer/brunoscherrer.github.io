@@ -29,9 +29,10 @@ pb = \lyricmode {
   Je vou -- lais seule -- ment jou -- er je ne re -- com -- men -- ce -- rai plus
 }
 
-harmonie = \relative c {
+harmonie = \relative c'' {
   \key c \major
-  \clef F \time 4/4 \numericTimeSignature
+  %\clef F
+  \time 4/4 \numericTimeSignature
   \repeat volta 2 {
   <fis ais cis>4 <g b d a> <fis ais cis dis> <f a c d>
   <g ais cis> <g b d> <g e b> <e b>
