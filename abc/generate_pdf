@@ -1,4 +1,13 @@
 #!/usr/bin/bash
 
+
 abcm2ps compos.abc -s 0.65 -O compos.ps
 ps2pdf compos.ps
+
+#abc2abc compos.abc -t 2 > compos_sib.abc
+#abcm2ps compos_sib.abc -s 0.65 -O compos_sib.ps
+#ps2pdf compos_sib.ps
+
+#abc2abc compos.abc -t 3 > compos_mib.abc
+#abcm2ps compos_mib.abc -s 0.65 -O compos_mib.ps
+#ps2pdf compos_mib.ps

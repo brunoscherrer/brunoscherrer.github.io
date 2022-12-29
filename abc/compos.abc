@@ -39,7 +39,7 @@ Q:1/4=180
 K:Eb 
 "^A""Cm9"AG-G8 | ^F.G z8 | AG-G8 | c.G z8 |
 "DbΔ"AG-G8 | E._D z8 | "Cm9"C2-C8 | z2 z8 :|
-"^B""Fm7"AG-G8 | "F#dim"^F.G z8 | "G7b9"AG-G8 | "AbΔ"c.G z8 |
+"^B""Fm7"AG-G8 | "F#∅"^F.G z8 | "G7b9"AG-G8 | "AbΔ"c.G z8 |
 "EbΔ"AG-G8 | "DbΔ"E._D z8 | "Cm9"C2-C8 | z2 z8 ||
 %%begintext
 Intro sur A
@@ -99,7 +99,7 @@ V:1
 ed |: "^A""Em7"B3AG|"D"A3/2B3/2^F2|"CΔ"G3/2E/2-E3|z3d^c|
 "Em7"B3AG|"D"A3/2B3/2^F2|"CΔ"E-E4|z3E^F|
 "Em7"G3^FG|"F#∅"A3GA|"GΔ"B3c/2B/2A/2G/2|"Bm"^F3/2E3/2DE-|
-"CΔ"E-E4|z4z|z4z|[1z3ed:|[2z4z  ]
+"CΔ"E-E4|z4z|z4z|[1 z3ed:|[2 z4 z |]
 "^B""Gm"^A3=AG|A3/2^A3/2cd|"F#°"d3/2c3/2A2-|A-A4|
 "Fm"^G3=GF|G3/2^G3/2^Ac|"G7"B3/2g3/2^f=f-|f4e|
 "Cm"^d3=dc|d3/2^d3/2fg|"C#Δ"g3/2^g3/2^c2-|^c3=c^A|
@@ -125,7 +125,7 @@ V:1
 "E∅"z.A2._B2.^c|"A7"(e2f2g2|"Dm7"(4:3:4g2f2e2f2|"Fm"[cf_a]4)gf|
 %%score (1 2)
 V:1
-x6 | x6 | (g4f2) | x6 | x6 | (_edc) | 
+x6 | x6 | (g4f2) | x6 | x6 | _edc x3  | 
 V:2
 "^B""C"[Gce]6 | "Ab6"[_Acf]6 | "Bb6"[_Bd]6 | "C"[Gce]6 |"Ab6"[_Ac]6 | "Bb6"[_B]6 |  
 %%score (1)
@@ -215,7 +215,7 @@ M:4/4
 K:Cmaj
 V:1
 GA|:B4-Bc3-|c4(3B2A2G2|ABF6-|F2_E3_D3|
-D3A-A4-|A8|z8|[1z6GA:|[2z8]
+D3A-A4-|A8|z8|[1z6GA:|[2z8 | 
 g3d3c2-|c8|g3d3c2-|c8|
 g3d3c2-|c6_Bc-|c8|z8|
 g3d3c2-|c8|g3d3c2-|c8|
@@ -223,7 +223,7 @@ g3d3c2-|c6_BA-|A8|AG3GF3|
 FG2G-G4-|G8|z8|z8|
 z8|z8|z8|z6GA:|
 V:2
-x2 | "^A""G"x7 "Eb/G"x | x8 | "G"x7 "Eb/G"x | x8 | 
+x2|:"^A""G"x7 "Eb/G"x | x8 | "G"x7 "Eb/G"x | x8 | 
 | "G"x7 "Eb/G"x | x8 | "G"x7 "Eb/G"x |x8 |x8 |
 | "AbΔ"x8 | x8 | "Am7"x8 | x8 | 
 | "^B""Bb6"x8 | x8  | "Bb6"x8 | x8 |
@@ -234,7 +234,7 @@ x2 | "^A""G"x7 "Eb/G"x | x8 | "G"x7 "Eb/G"x | x8 |
 | x8 | x8 | x8 | x8 | :|
 V:3
 z2|:G,,3D,2G,2_E,-|_E,8 | G,,3D,2G,2_E,-|_E,8 |
-G,,3D,2G,2_E,-|_E,8 | G,,3D,2G,2_E,-| _E,8:|  _E,8 ] |
+G,,3D,2G,2_E,-|_E,8 | G,,3D,2G,2_E,-| _E,8:|  _E,8  |
 _A,,3_E,3G,2-|G,8 | A,,3E,3G,2-|G,8|
 _B,,3F,3G,2-|G,8|_B,,3F,3G,2-|G,8|
 _E,,3_B,,3D,2-|D,8|E,,3B,,3D,2-|D,8|
@@ -247,3 +247,46 @@ Thème
 Solos
 Thème + fin sur les accords G Eb/G
 %%endtext
+
+
+X:9
+T:Perdre son temps
+C:Bruno Scherrer
+M:4/4
+L:1/8
+Q:1/4=240
+K:Ab
+|:"^A1""Csus4""<("">)"c2 z2 ec ec- | "DbΔ"c8  | "Eb6"z4 ec ef- | "DbΔ"fe- ec B2 Gc- | 
+"Csus4"c2 z2 ec ec- | "DbΔ"c8  | "Eb6"z4 ec ef- | "Fm9"fe- ec e2 ff- |
+"Gm7"f2 z2 bg bg-  | "AbΔ"g8  | "Bb"z4 bg bc'- | "B∅"c'b- bg f2 ef- |
+"Csus4"f2 z2 ec ec- | "DbΔ"c6 BG    | "Eb6"FB G6 | "DbΔ"z8 :|
+|:"^B1""AbΔ"c4 z =def- | "A∅"f4 z efg- | "Bb6"g4 z fg=b- | "B∅"=b3 g2 =b2 c'- | 
+"Cm7"c'4 z bgb- | "DbΔ"b4 z gfg- | "AbΔ"g8 | "G7"z c'bg fe=d=B :| 
+M:7/8
+|:"^A2""Csus4""<("">)"c2 z2 ece | "DbΔ"c6 z  | "Eb6"z4 ece | "DbΔ"f2e2- cBG | 
+"Csus4"c2 z2 ece | "DbΔ"c6 z  | "Eb6"z4 ece | "Fm9"f2e2 cef |
+"Gm7"f2 z2 bgb | "AbΔ"g6 z  | "Bb"z4 bgb | "B∅"c'2b2 gfe |
+"Csus4"f2 z2 ece | "DbΔ"c4 z BG | "Eb6"FB G4 z   | "DbΔ"z4 z2 z1 :|
+|:"^B2""AbΔ"c4 z =de | "A∅"f4 z ef | "Bb6"g4 z fg | "B∅"=b3 g2 b2  | 
+"Cm7"c'4 z bg | "DbΔ"b4 z gf | "AbΔ"g4 z1 z2 | "G7"z2 c'bgfe  :|
+%%newpage
+M:3/4
+|:"^A3""Csus4""<("">)"c2 z2 (3ece | "DbΔ"c6 | "Eb6"z4 (3ece | "DbΔ"(3:2:2f2e- (3ecB (3BGc- | 
+"Csus4"c4 (3ece | "DbΔ"c6 | "Eb6"z4 (3ece | "Fm9"(3:2:2f2e- (3eec (3eff- | 
+"Gm7"f4 (3bgb | "AbΔ"g6 | "Bb"z4 (3bgb | "B∅"(3:2:2c'2b- (3bgf (3fef- | 
+"Csus4"f4 (3ece | "DbΔ"c4 (3zBG | "Eb6"(3FBG- G4 | "DbΔ"z6:|
+ |:"^B3""AbΔ"c4 (3z=de | "A∅"f4 (3zef | "Bb6"g4 (3zfg | "B∅"=b2 g2 (3:2:2b2c'- | 
+"Cm7"c'4 (3zbg | "DbΔ"b4 (3zgf | "AbΔ"g6 | "G7"z2 (3c'bg (3fec- :| 
+
+%%newpage
+
+X:10
+T:Blouse
+C:Bruno Scherrer
+M:4/4
+L:1/8
+Q:1/4=120
+K:C
+|:"Gm7"_B4 "C+"_A3 =A- | "Fmaj7"=A8 | "D∅"c4- "D°7"(3c2_A2_B2 | "C7"_A3 G- - G4 | 
+"Gm7"_B2G2 "D7/F#"c2A2 |  "Bbmaj7"d3 ^c- "Bbm7"(3^c2F2G2 | "Fmaj7"A6 GF | [1"C7"_AE- E6 |[2 "E7"AE- E6 | 
+
