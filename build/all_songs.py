@@ -70,7 +70,8 @@ songs = [ ( ("01_originaux","Morceaux originaux"),
               ("12_apres_un_verre","","Après un verre / Gabriel Fauré"),
               ("13_risasdebolivia","risas","Risas de Bolivia / Trad. bolivien"),
               ("14_paradaija","","Paradaija / SESAM"),
-              ("15_ton_rein","","Ton rein / Angèle")
+              ("15_ton_rein","","Ton rein / Angèle"),
+              ("16_la_sicilienne","","La Sicilienne / Gabriel Fauré")
               ])
           ]
  
