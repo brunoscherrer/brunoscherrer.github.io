@@ -72,7 +72,8 @@ songs = [ ( ("01_originaux","Morceaux originaux"),
               ("14_paradaija","","Paradaija / SESAM"),
               ("15_ton_rein","","Ton rein / Angèle (Ta Reine)"),
               ("16_la_sicilienne","","La Sicilienne / Gabriel Fauré"),
-              ("17_doxy","","Doxy / Sonny Rollins")
+              ("17_doxy","","Doxy / Sonny Rollins"),
+              ("18_afro_blue","","Afro Blue / Mongo Santamaría")
               ])
           ]
  
