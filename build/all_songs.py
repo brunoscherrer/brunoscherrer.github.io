@@ -36,7 +36,7 @@ songs = [ ( ("01_originaux","Morceaux originaux"),
               ("35_dimanche_mekanik","","[Zheul] Dimanche Mekanïk"),
               ("36_bouge_ton_corps","","Bouge ton corps"),
               ("37_frites","frites","Double ration de frites (c'est ça la République !)"),
-              ("38_perdre_son_temps","","Perdre son temps"),
+              ("38_perdre_son_temps","perdre_son_temps","Perdre son temps"),
               ("","samba","Samba ni chaussettes"),
               ("","joie_bonheur","Joie & bonheur"),
               ("","blues","Blues"),
@@ -95,7 +95,7 @@ cinq_a_sept = [ ( ("03_cinq_a_sept","5 temps"),
                     ("12_pour_juliette","pour_juliette","Pour Juliette (Partie II / Partie I)"),
                     ("13_samba_calorea","samba_calorea","Samba Calor-é-a"),
                     ("14_quettehou","quettehou","Quettehou Monchâton ? Saint-Vaast ?"),
-                    ("15_perdre_son_temps","","Perdre son temps")
+                    ("15_perdre_son_temps","perdre_son_temps","Perdre son temps")
                   ])
               ]
                   
