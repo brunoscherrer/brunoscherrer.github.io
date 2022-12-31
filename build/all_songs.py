@@ -92,7 +92,8 @@ cinq_a_sept = [ ( ("03_cinq_a_sept","Cinq à Sept"),
                   ("12_perdre_son_temps","perdre_son_temps","Perdre son temps"),                  
                   ("13_quettehou","quettehou","Quettehou Monchâton ? Saint-Vaast ?"),
                   ("14_ton_rein","","Ton rein / Angèle (Ta Reine)"),
-                  ("15_lemeilleurestavenir","lemeilleur","Le meilleur est à venir (pour Pascale)")
+                  ("15_afro_blue","","Afro Blue / Mongo Santamaría"),
+                  ("16_lemeilleurestavenir","lemeilleur","Le meilleur est à venir (pour Pascale)")
                   ])
               ]
                   
