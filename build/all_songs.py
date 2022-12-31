@@ -67,10 +67,10 @@ songs = [ ( ("01_originaux","Morceaux originaux"),
               ("09_whisper_not","","Whisper not / Benny Golson"),
               ("10_mordor","","Mordor (Giorgio by Moroder) / Daft Punk"),
               ("11_i_wish_78","","I wish / Stevie Wonder"),
-              ("12_apres_un_verre","","Après un verre / Gabriel Fauré"),
+              ("12_apres_un_verre","","Après un verre / Gabriel Fauré (Après un rêve)"),
               ("13_risasdebolivia","risas","Risas de Bolivia / Trad. bolivien"),
               ("14_paradaija","","Paradaija / SESAM"),
-              ("15_ton_rein","","Ton rein / Angèle"),
+              ("15_ton_rein","","Ton rein / Angèle (Ta Reine)"),
               ("16_la_sicilienne","","La Sicilienne / Gabriel Fauré"),
               ("17_doxy","","Doxy / Sonny Rollins")
               ])
@@ -88,7 +88,7 @@ cinq_a_sept = [ ( ("03_cinq_a_sept","5 temps"),
                   ("07_7_4_repetitif","","7/4 répétitif"),
                   ("08_pol_iss_pahr_tuh_just_iss_nuhl_pahr","","[Zeuhl] Pol Iss Pahr Tuh, Jüst Iss Nühl Pahr"),
                   ("09_i_wish_78","","I wish / Stevie Wonder"),
-                  ("10_ton_rein","","Ton rein / Angèle")
+                  ("10_ton_rein","","Ton rein / Angèle (Ta Reine)")
                   ]),
                 ( ("03_cinq_a_sept","Mélangé"),
                   [ ("11_prog_to_log_2000","prog","Prog-to-log 2000"),
