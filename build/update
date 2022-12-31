@@ -2,7 +2,7 @@
 
 ./generate_songs.py
 cp index.html ..
-cp index7.html ..
+cp 5a7.html ..
 
 ./generate_all_pdf.py
 
