@@ -1,8 +1,8 @@
 #!/usr/bin/bash
 
-./generate_songs.py > songs.html
-cat header.html songs.html foot.html > ../index.html
-rm songs.html
+./generate_songs.py
+cp index.html ..
+cp index7.html ..
 
 ./generate_all_pdf.py
 

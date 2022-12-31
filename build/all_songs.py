@@ -55,7 +55,7 @@ songs = [ ( ("01_originaux","Morceaux originaux"),
               ("","zarbi","Zarbi")
               #("","","Dans ta F.A.C.E. 2 !")
               ] ),
-          ( ("02_reprises","Reprises / arrangements"),
+          ( ("02_reprises","Reprises"),
             [ ("01_l_aventurier","","L'aventurier (perd son sang froid) / Indochine"),
               ("02_triste","","Triste / Antonio Carlos Jobim"),
               ("03_superstition","","(50 nuances de) Superstition / Stevie Wonder"),
@@ -76,3 +76,14 @@ songs = [ ( ("01_originaux","Morceaux originaux"),
               ])
           ]
  
+cinq_a_sept = [ ( ("03_cinq_a_sept","5 temps"), 
+                [ ("01_agent000","agent000","Agent 000"),
+                  ("02_kronembourgvirus","kronembourgvirus", "Kronembourg-Virus Valse"),
+                  ("03_saint_thomas_58","saint_thomas5","Saint Thomas 5/8 / Sonny Rollins")
+                ]),
+              ( ("03_cinq_a_sept","7 temps"),
+                [ ("04_lemeilleurestavenir","lemeilleur","Le meilleur est à venir (pour Pascale)")
+                  ])
+              ]
+                  
+                
