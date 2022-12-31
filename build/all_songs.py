@@ -66,7 +66,7 @@ songs = [ ( ("01_originaux","Morceaux originaux"),
               ("08_le_marche_turc","marche_turc","Le marché turc / Mozart - Raoul Petite"),
               ("09_whisper_not","","Whisper not / Benny Golson"),
               ("10_mordor","","Mordor (Giorgio by Moroder) / Daft Punk"),
-              ("11_i_wish_78","","I wish 7/8 / Stevie Wonder"),
+              ("11_i_wish_78","","I wish / Stevie Wonder"),
               ("12_apres_un_verre","","Après un verre / Gabriel Fauré"),
               ("13_risasdebolivia","risas","Risas de Bolivia / Trad. bolivien"),
               ("14_paradaija","","Paradaija / SESAM"),
@@ -82,7 +82,20 @@ cinq_a_sept = [ ( ("03_cinq_a_sept","5 temps"),
                   ("03_saint_thomas_58","saint_thomas5","Saint Thomas 5/8 / Sonny Rollins")
                 ]),
               ( ("03_cinq_a_sept","7 temps"),
-                [ ("04_lemeilleurestavenir","lemeilleur","Le meilleur est à venir (pour Pascale)")
+                [ ("04_lemeilleurestavenir","lemeilleur","Le meilleur est à venir (pour Pascale)"),
+                  ("05_wuhan_disconnect","","Wuhan disconnect"),
+                  ("06_12+2","","12+2"),
+                  ("07_7_4_repetitif","","7/4 répétitif"),
+                  ("08_pol_iss_pahr_tuh_just_iss_nuhl_pahr","","[Zeuhl] Pol Iss Pahr Tuh, Jüst Iss Nühl Pahr"),
+                  ("09_i_wish_78","","I wish / Stevie Wonder"),
+                  ("10_ton_rein","","Ton rein / Angèle")
+                  ]),
+                ( ("03_cinq_a_sept","Mélangé"),
+                  [ ("11_prog_to_log_2000","prog","Prog-to-log 2000"),
+                    ("12_pour_juliette","pour_juliette","Pour Juliette (Partie II / Partie I)"),
+                    ("13_samba_calorea","samba_calorea","Samba Calor-é-a"),
+                    ("14_quettehou","quettehou","Quettehou Monchâton ? Saint-Vaast ?"),
+                    ("15_perdre_son_temps","","Perdre son temps")
                   ])
               ]
                   
