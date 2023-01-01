@@ -77,24 +77,44 @@ songs = [ ( ("01_originaux","Morceaux originaux"),
               ])
           ]
  
-cinq_a_sept = [ ( ("03_cinq_a_sept","Cinq à Sept"), 
-                [ ("01_prog_to_log_2000","prog","Prog-to-log 2000"),
-                  ("02_pour_juliette","pour_juliette","Pour Juliette (Partie II / Partie I)"),
-                  ("03_agent000","agent000","Agent 000"),
-                  ("04_7_4_repetitif","","7/4 répétitif"),
-                  ("05_i_wish_78","","I wish / Stevie Wonder"),
-                  ("06_kronembourgvirus","kronembourgvirus", "Kronembourg-Virus Valse"),
-                  ("07_samba_calorea","samba_calorea","Samba Calor-é-a"),
-                  ("08_wuhan_disconnect","","Wuhan disconnect"),
-                  ("09_12+2","","12+2"),
-                  ("10_c_est_pas_une_punition_han","punition","C'est pas une punition-han"),
-                  ("11_pol_iss_pahr_tuh_just_iss_nuhl_pahr","","Pol Iss Pahr Tuh, Jüst Iss Nühl Pahr"),
-                  ("12_perdre_son_temps","perdre_son_temps","Perdre son temps"),                  
-                  ("13_quettehou","quettehou","Quettehou Monchâton ? Saint-Vaast ?"),
-                  ("14_ton_rein","","Ton rein / Angèle (Ta Reine)"),
-                  ("15_afro_blue","","Afro Blue / Mongo Santamaría"),
-                  ("16_lemeilleurestavenir","lemeilleur","Le meilleur est à venir (pour Pascale)")
-                  ])
-              ]
-                  
-                
+selection = [ ( ("01_originaux","Morceaux originaux"), 
+            [ ("01_prog_to_log_2000","prog","Prog-to-log 2000"),
+              ("03_pour_juliette","pour_juliette","Pour Juliette (Partie II / Partie I)"),
+              ("04_samba_lek","samba_lek","Samba Lek'"),
+              ("06_wuhan_connect","wuhan_connect","Wuhan connect"),
+              ("07_disco","","Disco"),
+              ("09_turprendrasbiendlabonnesoupe","","Tu r'prendras bien de la bonne soupe ?"),
+              ("10_agent000","agent000","Agent 000"),  
+              ("12_kronembourgvirus","kronembourgvirus", "Kronembourg-Virus Valse"),
+              ("13_samba_calorea","samba_calorea","Samba Calor-é-a"),
+              ("14_la_demoiselle_de_montreal","pour_perrine","La demoiselle de Montréal (pour Perrine)"),
+              ("16_marche","marche","Marche"),
+              ("21_12+2","","12+2"),
+              ("23_wuhan_disconnect","","Wuhan disconnect"),
+              ("24_7_4_repetitif","","7/4 répétitif"),
+              ("25_lemeilleurestavenir","lemeilleur","Le meilleur est à venir (pour Pascale)"),
+              ("26_reverie","reverie","Rêverie (pour Gaëtan)"),
+              ("27_larevanchedutriton","larevanchedutriton","La revanche du Triton"),
+              ("28_quettehou","quettehou","Quettehou Monchâton ? Saint-Vaast ?"),
+              ("29_volet","volet","Coucher de soleil (derrière un volet bloqué)"),
+              ("32_bolero_jazz","bolero","Boléro-toto, version jazzy (pour Arnaud)"),
+              ("35_dimanche_mekanik","","Dimanche Mekanïk"),
+              ("36_bouge_ton_corps","","Bouge ton corps"),
+              ("38_perdre_son_temps","perdre_son_temps","Perdre son temps")
+            ] ),
+          ( ("02_reprises","Reprises"),
+            [ ("01_l_aventurier","","L'aventurier (perd son sang froid) / Indochine"),
+              ("02_triste","","Triste / Antonio Carlos Jobim"),
+              ("03_superstition","","(50 nuances de) Superstition / Stevie Wonder"),
+              ("04_on_est_la","onestla","On est là (même si Macron ne veut pas) / Trad."),
+              ("09_whisper_not","","Whisper not / Benny Golson"),
+              ("10_mordor","","Mordor (Giorgio by Moroder) / Daft Punk"),
+              ("11_i_wish_78","","I wish / Stevie Wonder"),
+              ("12_apres_un_verre","","Après un verre / Gabriel Fauré (Après un rêve)"),
+              ("13_risasdebolivia","risas","Risas de Bolivia / Trad. bolivien"),
+              ("15_ton_rein","","Ton rein / Angèle (Ta Reine)"),
+              ("16_la_sicilienne","","La Sicilienne / Gabriel Fauré"),
+              ("18_afro_blue","","Afro Blue / Mongo Santamaría")
+              ])
+          ]
+ 

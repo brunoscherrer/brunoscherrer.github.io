@@ -1,9 +1,9 @@
 #!/usr/bin/python
 
 import sys
-from all_songs import songs,cinq_a_sept
+from all_songs import songs,selection
 
-for (songlist,head,fic,foot) in [ (songs,"header","index","foot"),(cinq_a_sept,"header7","5a7","foot7") ]:
+for (songlist,head,fic,foot) in [ (songs,"header","index","foot"),(selection,"header2","selection","foot2") ]:
 
     sys.stderr.write("Génération du fichier "+fic+".html...\n")
 
