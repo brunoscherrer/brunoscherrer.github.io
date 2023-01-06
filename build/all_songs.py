@@ -73,8 +73,9 @@ songs = [ ( ("01_originaux","Morceaux originaux"),
               ("15_ton_rein","","Ton rein / Angèle (Ta Reine)"),
               ("16_la_sicilienne","","La Sicilienne / Gabriel Fauré"),
               ("17_doxy","","Doxy / Sonny Rollins"),
-              ("18_afro_blue","","Afro Blue / Mongo Santamaría")
-              ])
+              ("18_afro_blue","","Afro Blue / Mongo Santamaría"),
+              ("19_la_revolte","","La révolte / Sébastien Faure")
+            ])
           ]
  
 selection = [ ( ("01_originaux","Morceaux originaux"), 
