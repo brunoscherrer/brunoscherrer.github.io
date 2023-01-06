@@ -119,3 +119,13 @@ selection = [ ( ("01_originaux","Morceaux originaux"),
               ])
           ]
  
+repete = [ ( ("01_originaux","Morceaux"),
+             [ ("10_agent000","agent000","Agent 000"),
+               ("12_kronembourgvirus","kronembourgvirus", "Kronembourg-Virus Valse"),
+               ("14_la_demoiselle_de_montreal","pour_perrine","La demoiselle de Montréal (pour Perrine)"),
+               ("26_reverie","reverie","Rêverie (pour Gaëtan)"),
+               ("29_volet","volet","Coucher de soleil (derrière un volet bloqué)"),
+               ("27_larevanchedutriton","larevanchedutriton","La revanche du Triton"),
+               ("25_lemeilleurestavenir","lemeilleur","Le meilleur est à venir (pour Pascale)")
+             ])
+           ]

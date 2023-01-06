@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+  
+<head>
+    <meta charset="UTF-8">
+    <title>Musique (Bruno Scherrer)</title>
+
+    <style>
+      table, th, td {
+	  border: 0px solid black;
+      }
+      #playlist .nosong {
+	  color:grey;
+      }
+      #playlist .song{
+          color:black;
+          text-decoration: none;
+      }
+      #playlist .current-song{
+          color:red;
+      }
+    </style>
+
+    <script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+
+    <script src="audioPlayer.js"></script>
+    
+</head>
+
+<body>
+
+<p> Toutes les partitions (avec indications): <a href="abc/compos.pdf">pdf</a>
+</p>
+
+<hr>
+
+  <table id="playlist">
+
+    <tbody>
+
+      
+      <tr>
+	<td colspan="3">
+	  <center>
+	  <audio src="mp3/acoustic/01_agent000.mp3" controls id="audioPlayer" style="width: 700px;">
+            Désolé, votre navigateur ne gère pas HTML5!
+	  </audio>
+	  </center>
+	</td>
+      </tr>
+	
+<tr> <td colspan="3"> <b><center>--- Morceaux ---</center></b></td></tr>
+<tr>	<td> <a class="song current-song"href="mp3/01_originaux/10_agent000.mp3">1. Agent 000</a>   </td>  <td> <a href="mp3/01_originaux/10_agent000.mp3" download>mp3</a></td>   <td> &nbsp;&nbsp;  <a href="pdf/agent000_do.pdf" target="_blank">do</a> - <a href="pdf/agent000_sib.pdf" target="_blank">si♭</a> - <a href="pdf/agent000_mib.pdf" target="_blank">mi♭</a>  &nbsp;&nbsp;  <a href="midi/agent000_do.midi" target="_blank">midi</a> </td>  </tr>
+<tr>	<td> <a class="song"href="mp3/01_originaux/12_kronembourgvirus.mp3">2. Kronembourg-Virus Valse</a>   </td>  <td> <a href="mp3/01_originaux/12_kronembourgvirus.mp3" download>mp3</a></td>   <td> &nbsp;&nbsp;  <a href="pdf/kronembourgvirus_do.pdf" target="_blank">do</a> - <a href="pdf/kronembourgvirus_sib.pdf" target="_blank">si♭</a> - <a href="pdf/kronembourgvirus_mib.pdf" target="_blank">mi♭</a>  &nbsp;&nbsp;  <a href="midi/kronembourgvirus_do.midi" target="_blank">midi</a> </td>  </tr>
+<tr>	<td> <a class="song"href="mp3/01_originaux/14_la_demoiselle_de_montreal.mp3">3. La demoiselle de Montréal (pour Perrine)</a>   </td>  <td> <a href="mp3/01_originaux/14_la_demoiselle_de_montreal.mp3" download>mp3</a></td>   <td> &nbsp;&nbsp;  <a href="pdf/pour_perrine_do.pdf" target="_blank">do</a> - <a href="pdf/pour_perrine_sib.pdf" target="_blank">si♭</a> - <a href="pdf/pour_perrine_mib.pdf" target="_blank">mi♭</a>  &nbsp;&nbsp;  <a href="midi/pour_perrine_do.midi" target="_blank">midi</a> </td>  </tr>
+<tr>	<td> <a class="song"href="mp3/01_originaux/26_reverie.mp3">4. Rêverie (pour Gaëtan)</a>   </td>  <td> <a href="mp3/01_originaux/26_reverie.mp3" download>mp3</a></td>   <td> &nbsp;&nbsp;  <a href="pdf/reverie_do.pdf" target="_blank">do</a> - <a href="pdf/reverie_sib.pdf" target="_blank">si♭</a> - <a href="pdf/reverie_mib.pdf" target="_blank">mi♭</a>  &nbsp;&nbsp;  <a href="midi/reverie_do.midi" target="_blank">midi</a> </td>  </tr>
+<tr>	<td> <a class="song"href="mp3/01_originaux/29_volet.mp3">5. Coucher de soleil (derrière un volet bloqué)</a>   </td>  <td> <a href="mp3/01_originaux/29_volet.mp3" download>mp3</a></td>   <td> &nbsp;&nbsp;  <a href="pdf/volet_do.pdf" target="_blank">do</a> - <a href="pdf/volet_sib.pdf" target="_blank">si♭</a> - <a href="pdf/volet_mib.pdf" target="_blank">mi♭</a>  &nbsp;&nbsp;  <a href="midi/volet_do.midi" target="_blank">midi</a> </td>  </tr>
+<tr>	<td> <a class="song"href="mp3/01_originaux/27_larevanchedutriton.mp3">6. La revanche du Triton</a>   </td>  <td> <a href="mp3/01_originaux/27_larevanchedutriton.mp3" download>mp3</a></td>   <td> &nbsp;&nbsp;  <a href="pdf/larevanchedutriton_do.pdf" target="_blank">do</a> - <a href="pdf/larevanchedutriton_sib.pdf" target="_blank">si♭</a> - <a href="pdf/larevanchedutriton_mib.pdf" target="_blank">mi♭</a>  &nbsp;&nbsp;  <a href="midi/larevanchedutriton_do.midi" target="_blank">midi</a> </td>  </tr>
+<tr>	<td> <a class="song"href="mp3/01_originaux/25_lemeilleurestavenir.mp3">7. Le meilleur est à venir (pour Pascale)</a>   </td>  <td> <a href="mp3/01_originaux/25_lemeilleurestavenir.mp3" download>mp3</a></td>   <td> &nbsp;&nbsp;  <a href="pdf/lemeilleur_do.pdf" target="_blank">do</a> - <a href="pdf/lemeilleur_sib.pdf" target="_blank">si♭</a> - <a href="pdf/lemeilleur_mib.pdf" target="_blank">mi♭</a>  &nbsp;&nbsp;  <a href="midi/lemeilleur_do.midi" target="_blank">midi</a> </td>  </tr>
+
+
+
+      
+      
+    </tbody>
+    
+  </table>
+  
+<hr>
+
+
+
+
+<script>
+  // loads the audio player
+  audioPlayer();
+</script>
+
+</body>
+
+</html>

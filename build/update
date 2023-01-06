@@ -3,6 +3,7 @@
 ./generate_songs.py
 cp index.html ..
 cp selection.html ..
+cp repete.html ..
 
 ./generate_all_pdf.py
 
