@@ -75,7 +75,8 @@ songs = [ ( ("01_originaux","Morceaux originaux"),
               ("17_doxy","","Doxy / Sonny Rollins"),
               ("18_afro_blue","","Afro Blue / Mongo Santamaría"),
               ("19_la_revolte","","La révolte (prise 1) / Sébastien Faure"),
-              ("20_la_revolte_2","","La révolte (prise 2) / Sébastien Faure")
+              ("20_la_revolte_2","","La révolte (prise 2) / Sébastien Faure"),
+              ("21_la_revolte_reggae","","La révolte (reggae) / Sébastien Faure")
             ])
           ]
  
@@ -116,8 +117,9 @@ selection = [ ( ("01_originaux","Morceaux originaux"),
               ("13_risasdebolivia","risas","Risas de Bolivia / Trad. bolivien"),
               ("15_ton_rein","","Ton rein / Angèle (Ta Reine)"),
               ("16_la_sicilienne","","La Sicilienne / Gabriel Fauré"),
-              ("18_afro_blue","","Afro Blue / Mongo Santamaría")
-              ])
+              ("18_afro_blue","","Afro Blue / Mongo Santamaría"),
+              ("21_la_revolte_reggae","","La révolte (reggae) / Sébastien Faure")
+            ])
           ]
  
 repete = [ ( ("01_originaux","Morceaux"),
