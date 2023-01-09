@@ -74,7 +74,9 @@ songs = [ ( ("01_originaux","Morceaux originaux"),
               ("16_la_sicilienne","","La Sicilienne / Gabriel Fauré"),
               ("17_doxy","","Doxy / Sonny Rollins"),
               ("18_afro_blue","","Afro Blue / Mongo Santamaría"),
-              ("19_la_revolte","","La révolte / Sébastien Faure")
+              ("19_la_revolte","","La révolte / Sébastien Faure"),
+              ("20_la_revolte_2","","La révolte version bourgeoise / Sébastien Faure"),
+              ("21_la_revolte_reggae","","La révolte, version reggae/ Sébastien Faure")
             ])
           ]
  
