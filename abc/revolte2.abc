@@ -1,0 +1,104 @@
+%abc-2.1
+
+%%MIDI chordname ∅ 0 3 6 10
+
+
+X:1
+T:La révolte
+C:Sébastien Faure (Réharmonisation B. Scherrer)
+M:4/4
+L:1/8
+Q:1/4=150
+K:Abmaj
+C2 | "Fm7"A3G AGAG | "Gdim"F4 z FAB | "Ab6"c3 c dcBA | "Bbm7"A4 "C7"z2 G2 |
+"Dbmaj7"B3 A BABA | "Eb6"G4 z GAB | "C7/E"c2 B2 A2 G2 | "Fm7"G4 z2 F2 | 
+"Eb7"E3 E EGBd | "Cb9/E"c4 "C7/E"z2 C2 | C3 C C=EGB | "Fm7"d4 c2 F2 | 
+"Dbmaj7"B3 A BABA | "C7"G4 z GAB | "Dbmaj7"c2B2A2G2 | "E+"G4 "C7/E"z2 C2 | 
+K:Fmaj
+"Fmaj7"A4- AF E>F | "F#dim"A4 z A^GA | "Gm7"c3 c dcAF | "C7"F4 E2 C2 | 
+"Gm7"B4- BG^FG | "Bbmaj7"B4 z BAB | "C7"e3 d cBA^G | "C+"^G4 z2 C2 | 
+"Fmaj7"A4- AFEF | "F#dim"A4 z A^GA | "Gm7"c3 c dcAF | "C7/Bb"e4 "Bb7"d2d2 | 
+"E7"d4- ddef | "Fmaj7"f3 A GFed | "C7"c3 B AG A>G | "Fmaj7"G4 F2 z2 ||
+%%newpage
+%%multicol start
+%%begintext
+Nous sommes les persécutés
+De tous les temps et de toutes les races
+Toujours nous fûmes exploités
+par les tyrans et les rapaces
+Mais nous ne voulons plus fléchir
+Sous le joug qui courba nos pères
+Car nous voulons nous affranchir
+de ceux qui causent nos misères
+
+Refrain:
+Église, Parlement, Capitalisme,
+État, Magistrature,
+Patrons et Gouvernants,
+libérons nous de cette pourriture
+Pressant est notre appel,
+donnons l'assaut au monde autoritaire
+Et d'un coeur fraternel
+nous réaliserons l'idéal libertaire
+
+Ouvrier ou bien paysan
+Travailleur de la terre ou de l'usine
+Nous sommes dès nos jeunes ans
+Réduits aux labeurs qui nous minent
+D'un bout du monde à l'autre bout
+C'est nous qui créons l'abondance
+C'est nous tous qui produisons tout
+Et nous vivons dans l'indigence
+
+(Refrain)
+
+L'Etat nous écrase d'impôts
+Il faut payer ses juges, sa flicaille
+Et si nous protestons trop haut
+Au nom de l'ordre on nous mitraille
+Les maîtres ont changés cent fois
+C'est le jeu de la politique
+Quels que soient ceux qui font les lois
+C'est bien toujours la même clique
+%%endtext
+%%multicol new
+%%leftmargin 4.25in
+%%begintext
+(Refrain)
+
+Pour défendre les intérêts
+Des flibustiers de la grande industrie
+On nous ordonne d'être prêts
+À mourir pour notre patrie
+Nous ne possédons rien de rien
+Nous avons horreur de la guerre
+Voleurs, défendez votre bien
+Ce n'est pas à nous de le faire
+
+(Refrain)
+
+Déshérités, soyons amis
+Mettons un terme à nos tristes disputes
+Debout! ne soyons plus soumis
+Organisons la Grande Lutte
+Tournons le dos aux endormeurs
+Qui bercent la misère humaine
+Clouons le bec aux imposteurs
+Qui sèment entre nous la haine
+
+(Refrain)
+
+Partout sévit l'Autorité
+Des gouvernants l'Internationale
+Jugule notre liberté
+Dont le souffle n'est plus qu'un râle
+L'heure a sonné de réagir
+En tous lieux la Révolte gronde
+Compagnons, sachons nous unir
+Contre tous les Maîtres du Monde
+
+(Refrain) 
+%%endtext
+%%multicol end
+
+

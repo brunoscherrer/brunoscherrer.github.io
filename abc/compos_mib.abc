@@ -1,0 +1,292 @@
+%abc-2.1
+% PAGE LAYOUT
+%
+%%pageheight 29.7cm
+%%pagewidth 21cm
+%%topmargin 0.5cm
+%%botmargin 0.5cm
+%%leftmargin 2cm
+%%rightmargin 2cm
+% SPACING
+%%topspace 0cm % space before the piece
+%%titlespace 0cm % space before the title
+%%notespacingfactor 1.5
+%%MIDI chordname sus4  0 5 7
+%%MIDI chordname 7b9  0 4 7 10 13 
+%%MIDI chordname m11  0 3 7 10 14 17
+%%MIDI chordname Δ 0  4 7 11
+%%MIDI chordname maj7 0  4 7 11
+%%MIDI chordname mΔ 0  3 7 11
+%%MIDI chordname m7M 0  3 7 11
+%%MIDI chordname Δ9  0 4 7 11 14
+%%MIDI chordname m7-5  0 3 6 10
+%%MIDI chordname ∅ 0 3 6 10
+%%annotationfont Helvetica-Bold 
+X:1
+%%MIDI gchord c
+T:Agent 000
+C:Bruno Scherrer
+M:5/4
+L:1/8
+Q:1/4=180
+K:F#maj
+"^A""D#m9"BA-A8 | ^^G.A z8 | BA-A8 | d.A z8 |
+"EΔ"BA-A8 | F.=E z8 | "D#m9"D2-D8 | z2 z8 :|
+"^B""G#m7"BA-A8 | "G##∅"^^G.A z8 | "A#7b9"BA-A8 | "BΔ"d.A z8 |
+"F#Δ"BA-A8 | "EΔ"F.=E z8 | "D#m9"D2-D8 | z2 z8 ||
+%%begintext
+Intro sur A
+Thème (AAB)
+Solos sur la même structure (AAB)
+Thème final où l'on répète B 2 fois (AABB)
+%%endtext
+%%newpage
+
+%X:2
+%%%MIDI gchord c
+%T:Balade
+%C:Bruno Scherrer
+%M:4/4
+%L:1/8
+%Q:1/4=120
+%K:G
+%"^A""Em11"B4de3 | {f}g3f3e2 | "GΔ"d3e3B2- | B6d2 |
+%"CΔ9"e3e3e2 | e6 c2 | "Em11"B8 |1 z8 :|2 z6e2 |]
+%"^B""Em11"b3b3b2 | a4g2a2 | "Am7"a3e3c2- | c6e2 |
+%"Am7/F#"g3g3g2 | f3d3e2- | "Em11"e8 | z4de3 |
+%"D7"g3g3g2 | "CΔ"f3e3d2 | "Am9"e3B3A2- | "Am7"A3GAG3 |
+%"Esus"E8 | "Em7"z8 | "A7"^c8 | "Am7"c8 |
+%"Esus"B8 | "Em7"z8 | "A7"^c8 | "Am7"c8 ||
+X:3
+T:Coucher de soleil (derrière un volet bloqué)
+C:Bruno Scherrer
+L:1/16
+M:3/4
+K:Ebmaj
+V:1
+|:"^A""Fm7"e8e4|e4d4c2d2-|"EbΔ"d8B2G2-|G12|
+"Fm7"e8-e2e2|e4f4e2d2-|"EbΔ"d8B2G2-|G12|
+"GbΔ"_d8_d4|_d4c4B4|"DbΔ"A8F2_D2-|_D8-_D4|
+"CbΔ9"F6_G6|E12|z12|z12:| 
+"^B""Gbm7"_f8_f4 | _f4e4_d2e2-|"FbΔ"e8_c2A2-|A12|
+"Gbm7"z4_f4_f4|_f4_g4_f2e2-|"FbΔ"e8_c2a2-|a12|
+"GΔ"d8d4|d4^c4=B4|"DΔ"=A8^F2d2-|d12|
+"CΔ"d6c6|c4z8|z12|z12||
+%%begintext
+Morceau lent. Tout au long du morceau: A calme, B plus soutenu
+Intro sur les 2 accords Dm7 Cmaj7
+Thème
+Solos
+Solo de batterie sur les 2 accords Dm7 Cmaj7 (comme pour l'intro)
+Thème final
+%%endtext
+
+X:4
+T:Kronembourg-Virus Valse
+C:Bruno Scherrer
+L:1/4
+M:5/4
+K:none
+V:1
+gf |: "^A""Gm7"d3c_B|"F"c3/2d3/2A2|"EbΔ"_B3/2G/2-G3|z3fe|
+"Gm7"d3c_B|"F"c3/2d3/2A2|"EbΔ"G-G4|z3GA|
+"Gm7"_B3AB|"A∅"c3_Bc|"BbΔ"d3_e/2d/2c/2_B/2|"Dm"A3/2G3/2FG-|
+"EbΔ"G-G4|z4z|z4z| [1 z3gf:| [2 z4 z |]
+"^B""Bbm"_d3c_B|c3/2_d3/2_ef|"A°"f3/2_e3/2c2-|c-c4|
+"Abm"B3_B_A|_B3/2=B3/2_d_e|"Bb7"d3/2_b3/2a_a-|_a4g|
+"Ebm"_g3f_e|f3/2_g3/2_a_b|"EΔ"_b3/2=b3/2e2-|e3_e_d|
+"Bb7"d-d4|z4z|z4z|z3gf
+%Warning : No repeat expected, found :|
+:|
+%%begintext
+Intro sur les accords de la première ligne (4 mesures*X)
+Thème (AAB)
+Solos sur la grille (AAB)
+Thème (AAB) + fin avec A (arrêt sur la dernière note du thème)
+
+Enchaîner les morceaux Kronembourg-Virus et Agent 000 qui se ressemblent un peu?
+%%endtext
+
+X:5
+T:La demoiselle de Montréal (pour Perrine)
+C:Bruno Scherrer
+M:3/4
+K:Ebmaj
+L:1/8
+V:1
+"^A""Fm7"z.A2.c2.e|"Bb7"(d2B2A{__B}_B-|"EbΔ"B6)|z6|
+"Fm7"z.A2.c2.e|"Bb7"(d2e2f2|"EbΔ"{_d}[B=dg]6)|z6|
+"G∅"z.c2._d2.=e|"C7"(g2a2b2|"Fm7"(4:3:4b2a2g2a2|"Abm"[ea_c']4)ba|
+%%score (1 2)
+V:1
+x6 | x6 | (b4a2) | x6 | x6 | _gfe x3 | 
+V:2
+"^B""Eb"[Beg]6 | "Cb6"[_cea]6 | "Db6"[_df]6 | "Eb"[Beg]6 |"Cb6"[_ce]6 | "Db6"[_d]6 | 
+%%score (1)
+V:1
+"^C""Abm7"z._c2._g2.e|"Db7"(f2e2_d{_f}=f-|"GbΔ"f6|"CbΔ"e6)|
+"F∅"z.A2._c2.e|"Bb7"(d2B2A_G-|"Ebm7"_G6|"Eb7"G6)|
+"Abm7"z(AB_c_de|"Db7"f2_g2a2|"GbΔ"{_f}=f4-fe/2_d/2|"CbΔ"e6)|
+"F∅"z.e2.A2._c|e6|"Bb7"z.f2.A2.B|(f2edcB)|
+"^A'""Fm7"z.A2.c2.e|"Bb7"(d2B2A{__B}_B-|"EbΔ"B6)|z6|
+"Fm7"z.A2.c2.e|"Bb7"(d2e2f2|"EbΔ"{_d}[B=dg]6)|z6|
+"G∅"z.c2._d2.=e|"C7"(g2a2b2|"Fm7"{__b}_b6|a6) | 
+"F∅"(a3_c3 |"Fb7"B3g3|"EbΔ"{_d}=d6)|z2(cdcB|
+"F∅"a3_c3 | "Fb7"B3g3)|"EbΔ".[dgb].[dgb]2.[dgb]2.[dgb]|.[dgb]2z4||
+%%begintext
+Thème
+Solos
+Reprise du thème avec répétition longue de la partie B (6 mesures*X), solo de guitare + solo de batterie + fin
+%%endtext
+
+X:6
+%%MIDI gchord c
+T:La revanche du triton
+C:Bruno Scherrer
+L:1/16
+M:3/4
+K:Dbmaj
+V:1
+V:2
+V:3 clef=bass
+V:1
+"Ebm9"cdcB cd z e z f z _f- | "BbbΔ"_fed_c d8 | "CbΔ"z4 _cd z _c z BA2- | "DbΔ"A12 |
+"Ebm9"=cdcB cd z e z f z _f- | "BbbΔ"_fed_c d8 | "CbΔ"z4 B_c z d z ed2- | "GbΔ"d12 |
+"Bbm"fgfe f8 | "BbmΔ/Bbb"fgfe f8 | "Bbm7/Ab"fgfe fg z f z e e2- | "Bbm6/Gb"e12 |
+"GbΔ"ded=c d8 | "BbbΔ"_cd_c__B _c8 | "CbΔ"_cd_c_B _c6 d=c- | "DbΔ"=c12 |
+V:2
+[fa]3[eg] z [fa] [eg]6 | [_fa]3[eg] z [_fa] [eg]6 | [ea]3[dg] z [ea] [dg]4 [cdf]2- | [cdf]12 |
+[fa]3[eg] z [fa] [eg]6 | [_fa]3[eg] z [_fa] [eg]6 | [ea]3[dg] z [ea] [dg]4 [Bdf]2- | [Bdf]12 |
+[fd]3[db] z [fd] [db]6 | [fd]3[c__b] z [fd] [c__b]6 | [fd]3[_ca] z [fd] [_ca]4 [Bd=g]2- | [Bdg]12 |
+[fa]3[eg] z [fa] [eg]6 | [_fa]3[eg] z [_fa] [eg]6 | [ea]3[dg] z [ea] [dg]4 [cdf]2- | [cdf]12 |
+V:3
+E,3B, F3 E,2 B,2 F | __B,,3_F, _C3 __B,,2 _F,2 _C | _C,3G, B,3 _C,2 G,2 B, | D,3A, C8 | 
+E,3B, F3 E,2 B,2 F | __B,,3_F, _C3 __B,,2 _F,2 _C | _C,3G, B,3 _C,2 G,2 B, | G,3B, D8 |
+B,3D F3 B,2 D2 F | __B,3D F3 __B,2 D2 F | A,3D F3 A,2 D2 F | =G,3D F8 |
+G,3B, F3 G2 B,2 F | __B,,3_F, _C3 __B,,2 _F,2 _C | _C,3G, B,3 _C,2 G,2 B, | D,3A, C8 ||
+%%begintext
+Intro: grille sans thème
+Thème 1 principal, puis thème 2 avec le contre-chant (sans le thème principal)
+Solos sur 2 grilles (dans la deuxième, on peut jouer le contre-chant)
+Reprise du thème avec chant et contre-chant
+%%endtext
+
+X:7
+T:Le meilleur est à venir (pour Pascale)
+C:Bruno Scherrer
+L:1/8
+M:7/8
+K:Bmaj
+Q:1/4=190
+V:1
+"^A""G#m9"z4gfd | "B6"f z d z c z B|"C#7"cdG2-G3-|"G#m/F#"G4-G3|
+"G#m9"z4gfg | "B6"b z c' z =d'c'b | "C#7"c'bg2-g3-|"EΔ"g4-g3|
+"G#m9"z4gfd | "B6"f z d z c z B|"C#7"cdG2-GAz |"G#m/F#" B4-B (3ABA | 
+"G#m9"G4-G3-|"B6"G4-G3|"C#7"z4z2z|"EΔ"z4z2z :| 
+"^B""F#"c'4-c'ba | "C#/E#"g4-g3 | "C#m/E"g4-gfd | "D#7"^^f z d z c z d|
+"C#m7"e4-efe | "B6"d4-d3| "A#7sus4"c4-cBA | "D#7"G z ^^FzD2z|
+"E"b4-bab | "D#7+"azgzd2z | "C##°"g4-gag | "D#7"^^f z d z c z d | 
+"C#m7"e4-efe | "B6"d4-d2-d| "A#7sus4"c4-cBA | "G##Δb5"^^G4-^^G3- | ^^G4-^^G3-|^^G4-^^G3||
+V:2
+"^Thème 2 (fin)"G4g3 | f2f2d2f | ^e4 c3 | e2e2e2f | 
+d4 G3 | G2G2G2A | B4B3 | B2B2c2B | 
+G4g3 | f2f2d2f | ^e4 c3 | e2e2e2f | 
+d4 G3 | G2G2G2A | B4B3 | B2B2c2B :|
+%%begintext
+Intro piano seul, puis rentrée de la section rythmique
+Thème (principal)
+Solos: solo sur la partie A (2 fois 16 mesures) puis thème de la partie B
+Reprise du thème (avec le contre-chant)
+%%endtext
+
+X:8
+T:Rêverie (pour Gaëtan)
+C:Bruno Scherrer
+L:1/8
+%%score 2 1 3
+M:4/4
+K:Ebmaj
+V:1
+Bc|:d4-de3-|e4(3d2c2B2|cdA6-|A2_G3_F3|
+F3c-c4-|c8|z8| [1z6Bc:| [2z8 | 
+b3f3e2-|e8|b3f3e2-|e8|
+b3f3e2-|e6_de-|e8|z8|
+b3f3e2-|e8|b3f3e2-|e8|
+b3f3e2-|e6_dc-|c8|cB3BA3|
+AB2B-B4-|B8|z8|z8|
+z8|z8|z8|z6Bc
+%Warning : No repeat expected, found :|
+:|
+V:2
+x2|:"^A""Bb"x7 "Gb/Bb"x 
+%Error : Bar 35 is 5/4 not 4/4
+| x8 | "Bb"x7 "Gb/Bb"x | x8 | 
+| "Bb"x7 "Gb/Bb"x | x8 | "Bb"x7 "Gb/Bb"x |x8 |x8 |
+| "CbΔ"x8 | x8 | "Cm7"x8 | x8 | 
+| "^B""Db6"x8 | x8 | "Db6"x8 | x8 |
+| "GbΔ"x8 | x8 | "Gm7"x8 | x8 | 
+| "Ab6"x8 | x8 | "Ab6"x8 | x8 |
+| "^A'""Bb"x7 "Gb/Bb"x | x8 | "Bb"x7 "Gb/Bb"x | x8 | 
+| "Bb"x7 "Gb/Bb"x | x8 | "Bb"x7 "Gb/Bb"x |x8 |
+| x8 | x8 | x8 | x8 |:|
+V:3
+z2|:B,,3F,2B,2_G,-
+%Error : Bar 82 is 5/4 not 4/4
+|_G,8 | B,,3F,2B,2_G,-|_G,8 |
+B,,3F,2B,2_G,-|_G,8 | B,,3F,2B,2_G,-| _G,8:| _G,8 |
+_C,3_G,3B,2-|B,8 | C,3G,3B,2-|B,8|
+_D,3A,3B,2-|B,8|_D,3A,3B,2-|B,8|
+_G,,3_D,3F,2-|F,8|G,,3D,3F,2-|F,8|
+A,,3E,3F,2-|F,8|A,,3E,3F,2-|F,8|
+B,,3F,2B,2_G,-|_G,8 | B,,3F,2B,2_G,-|_G,8 |
+B,,3F,2B,2_G,-|_G,8 | B,,3F,2B,2_G,-|_G,8
+%Warning : No repeat expected, found :|
+:|
+%%begintext
+Globalement calme, encore plus calme sur B
+Thème
+Solos
+Thème + fin sur les accords G Eb/G
+%%endtext
+
+%%newpage
+X:9
+T:Perdre son temps
+C:Bruno Scherrer
+M:4/4
+L:1/8
+Q:1/4=240
+K:Bmaj
+|:"^A1""D#sus4""<("">)"d2 z2 fd fd- | "EΔ"d8 | "F#6"z4 fd fg- | "EΔ"gf- fd c2 Ad- | 
+"D#sus4"d2 z2 fd fd- | "EΔ"d8 | "F#6"z4 fd fg- | "G#m9"gf- fd f2 gg- |
+"A#m7"g2 z2 c'a c'a- | "BΔ"a8 | "C#"z4 c'a c'd'- | "C##∅"d'c'- c'a g2 fg- |
+"D#sus4"g2 z2 fd fd- | "EΔ"d6 cA | "F#6"Gc A6 | "EΔ"z8 :|
+|:"^B1""BΔ"d4 z ^efg- | "B#∅"g4 z fga- | "C#6"a4 z ga^^c'- | "C##∅"^^c'3 a2 ^^c'2 d'- | 
+"D#m7"d'4 z c'ac'- | "EΔ"c'4 z aga- | "BΔ"a8 | "A#7"z d'c'a gf^e^^c :| 
+M:7/8
+|:"^A2""D#sus4""<("">)"d2 z2 fdf | "EΔ"d6 z | "F#6"z4 fdf | "EΔ"g2f2- dcA | 
+"D#sus4"d2 z2 fdf | "EΔ"d6 z | "F#6"z4 fdf | "G#m9"g2f2 dfg |
+"A#m7"g2 z2 c'ac' | "BΔ"a6 z | "C#"z4 c'ac' | "C##∅"d'2c'2 agf |
+"D#sus4"g2 z2 fdf | "EΔ"d4 z cA | "F#6"Gc A4 z | "EΔ"z4 z2 z :|
+|:"^B2""BΔ"d4 z ^ef | "B#∅"g4 z fg | "C#6"a4 z ga | "C##∅"^^c'3 a2 c'2 | 
+"D#m7"d'4 z c'a | "EΔ"c'4 z ag | "BΔ"a4 z z2 | "A#7"z2 d'c'agf :|
+%%newpage
+M:3/4
+|:"^A3""D#sus4""<("">)"d2 z2 (3fdf | "EΔ"d6 | "F#6"z4 (3fdf | "EΔ"(3:2:2g2f- (3fdc (3cAd- | 
+"D#sus4"d4 (3fdf | "EΔ"d6 | "F#6"z4 (3fdf | "G#m9"(3:2:2g2f- (3ffd (3fgg- | 
+"A#m7"g4 (3c'ac' | "BΔ"a6 | "C#"z4 (3c'ac' | "C##∅"(3:2:2d'2c'- (3c'ag (3gfg- | 
+"D#sus4"g4 (3fdf | "EΔ"d4 (3zcA | "F#6"(3GcA- A4 | "EΔ"z6:|
+|:"^B3""BΔ"d4 (3z^ef | "B#∅"g4 (3zfg | "C#6"a4 (3zga | "C##∅"^^c'2 a2 (3:2:2c'2d'- | 
+"D#m7"d'4 (3zc'a | "EΔ"c'4 (3zag | "BΔ"a6 | "A#7"z2 (3d'c'a (3gfd- :| 
+
+%%newpage
+X:10
+T:Blouse
+C:Bruno Scherrer
+M:4/4
+L:1/8
+Q:1/4=120
+K:Ebmaj
+|:"Bbm7"_d4 "Eb+"_c3 =c- | "Abmaj7"=c8 | "F∅"e4- "F°7"(3e2_c2_d2 | "Eb7"_c3 B- B4 | 
+"Bbm7"_d2B2 "F7/A"e2c2 | "Dbmaj7"f3 =e- "Dbm7"(3=e2A2B2 | "Abmaj7"c6 BA |  [1"Eb7"_cG- G6 | [2 "G7"cG- G6 | 
+
