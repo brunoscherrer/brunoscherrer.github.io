@@ -1,8 +1,8 @@
 %!PS-Adobe-2.0
 %%BoundingBox: 0 0 612 792
 %%Title: revolte2.abc
-%%Creator: abcm2ps-8.14.6
-%%CreationDate: Jan  6, 2023 19:41
+%%Creator: abcm2ps-8.14.11
+%%CreationDate: Jan 10, 2023 09:49
 %%Pages: (atend)
 %%LanguageLevel: 3
 %%EndComments
@@ -21,7 +21,7 @@
 /SLW/setlinewidth load def
 /defl 0 def
 /dlw{0.7 SLW}!
-/creator [(abcm2ps) 8 14 6] def
+/creator [(abcm2ps) 8 14 11] def
 /xydef{/y exch def/x exch def}!
 /xymove{/x 2 index def/y 1 index def M}!
 /showc{dup stringwidth pop .5 mul neg 0 RM show}!
@@ -366,9 +366,14 @@ exch pop cos div
 	M 0.8 SLW -6 1.2 RM 12.6 12.6 RL stroke
 	7 add exch 6 sub exch 1.2 0 360 arc fill
 	8 add exch 6 add exch 1.2 0 360 arc fill}!
-/coda{	1 SLW 2 add 2 copy M 0 20 RL
+/dacoda{2 1 roll 10 add 2 1 roll dup 3 -1 roll dup 3 1 roll -23 add 4 1 roll
+	1 SLW 2 add 2 copy M 0 20 RL
 	2 copy M -10 10 RM 20 0 RL stroke
-	10 add 6 0 360 arc 1.7 SLW stroke}!
+	10 add 6 0 360 arc 1.7 SLW stroke
+	/Times-Roman 16 selectfont 7 add M (Da) showc}!
+/coda{	1 SLW 2 add 2 copy M 0 20 RL
+	2 copy M -10 10 RM 20 0 RL 1.1 SLW stroke
+	exch -7 add exch (O) 3 1 roll /Times-Bold 18 selectfont 4 add M show}!
 /utclef{<95200072
 	0000ff2e01c2030c
 	00ac0056
@@ -713,7 +718,7 @@ gsave 0.75 dup scale 0 1018.2 T
 strw w 0.5 mul neg 0 RM str
 0 -6.00 T
 0 -14.00 T
-681.6 0 M /str{ 14.0 F1 [(S)/eacute(bastien Faure, Reharm. BS)]arrayshow}def
+681.6 0 M /str{ 14.0 F1 [(S)/eacute(bastien Faure \(R)/eacute(harmonisation B. Scherrer\))]arrayshow}def
 strw w neg 0 RM str
 0 -6.00 T
 % --- font 20.0 F2 
@@ -768,8 +773,9 @@ dlw 681.6 0.0 -69.0 M 0 RL 681.6 0.0 -63.0 M 0 RL 681.6 0.0 -57.0 M 0 RL 681.6 0
 24.0 547.8 -51.0 bar 
 24.0 681.6 -51.0 bar 
 dlw 681.6 0.0 -51.0 M 0 RL 681.6 0.0 -45.0 M 0 RL 681.6 0.0 -39.0 M 0 RL 681.6 0.0 -33.0 M 0 RL 681.6 0.0 -27.0 M 0 RL stroke
-12.0 F0 53.5 39.4 yns0 M [(D)/flat(maj7)]agcshow
-236.5 39.4 yns0 M [(E)/flat(6)]agcshow
+12.0 F0 53.5 39.4 yns0 M 
+/DejaVuSans 12.0 selectfont[/D/uni266D/uni0394]glypharray
+12.0 F0 236.5 39.4 yns0 M [(E)/flat(6)]agcshow
 396.7 39.4 yns0 M (C7/E)gcshow
 553.8 39.4 yns0 M (Fm9)gcshow
 12.0 -45.0  tclef
@@ -797,15 +803,17 @@ dlw 681.6 0.0 -51.0 M 0 RL 681.6 0.0 -45.0 M 0 RL 681.6 0.0 -39.0 M 0 RL 681.6 0
 0 -74.00 T
 /y0{-47.0 add}!
 /yns0{-47.0 add}!
-24.0 230.6 -47.0 bar 
+24.0 230.5 -47.0 bar 
 24.0 364.5 -47.0 bar 
 24.0 547.6 -47.0 bar 
 24.0 681.6 -47.0 bar 
 dlw 681.6 0.0 -47.0 M 0 RL 681.6 0.0 -41.0 M 0 RL 681.6 0.0 -35.0 M 0 RL 681.6 0.0 -29.0 M 0 RL 681.6 0.0 -23.0 M 0 RL stroke
 12.0 F0 53.5 32.4 yns0 M [(E)/flat(7)]agcshow
-236.6 32.4 yns0 M (C7/E)gcshow
-370.6 32.4 yns0 M (C7/E)gcshow
-553.7 32.4 yns0 M (Fm9)gcshow
+236.6 32.4 yns0 M [(C)/flat(9/E)]agcshow
+292.9 32.4 yns0 M (C7/E)gcshow
+553.7 32.4 yns0 M 
+/DejaVuSans 12.0 selectfont[/D/uni266D/uni0394/slash/F]glypharray
+12.0 F0 610.0 32.4 yns0 M (Fm7)gcshow
 12.0 -41.0  tclef
 27.0 -35.0 ft0 32.5 -26.0 ft0 38.0 -38.0 ft0 43.5 -29.0 ft0 
 61.5 -47.0 hd 7.7 3 dt 21.0 su
@@ -814,7 +822,7 @@ dlw 681.6 0.0 -47.0 M 0 RL 681.6 0.0 -41.0 M 0 RL 681.6 0.0 -35.0 M 0 RL 681.6 0
 134.9 -47.0 hd 24.0 su
 160.2 -41.0 hd 22.1 su
 185.5 -35.0 hd 20.1 su
-210.9 -29.0 hd 18.2 su
+210.8 -29.0 hd 18.2 su
 244.6 -32.0 Hd -21.0 sd
 300.9 -35.0 r4 
 336.7 -53.0 hl 336.7 -53.0 hd 21.0 su
@@ -824,206 +832,345 @@ dlw 681.6 0.0 -47.0 M 0 RL 681.6 0.0 -41.0 M 0 RL 681.6 0.0 -35.0 M 0 RL 681.6 0
 452.0 -53.0 hl 452.0 -53.0 hd 24.0 su
 477.3 -47.0 hd 468.3 y nt0  22.1 su
 502.6 -41.0 hd 20.1 su
-528.0 -35.0 hd 18.2 su
+527.9 -35.0 hd 18.2 su
 561.7 -29.0 Hd -21.0 sd
 618.0 -32.0 hd -21.0 sd
 653.8 -44.0 hd 21.0 su
 0 -70.00 T
 /y0{-51.0 add}!
 /yns0{-51.0 add}!
-24.0 219.7 -51.0 bar 
-24.0 369.4 -51.0 bar 
-24.0 515.4 -51.0 bar 
+24.0 219.9 -51.0 bar 
+24.0 369.8 -51.0 bar 
+24.0 516.1 -51.0 bar 
 24.0 640.7 -51.0 bar 
 dlw 681.6 0.0 -51.0 M 0 RL 681.6 0.0 -45.0 M 0 RL 681.6 0.0 -39.0 M 0 RL 681.6 0.0 -33.0 M 0 RL 681.6 0.0 -27.0 M 0 RL stroke
-12.0 F0 53.5 39.4 yns0 M [(D)/flat(maj7)]agcshow
-227.3 39.4 yns0 M (C7)gcshow
-375.1 39.4 yns0 M [(D)/flat(maj7)]agcshow
-523.0 39.4 yns0 M (E+)gcshow
-573.5 39.4 yns0 M (C7/E)gcshow
+12.0 F0 53.5 39.4 yns0 M 
+/DejaVuSans 12.0 selectfont[/D/uni266D/uni0394]glypharray
+12.0 F0 227.5 39.4 yns0 M (C7)gcshow
+375.5 39.4 yns0 M 
+/DejaVuSans 12.0 selectfont[/D/uni266D/uni0394]glypharray
+12.0 F0 523.4 39.4 yns0 M (C+)gcshow
 12.0 -45.0  tclef
 27.0 -39.0 ft0 32.5 -30.0 ft0 38.0 -42.0 ft0 43.5 -33.0 ft0 
 61.5 -39.0 hd 7.7 3 dt 21.0 su
 103.7 -42.0 hd 1 21.0 sfu
-3.2 71.4 -0.0 133.3 -19.5 bm
-130.2 -39.0 hd 18.5 su
-153.7 -42.0 hd 21.5 su
-177.3 -39.0 hd 18.5 su
-200.9 -42.0 hd 21.5 su
-233.5 -45.0 Hd 21.0 su
-279.9 -39.0 r8 
-3.2 47.8 4.9 306.6 -23.4 bm
-303.5 -45.0 hd 20.6 su
-327.0 -42.0 hd 20.0 su
-350.6 -39.0 hd 19.4 su
-383.1 -36.0 hd -21.0 sd
-419.7 -39.0 hd -21.0 sd
-452.7 -42.0 hd 21.0 su
-489.3 -45.0 hd 21.0 su
-529.2 -45.0 Hd 21.0 su
+3.2 71.5 -0.0 133.4 -19.5 bm
+130.3 -39.0 hd 18.5 su
+153.9 -42.0 hd 21.5 su
+177.5 -39.0 hd 18.5 su
+201.1 -42.0 hd 21.5 su
+233.7 -45.0 Hd 21.0 su
+280.2 -39.0 r8 
+3.2 47.9 4.9 306.9 -23.4 bm
+303.8 -45.0 hd 20.6 su
+327.4 -42.0 hd 20.0 su
+351.0 -39.0 hd 19.4 su
+383.5 -36.0 hd -21.0 sd
+420.2 -39.0 hd -21.0 sd
+453.3 -42.0 hd 21.0 su
+489.9 -45.0 hd 21.0 su
+529.9 -45.0 Hd 21.0 su
 581.5 -39.0 r4 
 614.5 -57.0 hl 614.5 -57.0 hd 21.0 su
 651.7 -39.0 ft0 659.2 -30.0 nt0 664.7 -42.0 nt0 670.2 -33.0 nt0 
 0 -74.00 T
 /y0{-48.0 add}!
 /yns0{-48.0 add}!
-24.0 199.2 -48.0 bar 
-24.0 360.8 -48.0 bar 
-24.0 542.6 -48.0 bar 
+24.0 191.0 -48.0 bar 
+24.0 351.1 -48.0 bar 
+24.0 538.3 -48.0 bar 
 24.0 681.6 -48.0 bar 
 dlw 681.6 0.0 -48.0 M 0 RL 681.6 0.0 -42.0 M 0 RL 681.6 0.0 -36.0 M 0 RL 681.6 0.0 -30.0 M 0 RL 681.6 0.0 -24.0 M 0 RL stroke
-12.0 F0 37.5 36.4 yns0 M (Fmaj7)gcshow
-205.3 36.4 yns0 M [(F)/sharp(dim)]agcshow
-367.0 36.4 yns0 M (Gm7)gcshow
-551.2 36.4 yns0 M 
-/DejaVuSans 12.0 selectfont[/E/emptyset]glypharray
+73.0 0.0 102.9 32.0 y0 tubr(3)139.4 28.0 y0 bnumb
+73.0 0.0 263.0 38.0 y0 tubr(3)299.5 34.0 y0 bnumb
+12.0 F0 40.2 36.4 yns0 M 
+/DejaVuSans 12.0 selectfont[/F/uni0394]glypharray
+12.0 F0 197.6 36.4 yns0 M [(F)/sharp(dim)]agcshow
+357.7 36.4 yns0 M (Gm7)gcshow
+546.8 36.4 yns0 M (C7)gcshow
 12.0 -42.0  tclef
 27.0 -36.0 ft0 
 45.5 -39.0 Hd 21.0 su
-3.2 26.2 -4.2 105.4 -18.9 bm
-102.2 -39.0 hd 19.0 su
-127.7 -45.0 hd 21.0 su
-3.2 29.7 2.5 159.3 -25.3 bm
-3.2 7.0 0.6 181.6 -28.4 bm
-156.1 -48.0 hd 7.7 3 dt 21.7 su
-185.1 -45.0 hd 21.2 su
-213.3 -39.0 Hd 21.0 su
-264.4 -36.0 r8 
-3.2 51.7 -0.0 293.1 -17.8 bm
-289.9 -39.0 hd 20.2 su
-315.4 -42.0 hd 306.4 y sh0  23.2 su
-341.0 -39.0 hd 20.2 su
-375.0 -33.0 hd 7.7 0 dt -21.0 sd
-420.6 -33.0 hd 1 -21.0 sfd
-3.2 77.2 -7.5 449.3 -10.8 bm
-446.1 -30.0 hd 18.2 su
-471.7 -33.0 hd 18.7 su
-497.2 -39.0 hd 22.3 su
-522.7 -45.0 hd 25.8 su
-556.7 -45.0 Hd 21.0 su
-613.5 -48.0 hd 21.0 su
-653.5 -54.0 hl 653.5 -54.0 hd 21.0 su
--9.10 -7.15 -40.61 -7.15 -49.72 0.25 0 -0.25 7.61 -5.39 42.10 -5.39 49.72 0.00 49.0 -39.0 SL
+103.9 -45.0 hd 21.0 su
+136.2 -48.0 hd 21.0 su
+168.4 -45.0 hd 21.0 su
+205.6 -39.0 Hd 21.0 su
+264.0 -39.0 hd 21.0 su
+296.3 -42.0 hd 287.3 y sh0  21.0 su
+328.5 -39.0 hd 21.0 su
+365.7 -33.0 hd 7.7 0 dt -21.0 sd
+412.7 -33.0 hd 1 -21.0 sfd
+3.2 79.6 -7.5 442.2 -10.8 bm
+439.0 -30.0 hd 18.2 su
+465.3 -33.0 hd 18.7 su
+491.6 -39.0 hd 22.2 su
+517.9 -45.0 hd 25.8 su
+553.0 -45.0 Hd 21.0 su
+611.4 -48.0 hd 21.0 su
+652.7 -54.0 hl 652.7 -54.0 hd 21.0 su
 0 -71.00 T
 /y0{-51.0 add}!
 /yns0{-51.0 add}!
-24.0 198.4 -51.0 bar 
-24.0 359.9 -51.0 bar 
-24.0 541.4 -51.0 bar 
+24.0 190.8 -51.0 bar 
+24.0 350.7 -51.0 bar 
+24.0 537.7 -51.0 bar 
 24.0 681.6 -51.0 bar 
 dlw 681.6 0.0 -51.0 M 0 RL 681.6 0.0 -45.0 M 0 RL 681.6 0.0 -39.0 M 0 RL 681.6 0.0 -33.0 M 0 RL 681.6 0.0 -27.0 M 0 RL stroke
+72.9 0.0 102.9 35.0 y0 tubr(3)139.3 31.0 y0 bnumb
+72.9 0.0 262.7 41.0 y0 tubr(3)299.2 37.0 y0 bnumb
 12.0 F0 37.5 39.4 yns0 M (Gm7)gcshow
-204.6 39.4 yns0 M [(B)/flat(maj7)]agcshow
-367.9 39.4 yns0 M (C7)gcshow
-554.4 39.4 yns0 M (C+)gcshow
+197.4 39.4 yns0 M 
+/DejaVuSans 12.0 selectfont[/B/uni266D/uni0394]glypharray
+12.0 F0 359.1 39.4 yns0 M (C7)gcshow
+550.7 39.4 yns0 M (C+)gcshow
 12.0 -45.0  tclef
 27.0 -39.0 ft0 
 45.5 -39.0 Hd 21.0 su
-3.2 77.2 -0.0 105.3 -19.8 bm
-102.1 -39.0 hd 18.2 su
-127.6 -45.0 hd 24.2 su
-153.1 -48.0 hd 144.1 y sh0  27.2 su
-178.6 -45.0 hd 24.2 su
-212.6 -39.0 Hd 21.0 su
-263.6 -39.0 r8 
-3.2 51.7 -0.0 292.2 -19.0 bm
-289.1 -39.0 hd 19.0 su
-314.6 -42.0 hd 22.0 su
-340.1 -39.0 hd 19.0 su
-374.0 -30.0 hd 7.7 0 dt -21.0 sd
-419.6 -33.0 hd 1 -21.0 sfd
-3.2 77.2 -7.3 448.3 -15.8 bm
-445.1 -36.0 hd 19.1 su
-470.6 -39.0 hd 19.7 su
-496.1 -42.0 hd 20.3 su
-521.6 -45.0 hd 512.6 y sh0  20.9 su
-560.9 -45.0 Hd 550.9 y sh0  21.0 su
-617.5 -39.0 r4 
-653.6 -57.0 hl 653.6 -57.0 hd 21.0 su
--9.09 -7.14 -40.55 -7.14 -49.65 0.25 0 -0.25 7.60 -5.39 42.04 -5.39 49.65 0.00 49.0 -39.0 SL
+103.9 -45.0 hd 21.0 su
+136.1 -48.0 hd 127.1 y sh0  21.0 su
+168.3 -45.0 hd 21.0 su
+205.4 -39.0 Hd 21.0 su
+263.7 -39.0 hd 21.0 su
+295.9 -42.0 hd 21.0 su
+328.1 -39.0 hd 21.0 su
+365.3 -30.0 hd 7.7 0 dt -21.0 sd
+412.2 -33.0 hd 1 -21.0 sfd
+3.2 79.5 -7.4 441.6 -15.8 bm
+438.5 -36.0 hd 19.2 su
+464.7 -39.0 hd 19.7 su
+491.0 -42.0 hd 20.3 su
+517.3 -45.0 hd 508.3 y sh0  20.8 su
+557.2 -45.0 Hd 547.2 y sh0  21.0 su
+615.6 -39.0 r4 
+652.7 -57.0 hl 652.7 -57.0 hd 21.0 su
 0 -74.00 T
 /y0{-48.0 add}!
 /yns0{-48.0 add}!
-24.0 198.8 -48.0 bar 
-24.0 360.5 -48.0 bar 
-24.0 542.4 -48.0 bar 
+24.0 191.0 -48.0 bar 
+24.0 351.1 -48.0 bar 
+24.0 538.3 -48.0 bar 
 24.0 681.6 -48.0 bar 
 dlw 681.6 0.0 -48.0 M 0 RL 681.6 0.0 -42.0 M 0 RL 681.6 0.0 -36.0 M 0 RL 681.6 0.0 -30.0 M 0 RL 681.6 0.0 -24.0 M 0 RL stroke
-12.0 F0 37.5 36.4 yns0 M (Fmaj7)gcshow
-205.0 36.4 yns0 M [(F)/sharp(dim)]agcshow
-366.7 36.4 yns0 M (Gm7)gcshow
-548.6 36.4 yns0 M [(C7/B)/flat]agcshow
-605.4 36.4 yns0 M [(B)/flat(7)]agcshow
+73.0 0.0 102.9 32.0 y0 tubr(3)139.4 28.0 y0 bnumb
+73.0 0.0 263.0 38.0 y0 tubr(3)299.5 34.0 y0 bnumb
+12.0 F0 40.2 36.4 yns0 M 
+/DejaVuSans 12.0 selectfont[/F/uni0394]glypharray
+12.0 F0 197.6 36.4 yns0 M [(F)/sharp(dim)]agcshow
+357.7 36.4 yns0 M (Gm7)gcshow
+545.0 36.4 yns0 M [(C7/B)/flat]agcshow
+603.4 36.4 yns0 M [(B)/flat(7)]agcshow
 12.0 -42.0  tclef
 27.0 -36.0 ft0 
 45.5 -39.0 Hd 21.0 su
-3.2 77.3 -0.0 105.4 -21.0 bm
-102.3 -39.0 hd 17.0 su
-127.8 -45.0 hd 23.0 su
-153.4 -48.0 hd 26.0 su
-178.9 -45.0 hd 23.0 su
-213.0 -39.0 Hd 21.0 su
-264.0 -36.0 r8 
-3.2 51.8 -0.0 292.7 -17.8 bm
-289.6 -39.0 hd 20.2 su
-315.1 -42.0 hd 306.1 y sh0  23.2 su
-340.7 -39.0 hd 20.2 su
-374.7 -33.0 hd 7.7 0 dt -21.0 sd
-420.4 -33.0 hd 1 -21.0 sfd
-3.2 77.3 -7.5 449.1 -10.8 bm
-445.9 -30.0 hd 18.2 su
-471.5 -33.0 hd 18.7 su
-497.0 -39.0 hd 22.3 su
-522.6 -45.0 hd 25.8 su
-556.6 -27.0 Hd -21.0 sd
-613.4 -30.0 hd -21.0 sd
-653.5 -30.0 hd -21.0 sd
--9.11 -7.15 -40.65 -7.15 -49.76 0.25 0 -0.25 7.62 -5.40 42.15 -5.40 49.76 0.00 49.0 -39.0 SL
+103.9 -45.0 hd 21.0 su
+136.2 -48.0 hd 21.0 su
+168.4 -45.0 hd 21.0 su
+205.6 -39.0 Hd 21.0 su
+264.0 -39.0 hd 21.0 su
+296.3 -42.0 hd 287.3 y sh0  21.0 su
+328.5 -39.0 hd 21.0 su
+365.7 -33.0 hd 7.7 0 dt -21.0 sd
+412.7 -33.0 hd 1 -21.0 sfd
+3.2 79.6 -7.5 442.2 -10.8 bm
+439.0 -30.0 hd 18.2 su
+465.3 -33.0 hd 18.7 su
+491.6 -39.0 hd 22.2 su
+517.9 -45.0 hd 25.8 su
+553.0 -27.0 Hd -21.0 sd
+611.4 -36.0 r4 
+652.7 -30.0 hd -21.0 sd
 0 -71.00 T
-/y0{-48.0 add}!
-/yns0{-48.0 add}!
-24.0 193.4 -48.0 bar 
-24.0 367.3 -48.0 bar 
-24.0 543.5 -48.0 bar 
-24.0 681.6 -48.0 bar 24.0 678.6 -48.0 bar 
-dlw 681.6 0.0 -48.0 M 0 RL 681.6 0.0 -42.0 M 0 RL 681.6 0.0 -36.0 M 0 RL 681.6 0.0 -30.0 M 0 RL 681.6 0.0 -24.0 M 0 RL stroke
-12.0 F0 39.6 36.4 yns0 M (E7)gcshow
-199.1 36.4 yns0 M (Fmaj7)gcshow
-375.5 36.4 yns0 M 
-/DejaVuSans 12.0 selectfont[/E/emptyset]glypharray
-12.0 F0 549.2 36.4 yns0 M (Fmaj7)gcshow
-12.0 -42.0  tclef
-27.0 -36.0 ft0 
-45.5 -30.0 Hd -21.0 sd
--3.2 74.6 -0.0 96.4 -48.2 bm
-100.3 -30.0 hd -17.2 sd
-124.9 -30.0 hd -17.2 sd
-149.6 -27.0 hd -20.2 sd
-174.2 -24.0 hd -23.2 sd
-207.1 -24.0 hd 7.7 3 dt -21.0 sd
-246.8 -39.0 hd 1 21.0 sfu
-3.2 74.6 7.8 277.4 -13.0 bm
-274.2 -42.0 hd 28.1 su
-298.9 -45.0 hd 33.6 su
-323.5 -27.0 hd 18.2 su
-348.2 -30.0 hd 23.8 su
-381.1 -33.0 hd 7.7 0 dt -21.0 sd
-425.1 -36.0 hd 1 -21.0 sfd
-3.2 25.3 -2.5 452.9 -18.3 bm
-449.8 -39.0 hd 19.7 su
-474.4 -42.0 hd 20.3 su
-3.2 28.7 -2.5 505.0 -17.2 bm
-3.2 7.0 -0.6 526.4 -24.1 bm
-501.8 -39.0 hd 7.7 0 dt 20.7 su
-529.9 -42.0 hd 21.3 su
-557.2 -42.0 Hd 21.0 su
-611.9 -45.0 hd 21.0 su
-650.6 -36.0 r4 
--8.79 7.11 -38.98 7.11 -47.77 -0.25 0 0.25 7.36 5.36 40.42 5.36 47.77 0.00 49.0 -30.0 SL
-0 -71.00 T
+/y0{-47.0 add}!
+/yns0{-47.0 add}!
+24.0 183.9 -47.0 bar 
+24.0 360.4 -47.0 bar 
+24.0 541.4 -47.0 bar 
+24.0 681.6 -47.0 bar 24.0 678.6 -47.0 bar 
+dlw 681.6 0.0 -47.0 M 0 RL 681.6 0.0 -41.0 M 0 RL 681.6 0.0 -35.0 M 0 RL 681.6 0.0 -29.0 M 0 RL 681.6 0.0 -23.0 M 0 RL stroke
+69.3 0.0 97.1 34.0 y0 tubr(3)131.7 30.0 y0 bnumb
+12.0 F0 39.6 33.4 yns0 M (E7)gcshow
+192.5 33.4 yns0 M 
+/DejaVuSans 12.0 selectfont[/F/uni0394]glypharray
+12.0 F0 368.2 33.4 yns0 M (C7)gcshow
+550.0 33.4 yns0 M 
+/DejaVuSans 12.0 selectfont[/F/uni0394]glypharray
+12.0 -41.0  tclef
+27.0 -35.0 ft0 
+45.5 -29.0 Hd -21.0 sd
+101.1 -29.0 hd -21.0 sd
+131.7 -26.0 hd -21.0 sd
+162.4 -23.0 hd -21.0 sd
+197.8 -23.0 hd 7.7 3 dt -21.0 sd
+238.1 -38.0 hd 1 21.0 sfu
+3.2 75.7 7.8 269.0 -12.0 bm
+265.9 -41.0 hd 28.1 su
+290.9 -44.0 hd 33.6 su
+315.9 -26.0 hd 18.2 su
+340.9 -29.0 hd 23.8 su
+374.3 -32.0 hd 7.7 0 dt -21.0 sd
+419.1 -35.0 hd 1 -21.0 sfd
+3.2 25.7 -2.5 447.2 -17.3 bm
+444.1 -38.0 hd 19.7 su
+469.1 -41.0 hd 20.3 su
+3.2 25.7 -2.5 500.1 -17.3 bm
+496.9 -38.0 hd 19.7 su
+521.9 -41.0 hd 20.3 su
+555.3 -41.0 Hd 21.0 su
+610.9 -44.0 hd 21.0 su
+650.2 -35.0 r4 
+0 -70.00 T
 grestore
 showpage
 %%EndPage: 1 1
+%%Page: 2 2
+gsave 0.75 dup scale 0 1018.2 T
+% --- width 681.6
+67.20 0 T
+0 -22.00 T
+%
+0 -17.60 T
+0.0 0 M 16.0 F2 [(Nous sommes les pers)/eacute(cut)/eacute(s)]arrayshow
+0 -17.60 T
+0.0 0 M(De tous les temps et de toutes les races)show
+0 -17.60 T
+0.0 0 M[(Toujours nous f)/ucircumflex(mes exploit)/eacute(s)]arrayshow
+0 -17.60 T
+0.0 0 M(par les tyrans et les rapaces)show
+0 -17.60 T
+0.0 0 M[(Mais nous ne voulons plus fl)/eacute(chir)]arrayshow
+0 -17.60 T
+0.0 0 M[(Sous le joug qui courba nos p)/egrave(res)]arrayshow
+0 -17.60 T
+0.0 0 M(Car nous voulons nous affranchir)show
+0 -17.60 T
+0.0 0 M[(de ceux qui causent nos mis)/egrave(res)]arrayshow
+0 -6.40 T
+0 -17.60 T
+0.0 0 M(Refrain:)show
+0 -17.60 T
+0.0 0 M[/Eacute(glise, Parlement, Capitalisme,)]arrayshow
+0 -17.60 T
+0.0 0 M[/Eacute(tat, Magistrature,)]arrayshow
+0 -17.60 T
+0.0 0 M(Patrons et Gouvernants,)show
+0 -17.60 T
+0.0 0 M[(lib)/eacute(rons nous de cette pourriture)]arrayshow
+0 -17.60 T
+0.0 0 M(Pressant est notre appel,)show
+0 -17.60 T
+0.0 0 M(donnons l'assaut au monde autoritaire)show
+0 -17.60 T
+0.0 0 M(Et d'un coeur fraternel)show
+0 -17.60 T
+0.0 0 M[(nous r)/eacute(aliserons l'id)/eacute(al libertaire)]arrayshow
+0 -6.40 T
+0 -17.60 T
+0.0 0 M(Ouvrier ou bien paysan)show
+0 -17.60 T
+0.0 0 M(Travailleur de la terre ou de l'usine)show
+0 -17.60 T
+0.0 0 M[(Nous sommes d)/egrave(s nos jeunes ans)]arrayshow
+0 -17.60 T
+0.0 0 M[(R)/eacute(duits aux labeurs qui nous minent)]arrayshow
+0 -17.60 T
+0.0 0 M[(D'un bout du monde )/agrave( l'autre bout)]arrayshow
+0 -17.60 T
+0.0 0 M[(C'est nous qui cr)/eacute(ons l'abondance)]arrayshow
+0 -17.60 T
+0.0 0 M(C'est nous tous qui produisons tout)show
+0 -17.60 T
+0.0 0 M(Et nous vivons dans l'indigence)show
+0 -6.40 T
+0 -17.60 T
+0.0 0 M(\(Refrain\))show
+0 -6.40 T
+0 -17.60 T
+0.0 0 M[(L'Etat nous )/eacute(crase d'imp)/ocircumflex(ts)]arrayshow
+0 -17.60 T
+0.0 0 M(Il faut payer ses juges, sa flicaille)show
+0 -17.60 T
+0.0 0 M(Et si nous protestons trop haut)show
+0 -17.60 T
+0.0 0 M(Au nom de l'ordre on nous mitraille)show
+0 -17.60 T
+0.0 0 M[(Les ma)/icircumflex(tres ont chang)/eacute(s cent fois)]arrayshow
+0 -17.60 T
+0.0 0 M(C'est le jeu de la politique)show
+0 -17.60 T
+0.0 0 M(Quels que soient ceux qui font les lois)show
+0 -17.60 T
+0.0 0 M[(C'est bien toujours la m)/ecircumflex(me clique)]arrayshow
+0 -6.40 T
+0 630.40 T
+340.80 0 T
+0 -17.60 T
+0.0 0 M(\(Refrain\))show
+0 -6.40 T
+0 -17.60 T
+0.0 0 M[(Pour d)/eacute(fendre les int)/eacute(r)/ecircumflex(ts)]arrayshow
+0 -17.60 T
+0.0 0 M(Des flibustiers de la grande industrie)show
+0 -17.60 T
+0.0 0 M[(On nous ordonne d')/ecircumflex(tre pr)/ecircumflex(ts)]arrayshow
+0 -17.60 T
+0.0 0 M[/Agrave( mourir pour notre patrie)]arrayshow
+0 -17.60 T
+0.0 0 M[(Nous ne poss)/eacute(dons rien de rien)]arrayshow
+0 -17.60 T
+0.0 0 M(Nous avons horreur de la guerre)show
+0 -17.60 T
+0.0 0 M[(Voleurs, d)/eacute(fendez votre bien)]arrayshow
+0 -17.60 T
+0.0 0 M[(Ce n'est pas )/agrave( nous de le faire)]arrayshow
+0 -6.40 T
+0 -17.60 T
+0.0 0 M(\(Refrain\))show
+0 -6.40 T
+0 -17.60 T
+0.0 0 M[(D)/eacute(sh)/eacute(rit)/eacute(s, soyons amis)]arrayshow
+0 -17.60 T
+0.0 0 M[(Mettons un terme )/agrave( nos tristes disputes)]arrayshow
+0 -17.60 T
+0.0 0 M(Debout! ne soyons plus soumis)show
+0 -17.60 T
+0.0 0 M(Organisons la Grande Lutte)show
+0 -17.60 T
+0.0 0 M(Tournons le dos aux endormeurs)show
+0 -17.60 T
+0.0 0 M[(Qui bercent la mis)/egrave(re humaine)]arrayshow
+0 -17.60 T
+0.0 0 M(Clouons le bec aux imposteurs)show
+0 -17.60 T
+0.0 0 M[(Qui s)/egrave(ment entre nous la haine)]arrayshow
+0 -6.40 T
+0 -17.60 T
+0.0 0 M(\(Refrain\))show
+0 -6.40 T
+0 -17.60 T
+0.0 0 M[(Partout s)/eacute(vit l'Autorit)/eacute]arrayshow
+0 -17.60 T
+0.0 0 M(Des gouvernants l'Internationale)show
+0 -17.60 T
+0.0 0 M[(Jugule notre libert)/eacute]arrayshow
+0 -17.60 T
+0.0 0 M[(Dont le souffle n'est plus qu'un r)/acircumflex(le)]arrayshow
+0 -17.60 T
+0.0 0 M[(L'heure a sonn)/eacute( de r)/eacute(agir)]arrayshow
+0 -17.60 T
+0.0 0 M[(En tous lieux la R)/eacute(volte gronde)]arrayshow
+0 -17.60 T
+0.0 0 M(Compagnons, sachons nous unir)show
+0 -17.60 T
+0.0 0 M[(Contre tous les Ma)/icircumflex(tres du Monde)]arrayshow
+0 -6.40 T
+0 -17.60 T
+0.0 0 M(\(Refrain\) )show
+0 -6.40 T
+-340.80 0 T
+0 -92.80 T
+grestore
+showpage
+%%EndPage: 2 2
 %%Trailer
-%%Pages: 1
+%%Pages: 2
 %EOF
