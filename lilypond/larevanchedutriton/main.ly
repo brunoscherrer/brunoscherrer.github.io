@@ -1,4 +1,4 @@
-indent = 0
+tiindent = 0
 
 melodie =  \relative c''{
   \key bes \major
@@ -25,10 +25,10 @@ melodieb = \relative c''{
   \key bes \major
   \numericTimeSignature
   \time 3/4
-  <d f>8. <c ees>16 r16<d f>16 <c ees>4. |  <des f>8. <c ees>16 r16<des f>16 <c ees>4. | <c f>8. <bes ees>16 r16<c f>16 <bes ees>4 <a bes d>8~ | <a bes d>2. |
-  <d f>8. <c ees>16 r16<d f>16 <c ees>4. |  <des f>8. <c ees>16 r16<des f>16 <c ees>4. | <c f>8. <bes ees>16 r16<c f>16 <bes ees>4 <g bes d>8~ | <g bes d>2. |
-  <d' bes'>8. <bes g'>16 r16<d bes'>16 <bes g'>4. |  <d bes'>8. <a ges'>16 r16<d bes'>16 <a ges'>4. | <d bes'>8. <aes f'>16 r16<d bes'>16 <aes f'>4 <g bes e>8~ | <g bes e>2. |
-  <d' f>8. <c ees>16 r16<d f>16 <c ees>4. |  <des f>8. <c ees>16 r16<des f>16 <c ees>4. | <c f>8. <bes ees>16 r16<c f>16 <bes ees>4 <a bes d>8~ | <a bes d>2. |  
+  <d f>8. <c ees>16 r16 <d f>16 r <c ees> r4 |  <des f>8. <c ees>16 r16 <des f>16 r <c ees> r4 | <c f>8. <bes ees>16 r16 <c f> r  <bes ees> r8 <a bes d>~ | <a bes d>2. |
+  <d f>8. <c ees>16 r16<d f> r <c ees> r4 |  <des f>8. <c ees>16 r16 <des f> r <c ees> r4 | <c f>8. <bes ees>16 r16 <c f>16 r <bes ees> r8 <g bes d>~ | <g bes d>2. |
+  <d' bes'>8. <bes g'>16 r16<d bes'>16 r <bes g'> r4 |  <d bes'>8. <a ges'>16 r16<d bes'>16 r <a ges'> r4 | <d bes'>8. <aes f'>16 r16 <d bes'>16 r <aes f'> r8 <g bes e>~ | <g bes e>2. |
+  <d' f>8. <c ees>16 r16<d f>16 r <c ees> r4 |  <des f>8. <c ees>16 r16 <des f>16 r <c ees> r4 | <c f>8. <bes ees>16 r16 <c f>16 r <bes ees> r8 <a bes d>~ | <a bes d>2. |  
 }
 
 
@@ -69,13 +69,13 @@ basse = \relative c{
       \melodieb
       }
     }
-    \new Staff { 
-      \transpose c \noteCibleTransposition {
-      \basse
-      }
-    }
+%    \new Staff { 
+%      \transpose c \noteCibleTransposition {
+%      \basse
+%      }
+%    }
   >>
-  \layout{ \context {      \Score      proportionalNotationDuration = #(ly:make-moment 4 30     )   } }
+  \layout{ indent=0.0 \context {      \Score      proportionalNotationDuration = #(ly:make-moment 4 30     )   } }
 }
 
 
