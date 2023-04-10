@@ -95,7 +95,7 @@ harmonie =  \chordmode{
 }
 
 \header {
- title =  #(string-append "La demoiselle de Montréal (Pour Perrine)" ton)
+ title =  #(string-append "La demoiselle de Montréal" ton)
  tagline =  ""
  composer = "Bruno Scherrer"
 }

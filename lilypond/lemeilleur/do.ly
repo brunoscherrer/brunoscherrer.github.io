@@ -8,7 +8,7 @@ ton = ""
 
 \score {
   <<
-    \new Staff \with {midiInstrument = #"tenor sax"}<< \unfoldRepeats{\melodie 
+    \new Staff \with {midiInstrument = #"acoustic grand"}<< \unfoldRepeats{\melodie 
                                  }  >>
     \new Staff \with {midiInstrument = #"acoustic grand"} << \unfoldRepeats{\harmonie
                           } >> 

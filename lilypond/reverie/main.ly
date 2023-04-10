@@ -68,7 +68,7 @@ ees:maj | s | e:3-7 | s | f:6 | s | f:6 | s |
 
 
 \header {
-  title = #(string-append "Rêverie (pour Gaëtan)" ton )
+  title = #(string-append "Rêverie" ton )
   tagline =  ""
   composer = "B. Scherrer"
 }

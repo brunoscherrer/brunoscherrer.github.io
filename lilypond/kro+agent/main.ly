@@ -15,9 +15,10 @@ melodiea =  \relative c''{
   \partial 2 e4 d
   \mark \markup {\box \bold KRO-A}
   \repeat volta 2 {
-  b2. a4 g | a4. b fis2  | g4. e8~ e2. | r2. d'4 cis |
-  b2. a4 g | a4. b fis2 | e4~ e1 | r2. e4 fis |
-  g2. fis4 g | a2. g4 a | b2. c8 b a g | fis4. e d4 e~ | e4~ e1 |
+  b2. a4 g | a4. b fis2  | g4. e8~ e2. | r2. d'4 cis | \break
+  b2. a4 g | a4. b fis2 | e4~ e1 | r2. e4 fis | \break
+  g2. fis4 g | a2. g4 a | b2. c8 b a g | fis4. e d4 e~ \break
+  | e4~ e1 |
   \repeat unfold 2 { r1 r4 | } |
 }
   \alternative{
@@ -131,8 +132,8 @@ harmonie = {
 melodiec =  \relative c''{
   \mark \markup {\box \bold Agent-C}
   %\key c \minor
-  \numericTimeSignature
-  \time 5/4
+%  \numericTimeSignature
+%  \time 5/4
   \repeat volta 2 {
   aes8 g8~ g1 | fis8 g-. r1 | 
   aes8 g8~ g1 | c8 g-. r1 | \break
@@ -163,7 +164,7 @@ bassec = \relative c{
 
 
 harmoniec =  \chordmode{  
-  \time 5/4
+%  \time 5/4
   \tuplet 4/5 {
 \repeat volta 2 {
     c1:min9 | s | s | s

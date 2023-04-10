@@ -25,8 +25,15 @@ melodie =  \relative c''{
 
 harma =  \chordmode{
   \repeat unfold 2 {
-    f1:min9  aes:6 | bes:7  f:min/ees |
-    f:min9  aes:6 | bes:7  des:maj7 |
+   f1:min9 % <f c'  g' aes' ees''>1 %aes1:maj7/f 
+   aes:6.10 %<aes f' d''> %aes:6.10 |
+   bes:9% <bes f' aes' c''> %bes:9 |
+   f:min7/ees%<ees' g' aes' c''> |
+   f1:min9 % <f c'  g'  ees''>1 %aes1:maj7/f 
+   aes:6.10 %<aes f' aes' d''> %aes:6.10 |
+   bes:9%<bes f' aes' c''> %bes:9 |
+   des:maj7%<des' f' aes' c''> |
+    
   }
 }
 
@@ -34,8 +41,8 @@ harmonie =  \chordmode{
   \time 7/8
   \tuplet 8/7 {
     \repeat volta 2 { \harma}
-    ees bes/d | bes:min/des c:7 | bes:min7 aes:6 | g:sus7 c:7
-    des c:5+.7 | b:3-.5- c:7 | bes:min7 aes:6 | g:sus7 fis:maj7.5- | s
+    ees bes/d | bes:min/des c:7 | bes:min7 aes:6 | c/g c:7
+    des c:7 | b:3-.5- c:7 | bes:min7 aes:6 | c/g fis:maj7.5- | s
 %    \harma
     
   }
@@ -44,7 +51,7 @@ harmonie =  \chordmode{
 
 
 \header {
-  title = #(string-append "Le meilleur est à venir (pour Pascale)" ton )
+  title = #(string-append "Le meilleur est à venir" ton )
   tagline =  ""
   composer = "B. Scherrer"
 }

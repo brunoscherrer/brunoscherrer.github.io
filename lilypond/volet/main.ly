@@ -5,11 +5,12 @@ melodie =  \relative c''{
   \numericTimeSignature
   \time 3/4
   \repeat volta 2 {
-    
+    \mark \markup {\box \bold A}
     c2 \p c4  | c4 b a8 b8~ | b2 g8 e8~ | e2. | \break
   c'2~ c8 c | c4 d c8 b8~ | b2 g8 e8~ | e2. | \break
   bes'2 bes4 | bes a g | f2 d8 bes~ | bes2~ bes4 | \break
-  d4. ees4. | c2. | r2. | r \break} 
+    d4. ees4. | c2. | r2. | r \break}
+  \mark \markup {\box \bold B}
   des'2 \mf des4  | des4 c bes8 c8~ | c2 aes8 f8~ | f2. | \break
   r4 des' des | des ees des8 c8~ | c2 aes8 f'8~ | f2. | \break
   b,2 b4 | b ais gis | fis2 dis8 b'8~ | b2. | \break
