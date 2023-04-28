@@ -40,8 +40,8 @@ harmonie =  \chordmode{
   \time 7/8
   \tuplet 8/7 {
     \repeat volta 2 { \repeat unfold 2 {\harma}}
-    ees bes/d | bes:min/des c:7 | bes:min7 aes:6.10 | g:sus c:7
-    des c:5+.7 | b:3-.5- c:7 | bes:min7 aes:6.10 | g:sus fis:maj7.5- | s s
+    ees bes/d | bes:min/des c:7 | bes:min7 aes:6.10 | c:7/g c:7
+    des c:5+.7 | b:3-.5- c:7 | bes:min7 aes:6.10 | c:7/g fis:5-.7+ | s s
     \repeat volta 2 {\harma}
     
   }
