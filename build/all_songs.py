@@ -133,5 +133,13 @@ repete = [ ( ("01_originaux","Morceaux"),
                ("29_volet","volet","Coucher de soleil (derrière un volet bloqué)"),
                ("27_larevanchedutriton","larevanchedutriton","La revanche du Triton"),
                ("25_lemeilleurestavenir","lemeilleur","Le meilleur est à venir")
-             ])
-           ]
+              ]),
+           ( ("backtrack","Back-tracks"),
+             [ ("kro","","Kronembourg-Virus"),
+               ("kro_sb","","Kronembourg-Virus (sans basse)"),
+               ("le_meilleur","","Le meilleur est à venir"),
+               ("le_meilleur_sb","","Le meilleur est à venir (sans basse)"),
+               ("triton","","La revanche du Triton"),
+               ("triton_sb","","La revanche du Triton (sans basse)"),
+            ])
+          ]

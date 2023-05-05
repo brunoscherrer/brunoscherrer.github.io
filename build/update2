@@ -1,0 +1,8 @@
+#!/usr/bin/bash
+
+./generate_songs.py
+cp index.html ..
+cp selection.html ..
+cp repete.html ..
+
+
