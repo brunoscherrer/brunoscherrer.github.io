@@ -80,7 +80,8 @@ songs = [ ( ("01_originaux","Morceaux originaux"),
               ("19_la_revolte_douce","","La révolte / Sébastien Faure"),
               ("20_la_revolte_reggae","","La révolte reggae / Sébastien Faure"),
               ("21_la_sicilienne","","La Sicilienne impaire / Gabriel Fauré"),
-              ("22_exit_music","","Exit Music (for a PDG) / Radiohead")
+              ("22_exit_music","","Exit Music (for a PDG) / Radiohead"),
+              ("23_the_final_countdown","","The Final Countdown / Europe")
             ])
           ]
  

@@ -58,6 +58,9 @@ harmonie =  \chordmode{
   \layout{ \context {      \Score      proportionalNotationDuration = #(ly:make-moment 4 30     )   } }
 }
 
-
-
-
+\markup{
+  \column {
+  \line { A:  II / I / II / I // IV / I // IV }
+  \line { B:  II / I / II / I // IV / I // IV }
+}
+}
