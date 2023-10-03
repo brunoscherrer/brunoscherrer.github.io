@@ -1,0 +1,90 @@
+indent = 0
+
+melodie =  \relative c{
+  %\tempo \markup {Easy tempo}
+  \clef bass
+  \key aes \major
+  \numericTimeSignature
+  \time 4/4
+  \mark \markup{Bass intro}
+  bes4-. bes-- c8-. c--  r8 des->~ | des2~ des8 c f, aes | bes4-. bes-- c8-. c-- r8 des->~ | des4. ees16 e f des f,4. | \break
+  bes4-. bes-- c8-. c--  r8 des->~ | des des d ees->~ ees4 g8 bes | aes ees aes,4 aes8 g ges f~ | f1 \break
+  \clef G
+  \mark \markup{Melody}
+  \repeat volta 2 {
+    aes'''16 f ees f  c bes aes bes ees,8-. bes' aes4~ | aes2 r2 |  aes'16 f ees f  c bes aes bes ees,8-. bes' aes4~ | aes4 \grace{b} c8-- ees-^ r2 |
+    aes16 f ees f  c bes aes bes ees,8-. bes' aes4~ | aes4~ aes16 f aes8 c4 bes8 aes |
+  }
+  \alternative {
+    {g8. f16 ees4 c8 ees f ges~ | ges4 aes8 f~ f2 | \break} 
+    {g8. f16 ees4 c8 ees f ges~ | ges4 aes8 f~ f4. \override NoteHead.color = #red \override Stem.color = "red" \override Beam.color = "red" c''16 bes |}
+  }
+  \mark \markup {Transcript}
+  << { \voiceOne 
+  aes[ f ees des c8]  s16 s s s s s s8  c16 des | \break
+  ees[ f aes bes c8] s16 s s s s s s8  c16 bes |
+  aes[ f ees des c8]  s16 s s s s s s8  c16 des | \break
+  ees16[ f aes bes c8] s16 s s s  \stemDown c[ bes] aes[ f ees des]  c8 s16 s s s c'[ bes] aes[ f ees des c8] \stemUp c'16 bes | \break
+  aes[ f] \stemDown ees[ des c8] \stemUp  c'16 bes aes f ees des \stemDown c4] | c2 c8 c des d~ | d2 r2 | }
+     \new Voice { \voiceTwo
+		  s8 s s c'16 bes aes[ f ees des c8] s8 |
+		  s8 s s c'16 bes aes[ f ees des c8] s8 |
+		  s8 s s c'16 bes aes[ f ees des c8] s8 |
+		  s16 bes c des ees[ f aes bes c8] s8 s  \stemUp c16 bes |
+		  aes[ f ees des c8] s4  c'16[ bes] aes[ f] \stemDown ees[ des] |
+		  c8 \stemUp  c'16[ bes aes f] \stemDown ees[ des c8]   c16 des \stemUp ees f g aes | 
+		  g8. f16 ees4 c8 ees f d~ | d2 s2 |
+		}
+   >>
+
+}
+
+
+
+harmonie =  \chordmode{
+  bes2:min7 c4.:min7 des2.:maj7 s8 f4:7.9- | bes2:min7 c4.:min7 des2.:maj7 s8 f4:7.9- |
+  bes2:min7 c4.:min7 des2:maj7 ees2:7.9- s8 | aes2.:maj7 s8 f1:7.9- s8
+  \repeat volta 2 {
+    bes4:min7 c2:min7 des2.:maj7  f2:7.9- | bes4:min7 c2:min7  des2.:maj7  f2:7.9- |
+    bes4:min7 c4.:min7 des2.:maj7 ees2:7.9- s8 |
+  }
+  \alternative {
+    {aes2.:maj7 s8 f1:7.9- s8}
+    {aes2.:maj7 s8 f1:7.9- s8}
+  }
+  bes2:min7 c4.:min7 des2.:maj7 s8 f4:7.9- | bes2:min7 c4.:min7 des2.:maj7 s8 f4:7.9- |
+  bes2:min7 c4.:min7 des2:maj7 ees2:7.9- s8 | aes2.:maj7 s8 f1:7.9- s8
+  
+  
+  
+}
+
+
+
+\header {
+  title = #(string-append "Strasbourg-St Denis" ton )
+  tagline =  ""
+  composer = "Roy Hargrove"
+}
+
+
+
+\score{
+  <<
+    \new ChordNames {
+      \transpose c \noteCibleTransposition{
+	\harmonie
+      }
+    }
+    \new Staff { 
+      \transpose c \noteCibleTransposition {
+      \melodie
+      }
+    }
+  >>
+  \layout{ \context {      \Score      proportionalNotationDuration = #(ly:make-moment 4 30     )   } }
+}
+
+
+
+

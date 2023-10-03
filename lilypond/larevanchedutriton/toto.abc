@@ -1,0 +1,25 @@
+X:1
+T:La revanche du triton
+C:B. Scherrer
+%%score 1 2 3
+L:1/16
+M:3/4
+K:Bb
+V:1  
+V:2  
+V:3 clef=bass
+V:1
+"Cm9"ABAG  AB z c z d z _d- | "GbM7"_dcB_A  B8                  | "AbM7"z4      _AB z     _A z GF2-           | "BbM7"F12                   |
+"Cm9"=ABAG AB z c z d z _d- | "GbM7"_dcB_A  B8                  | "AbM7"z4      G_A z     B z cB2-            | "EbM7"B12                   |
+"Gm"dedc   d8               | "Gm7M/Gb"dedc d8                  | "Gm7/F"dedc   de  z     d z c c2-           | "Gm6/Eb"c12                 |
+"EM7"BcB=A B8               | "GbM7"_AB_A_G _A8                 | "AbM7"_AB_A=G _A6 B=A-                      | "BbM7"=A12                  |
+V:2
+[df]3[c    e] z [df] [c e]6 | [_df]3[c      e]   z [_df] [c e]6 | [cf]3[B       e]  z     [cf] [B e]4 [ABd]2- | [ABd]12                     |
+[df]3[c    e] z [df] [c e]6 | [_df]3[c      e]   z [_df] [c e]6 | [cf]3[B       e]  z     [cf] [B e]4 [GBd]2- | [GBd]12                     |
+[dB]3[Bg]  z  [dB] [Bg]6    | [dB]3[A_g]    z    [dB] [A_g]6    | [dB]3[_Af]    z   [dB]  [_Af]4 [GB=e]2-     | [GBe]12                     |
+[df]3[c    e] z [df] [c e]6 | [_df]3[c      e]   z [_df] [c e]6 | [cf]3[B       e]  z     [cf] [B e]4 [ABd]2- | [ABd]12                     |
+V:3
+C,3G,      D3 C,2 G,2 D     | _G,,3_D,      _A,3 _G,,2 _D,2 _A, | _A,,3E,       G,3 _A,,2 E,2 G,              | B,,3F,      A,3 B,,2 F,2 A, |
+C,3G,      D3 C,2 G,2 D     | _G,,3_D,      _A,3 _G,,2 _D,2 _A, | _A,,3E,       G,3 _A,,2 E,2 G,              | E,3G,       B,3 E,2 G,2 B,  |
+G,3B,      D3 G,2 B,2 D     | _G,3B,        D3   _G,2 B,2 D     | F,3B,         D3  F,2   B,2 D               | =E,3B,      D3 E,2 B,2 D    |
+E,3G,      D3 E2 G,2 D      | _G,,3_D,      _A,3 _G,,2 _D,2 _A, | _A,,3E,       G,3 _A,,2 E,2 G,              | B,,3F,      A,3 B,,2 F,2 A, |
