@@ -10,8 +10,8 @@ melodie =  \relative c''{
   c2~ c8 a( g a~ | a2.) e'8( d | \break
   a4) a4. a4 a8~ | a8 a4 g8 a8 a g4 |
   c2~ c8 d c a~ | a2. d8( c | \break
-  g4) g4. g4 g8~ | g8 g4 g4 gis8 g c |
-  fis,2~ fis8 f fis f~ | f2. e8( f | \break
+  g4) g4. g4 g8~ | g8 g4 g4 aes8 g c |
+  ges2~ ges8 f ges f~ | f2. e8( f | \break
   e) c a2.~ | a2 g8 a g f
   | g f g2. r2. e''8( d  | \break
   b4) b4. b4 b8~ | b8 b4 b8 c4 d4 |
@@ -31,9 +31,9 @@ harmonie =  \chordmode{
   \time 4/4
   \partial 4 {s4}
   g1:min7 | s | a:min7 | s | g1:min7 | s | a:min7 | s
-  aes:maj7 | s | fis | s | f:maj7 | s | f:maj7 | s
+  aes:maj7 | s | ges:maj7 | s | f:maj7 | s | f:maj7 | s
   e:min7 | s | d:min7 | s | e:min7 | s | d:min7 | s
-  ees:maj7 | s | des | s | aes:maj7.9 | s | aes:maj7.9 | s
+  ees:maj7 | s | des:maj7 | s | aes:maj7.9 | s | aes:maj7.9 | s
 }
 
 

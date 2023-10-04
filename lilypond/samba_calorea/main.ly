@@ -42,8 +42,8 @@ harmonie =  \chordmode{
   \time 7/4
   \scaleDurations 7/4 {
     \repeat volta 2 {
-    ees2/c  f:7 | ees/c  f:7 |ees/c  f:7 | ees/c  f:7 |
-    g/e  a:7 | g/e  a:7 | g/e  a:7 | aes:maj7  s
+    c2:min7  f:7 | c:min7  f:7 |c:min7  f:7 | c:min7  f:7 |
+    e:min7  a:7 | e:min7  a:7 | e:min7  a:7 | aes:maj7  s
     c:maj7  f:maj7 |c:maj7  f:maj7 |c:maj7  f:maj7 | }
     \alternative {
       {aes:maj7.9  s}
