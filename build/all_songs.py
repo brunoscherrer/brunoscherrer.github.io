@@ -140,6 +140,7 @@ repete = [ ( ("01_originaux","Morceaux"),
                ("18_nouveau_morceau","nouveau","Nouveau morceau"),
                ("38_perdre_son_temps","perdre_son_temps","Perdre son temps"),
                ("42_ca_tourne","ca_tourne","Planète ça tourne"),
+               ("17_c_est_pas_une_punition_han","punition","C'est pas une punition-han"),
                ("","danse","Danse de (la fin de) l'abondance")
               ]),
            ( ("backtrack","Back-tracks"),
