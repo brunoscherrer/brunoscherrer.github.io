@@ -3,15 +3,17 @@ indent = 0
 melodie =  \relative c''{
   \key c \major
   \numericTimeSignature
-  \time 14/8
+  \time 7/8
   \repeat volta 2 {
+    \mark \markup {\box \bold A}
   \repeat unfold 2 {
-  g'4 g4. ees4 | fis fis4  d4. |  r2  f8 des4  | e4. \tuplet 3/2 {c8 bes g} f8[ ees] | \break
-  g'4 g4. ees4 | fis fis4  d4. |  r2 f8 ees4 | c4. \tuplet 3/2 { f,8[ fis g]} ais[ c]| \break
-  }
+  g'4 g4. ees4 | fis fis4.  d4 |  f4  f4. des4  | e4. \tuplet 3/2 {c8 bes g} f8[ ees] | \break
+  g'4 g4. ees4 | fis fis4.  d4 |  f4 f4. ees4 | c4. \tuplet 3/2 { f,8[ fis g]} ais[ c]| \break
+}
+    \mark \markup {\box \bold B}
   c4 c4. des4 | c c4. des4 | ees4 ees4. f4 | des4 c8[ bes aes ges f] | \break
-  \override TupletNumber.text = #tuplet-number::calc-fraction-text
-  c'4 c4. des4 | c c4. des4 |   ees4 ees4. \tuplet 5/7 {f8 bes aes ges f} ees8[ des] | \break
+%  \override TupletNumber.text = #tuplet-number::calc-fraction-text
+  c'4 c4. des4 | c c4. des4 |   ees4 ees4. f8. bes16~ |  bes8 aes8. ges8. f8[ ees8 des] | \break
   c4 c4. des4 | c c4. des4 | ees4 ees4. f4 | des4 c8[ bes aes ges f] | \break
 }
   \alternative {
