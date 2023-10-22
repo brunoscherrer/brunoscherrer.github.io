@@ -35,7 +35,7 @@ melodie =  \relative c'{
 
 harmonie =  \chordmode{  
 \tuplet 4/7 {
-  g1:min s s s
+  g1:min g:3-.7+ g:3-.7 g:3-.7+
   g1:min g:3-.7+ g:3-.7 g:3-.6
   c2:min7 f:7 | bes:maj7 ees:maj7 | a1:3-.5-.7 | d:7 |
   g1:min g:3-.7+ g:3-.7 g:3-.6
@@ -47,8 +47,8 @@ harmonie =  \chordmode{
   c1.:min7 f:7 bes:maj7 | ees:maj7
 }
 \alternative {
-  { a:3-.5-.7 | d:7 | g:min | g:7 |}
-  { a:7 | d:7 | g:min | s }
+  { a1.:3-.5-.7 | d:7 | g2.:min g:3-.7+ | g1.:7 | |}
+  { a1.:7 | d:7 | g2.:min  g:3-.7+ | g:3-.7 g:3-.7+ }
 }
 
 
