@@ -81,7 +81,8 @@ songs = [ ( ("01_originaux","Morceaux originaux"),
               ("20_la_revolte_reggae","","La révolte reggae / Sébastien Faure"),
               ("21_la_sicilienne","","La Sicilienne impaire / Gabriel Fauré"),
               ("22_exit_music","","Exit Music (for a PDG) / Radiohead"),
-              ("23_the_final_countdown","","The Final Countdown / Europe")
+              ("23_the_final_countdown","","The Final Countdown / Europe"),
+              ("24_oblivion","oblivion","Oblivion / Astor Piazzola")
             ])
           ]
  
@@ -142,6 +143,12 @@ repete = [ ( ("01_originaux","Morceaux"),
                ("42_ca_tourne","ca_tourne","Planète ça tourne"),
                ("17_c_est_pas_une_punition_han","punition","C'est pas une punition-han"),
                ("","danse","Danse de (la fin de) l'abondance")
+              ]),
+           ( ("02_reprises","Arrangements"),
+             [("04_on_est_la","onestla","On est là (même si Macron ne veut pas) / Trad."),
+              ("07_saint_thomas_58","saint_thomas5","Saint Thomas 5/8 / Sonny Rollins"),
+              ("13_risasdebolivia","risas","Risas de Bolivia / Trad. bolivien"),
+              ("24_oblivion","oblivion","Oblivion / Astor Piazzola")
               ]),
            ( ("backtrack","Back-tracks"),
              [ ("kro","","Kronembourg-Virus"),
