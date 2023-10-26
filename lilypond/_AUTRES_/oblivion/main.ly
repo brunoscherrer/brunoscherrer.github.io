@@ -5,10 +5,10 @@ melodie =  \relative c'{
   \numericTimeSignature
   \time 7/4
 
-  \mark \markup \box \bold {Intro}
+  \mark \markup \box \bold {A1}
   \repeat percent 4 {g4 d' ees g8 a4 bes c d,8} \break
 
-  \mark \markup \box \bold A
+  \mark \markup \box \bold {A2}
   d'1~ d2.~ | d2.~ d8  c4 bes a g8 | bes1~ bes2.~ | bes2.~ bes8 a4 g f ees8 | \break
   g1~ g4. f4 ees8 | f1~ f4. ees4 d8 | ees2.~ ees8 d4 c bes a8 | d1~ d2. | \break
 
