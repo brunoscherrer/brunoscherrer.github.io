@@ -10,7 +10,7 @@ melodie =  \relative c'{
 
   \mark \markup \box \bold {A2}
   d'1~ d2.~ | d2.~ d8  c4 bes a g8 | bes1~ bes2.~ | bes2.~ bes8 a4 g f ees8 | \break
-  g1~ g4. f4 ees8 | f1~ f4. ees4 d8 | ees2.~ ees8 d4 c bes a8 | d1~ d2. | \break
+  g1~ g4. f4 ees8 | f1~ f4. ees4 d8 | ees2.~ ees8 d4 c bes a8 | d1 r8 d[ ees d cis d] | \break
 
   d'1~ d2.~ | d2.~ d8  c4 bes a g8 | bes1~ bes2.~ | bes2.~ bes8 a4 g f ees8 | \break
   g1~ g2.~ | g2.~ g8  f4 ees d c8 | ees1~ ees2.~ | ees2.~ ees8 r4 g c d8 | \break
