@@ -20,7 +20,7 @@ bassea = \relative c,{
 
 harmoniea = \chordmode{
   d1.:min7 | e:min7/d | f:maj7/d | g:7/d |
-  d1.:min7 | e:5+/d | f:maj7/d | aes:maj7/d |
+  d1.:min7 | e:5+/d | f:maj7/d | aes:5+.7+/d |
 }
 
 melodieb = \relative c''{
@@ -45,7 +45,7 @@ harmonieb =  \chordmode{
   }
   \alternative{ 
     {des2.:maj7 | d:5+.7 |}
-    {des2.:maj7 | a:7 }
+    {des2.:maj7 | a:5+.7 }
   }
 }
 
