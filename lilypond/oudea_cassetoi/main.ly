@@ -15,6 +15,7 @@ melodiea =  \relative c''{
   } \break
 }
 melodieb = \relative c''{
+\repeat volta 2 {
   fis,2. | d' | cis8 b r b r a | d2 e,8 f! | \break
   fis!2. | d'2 cis8 d | e4. b | cis2. | \break
   f,!2~ f8 fis16 gis | a4 gis fis | b2. | fis4. gis | \break
@@ -22,9 +23,10 @@ melodieb = \relative c''{
   \tuplet 3/2 {e4 f gis}  {a8 b}
   \tuplet 3/2 {d4 b a} \tuplet 3/2 {gis8 g f}
   \tuplet 3/2 {e4 f gis}  {a8 b}
-  d16 b d e f8 r8 r4
-%  \tuplet 7/6 {e8 f gis a b c d}
-%  \tuplet 7/6 {e8 d c b a gis f}
+  d16 b d e16 r2
+				%  \tuplet 7/6 {e8 f gis a b c d}
+				%  \tuplet 7/6 {e8 d c b a gis f}
+  }
 }
 
 bassea = \relative c{
@@ -49,12 +51,13 @@ harmoniea = \chordmode{
 }
 
 harmonieb =  \chordmode{
-\repeat unfold 2 {
-  fis2.:7 | b:min7 | e4.:sus e:7 | a2.:maj7
-}
-cis:7 | fis:min7 | b:7 | s
-e1.:sus | e1.:7  
-  
+  \repeat volta 2 {
+    \repeat unfold 2 {
+      fis2.:7 | b:min7 | e4.:sus e:7 | a2.:maj7
+    }
+    cis:7 | fis:min7 | b:7 | s
+    e1.:sus | e1.:7
+  }
 }
 
 
