@@ -10,8 +10,8 @@ melodie =  \relative c''{
   a4) a4. a4 a8~ | a8 a4 g8 a4 g4 |
   c2~ c8 a( g a~ | a2.) e'8( d | \break
   a4) a4. a4 a8~ | a8 a4 g8 a8 a g4 |
-  c2~ c8 d c a~ | a2. d8( c | \break
-  g4) g4. g4 g8~ | g8 g4 g4 aes8 g c |
+  c2~ c8 d c a~ | a2. d8 c | \break
+  g1~ | g2~ g8 aes8 g c |
   ges2~ ges8 f ges f~ | f2. e8( f | \break
   e) c a2.~ | a2 g8 a g f
     | g f g2. r2. e''8( d  | \break
@@ -20,8 +20,8 @@ melodie =  \relative c''{
   b4) b4. b4 b8~ | b8 b4 b8 c4 d4 |
   c2~ c8 a f a~ | a2. e'8( d | \break
   b4) b4. b4 b8~ | b8 b4 b8 c4 d4 |
-  f2~ f8 e f e~ | e2. f8( e | \break
-  ees4) ees4. ees4 ees8~ | ees8 ees4 ees4 d8 ees d |
+  f2~ f8 e f e~ | e2. f8 e | \break
+  ees1~ | ees2~ ees8 d8 ees d |
   des2~ des8 c des c~ | c2. bes8( aes | \break
   bes) c g2.~ | g2 f8 g f es |
   f es  f2. | r2. e'8 d \break  

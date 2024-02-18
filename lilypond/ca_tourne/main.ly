@@ -1,7 +1,7 @@
 indent = 0
 
 melodie =  \relative c''{
-  %\key c \major
+  \key c \major
   \numericTimeSignature
   \time 3/4
   \mark \markup \box \bold A
@@ -12,7 +12,7 @@ melodie =  \relative c''{
   fis'2~ fis8 e | d2.~ | d8 cis d cis d e | fis4 fis fis8 a | g2.~ | g8 fis  g fis g a \break
   fis2 e16 fis e8 | d2.~ | d8 d e d e d | d2. | r | \break
   \mark \markup \box \bold C
-  bes'2~ bes8 des,8  | ges2.~ | ges8 f ges f ges aes | bes4 bes bes8 des | ces2.~ | ces8 bes ces bes ces des \break
+  bes'4. des,4.  | ges2.~ | ges8 f ges f ges aes | bes4 bes bes8 des | ces2.~ | ces8 bes ces bes ces des \break
   bes2 aes16 bes aes8 | ges2.~ | ges8 ges aes ges aes ges | ges2. | r | \break
 }
 
