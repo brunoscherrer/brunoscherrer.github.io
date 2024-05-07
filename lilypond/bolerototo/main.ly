@@ -85,7 +85,7 @@ voix_a= \relative c''{
 harmonie =  \chordmode{  
   \repeat volta 2 {
     c1.:7  s  bes:maj7  c:7 
-  }
+  } \break
 
   \repeat volta 2 {
     f1.:maj7  s
@@ -93,12 +93,12 @@ harmonie =  \chordmode{
   \alternative {
     {c:7  s }
     {ees:maj7  s} \break
-  }
+  } \break
   \repeat volta 2 {
     ees1.:7  s  aes:maj7  s 
   }
-  ges1.:maj7  s  des:maj7  s 
-  ges1.:maj7   a:maj7  g:maj7 g:7 
+  ges1.:maj7  s  des:maj7  s \break 
+  ges1.:maj7   a:maj7  g:maj7 g:7  \break
 }
 
 
@@ -128,11 +128,11 @@ harmonie =  \chordmode{
       \voix_a
       }
     }
-    \new Staff { 
-      \transpose c \noteCibleTransposition {
-      \accompagnement
-      }
-    }
+%    \new Staff { 
+%      \transpose c \noteCibleTransposition {
+%      \accompagnement
+%      }
+%    }
   >>
   \layout{ \context {      \Score      proportionalNotationDuration = #(ly:make-moment 4 20    )   } }
 }

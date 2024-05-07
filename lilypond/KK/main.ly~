@@ -1,0 +1,41 @@
+indent = 0
+
+melodie =  \relative c''{
+  \key c \major
+  \numericTimeSignature
+  \time 3/4
+  g  c b | a  g fis | e  fis g | e d'  a  | \break
+  g4  e' b~ | b a d | fis, g a | e f c' | \break
+  a2 b4 | b'  e,2  | c4 d e | a, c g'~ | \break
+  g  fis dis | e d! c | e b c | d4. e4. | \break 
+}
+
+harmonie =  \chordmode{  
+  e2.:min7 | a:7/cis | c:maj7 | a:7 |
+  e:min7 | c:maj7 | a:7 | f:maj7
+  e:min7 | a:7/cis | c:maj7 | a:min7 |
+  e:3-.7+.9 | c:maj7 | a:min7  | b4.:min7 c:maj7
+}
+
+\header {
+  title = #(string-append "?" ton )
+  tagline =  ""
+  composer = "C. Cartier"
+}
+
+\score{
+  <<
+    \new ChordNames {
+      \transpose c \noteCibleTransposition{
+	\harmonie
+      }
+    }
+    \new Staff { 
+      \transpose c \noteCibleTransposition {
+	\repeat volta 2 {\melodie}
+      
+    }
+    }
+  >>
+  \layout{ \context {      \Score      proportionalNotationDuration = #(ly:make-moment 4 30     )   } }
+}
