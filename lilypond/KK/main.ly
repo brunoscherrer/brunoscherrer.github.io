@@ -25,7 +25,7 @@ harmonie =  \chordmode{
 }
 
 \header {
-  title = #(string-append "?" ton )
+  title = #(string-append "En Chapelure" ton )
   tagline =  ""
   composer = "C. Cartier"
 }

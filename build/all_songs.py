@@ -150,6 +150,7 @@ repete = [ ( ("01_originaux","Morceaux"),
                ("17_c_est_pas_une_punition_han","punition","C'est pas une punition-han"),
                ("43_chasse_a_l_homme","chasse_a_l_homme","Chasse à l'homme"),
                ("","danse","Danse de (la fin de) l'abondance"),
+               ("","kk","En Chapelure (Camille)")
               ]),
            ( ("02_reprises","Arrangements"),
              [("04_on_est_la","onestla","On est là (même si Macron ne veut pas) / Trad."),
