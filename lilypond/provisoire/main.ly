@@ -23,10 +23,11 @@ melodie =  \relative c'{
   \mark \markup \box \bold A
   \mela
 
-  \mark \markup \box \bold {B'}
+  \mark \markup \box \bold {B}
   \time 7/8
-  \melb
+   \repeat volta 2 { \melb }
 
+  \mark \markup \box \bold {B'}
   \repeat unfold 2 {g'8 aes[ aes] bes[ bes] c[ c] |}
   {a8 bes[ bes] c[ c] d[ d] |} {a8 bes[ bes] c[ c] ees[ ees] |}\break
   {a,8 bes[ bes] c[ c] e[ e] |} {a,8 bes[ bes] c[ c] f[ f] |}
@@ -61,7 +62,7 @@ harmonie =  \chordmode{
   \repeat volta 2 {\repeat unfold 2 {d2.:min9 | s | e:min9 | s}}
    \time 7/8
   \tuplet 8/7 {
-    bes1:maj7 | s | d:min9 | s |  bes:maj7 | s | ees:maj7 | s 
+    \repeat volta 2 {bes1:maj7 | s | d:min9 | s |  bes:maj7 | s | ees:maj7 | s }
     aes:maj7 | s | a:3-.5-.7 | s |  a:3.5+.7 | s | 
   }
   \time 3/4

@@ -13,5 +13,5 @@ ton = ""
     \new Staff \with {midiInstrument = #"electric piano 1"} << \unfoldRepeats{\harmonie
                           } >> 
   >>
-\midi{ \tempo 4 = 140 }
+\midi{ \tempo 4 = 90 }
 }
