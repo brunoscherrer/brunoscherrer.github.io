@@ -52,7 +52,7 @@ harmonie =  \chordmode{
 
 
 \header {
-  title = #(string-append "Samedi matin, entre l'avant et l'après" ton )
+  title = #(string-append "Samedi matin" ton )
   tagline =  ""
   composer = "B. Scherrer"
 }
