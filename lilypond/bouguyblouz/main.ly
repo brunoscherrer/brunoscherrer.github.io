@@ -10,7 +10,7 @@ melodiea = \relative c''{
 }
 
 melodieb = \relative c''{
-  fis a f! b, d f gis g | f d c a des d r4 | gis4. g fis4 
+  fis a f! b, d f gis g | f d c a des d r4 | gis4. g r4
 }
 
 
