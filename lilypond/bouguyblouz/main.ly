@@ -18,14 +18,17 @@ melodie =  \relative c''{
   \key c \major
   \numericTimeSignature
   \time 4/4
+  \mark \markup \box {Intro}
   \partial 8
   c'8
   \melodieb \break
+  \mark \markup \box {Thème}
   \repeat volta 2 {
     \melodiea \break
     \melodieb
-  }
-  
+  } \break
+  \mark \markup \box {Solos}
+  \repeat unfold 12 {r1} 
 }
 
 harmoniea =  \chordmode{
@@ -45,8 +48,13 @@ harmonie =  \chordmode{
   \partial 8
   s8
   \harmonieb
-  \harmoniea
-  \harmonieb
+  \repeat volta 2 {
+    \harmoniea
+    \harmonieb
+  }
+  d1:7 | s | s | s | \break
+  g:7 | s | gis:3-.5-.7 | s \break
+  a:7 | s | e2:7 a:7 | d1:7 \break
 }
 
 
