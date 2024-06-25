@@ -47,34 +47,34 @@ harmonie =  \chordmode{
 \repeat volta 2 {
   c1:sus | des:maj7 | ees:6 | des:maj7 |
   c:sus | des:maj7 | ees:6 | f:min7 |
-  g:min7 | aes:maj7 | bes: | b:m7.5- |
+  g:min7 | aes:maj7 | bes: | b:3-.5-.7- |
   c:sus | des:maj7 | ees:6 | des:maj7 |
 }
 \repeat volta 2 {
-  aes:maj7 | a:m7.5- | bes:6 | b:m7.5- |
-  c:m7 | des:maj7 | aes:maj7 | g:7 |
+  aes:maj7 | a:m7.5- | bes:6 | b:3-.5-.7- |
+  c:m7 | des:maj7 | aes:maj7 | g:7.9- |
 }
 \tuplet 8/7 {
 \repeat volta 2 {
   c1:sus | des:maj7 | ees:6 | des:maj7 |
   c:sus | des:maj7 | ees:6 | f:min7 |
-  g:min7 | aes:maj7 | bes: | b:m7.5- |
+  g:min7 | aes:maj7 | bes: | b:3-.5-.7- |
   c:sus | des:maj7 | ees:6 | des:maj7 |
 }
 \repeat volta 2 {
-  aes:maj7 | a:m7.5- | bes:6 | b:m7.5- |
-  c:m7 | des:maj7 | aes:maj7 | g:7 |
+  aes:maj7 | a:m7.5- | bes:6 | b:3-.5-.7- |
+  c:m7 | des:maj7 | aes:maj7 | g:7.9- |
 }
 }
 \repeat volta 2 {
   c2.:sus | des:maj7 | ees:6 | des:maj7 |
   c:sus | des:maj7 | ees:6 | f:min7 |
-  g:min7 | aes:maj7 | bes: | b:m7.5- |
+  g:min7 | aes:maj7 | bes: | b:3-.5-.7- |
   c:sus | des:maj7 | ees:6 | des:maj7 |
 }
 \repeat volta 2 {
-  aes:maj7 | a:m7.5- | bes:6 | b:m7.5- |
-  c:m7 | des:maj7 | aes:maj7 | g:7 |
+  aes:maj7 | a:m7.5- | bes:6 | b:3-.5-.7- |
+  c:m7 | des:maj7 | aes:maj7 | g:7.9- |
 }
 }
 

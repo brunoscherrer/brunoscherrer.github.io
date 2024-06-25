@@ -53,7 +53,7 @@ harmonie =  \chordmode{
     \harmonieb
   }
   d1:7 | s | s | s | \break
-  g:7 | s | gis:3-.5-.7 | s \break
+  g:7 | s | d:7.9 | s \break
   a:7 | s | e2:7 a:7 | d1:7 \break
 }
 
