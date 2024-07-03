@@ -59,7 +59,7 @@ songs = [ ( ("01_originaux","Morceaux originaux"),
               ("","mineur_majeur","Mineur/Majeur"),
               ("","naine_des_neiges","La naine des neiges"),
               ("","pour_manu","Pour Manu"),
-              ("","satirieke","Satirieke"),
+              ("","satirikiki","Satirikiki"),
               ("","without_mi","Without mi"),
               ("","zarbi","Zarbi")
               #("","","Dans ta F.A.C.E. 2 !")
@@ -172,6 +172,9 @@ repete = [ ( ("01_originaux","Morceaux"),
           ]
 
 k250 =  [  ( ("k250","Arrangements"),
-            [ ("kk","kk","En Chapelure (C. Cartier)")
+            [ ("kk","kk","En Chapelure (C. Cartier)"),
+              ("","bulkamer","Bulkamer (J. Lourau)"),
+              ("","draisine_song", "Draisine Song (Tombruket)"),
+              ("","satirikiki","Satirikiki")
             ])
         ]

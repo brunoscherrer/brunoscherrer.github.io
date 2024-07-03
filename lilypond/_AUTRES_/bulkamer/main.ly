@@ -7,7 +7,7 @@ melodie =  \relative c'{
   \repeat volta 4
   {
     r4 r4  f4 c'8 ees8~ | ees8 bes4.  bes8 g4 a8~  a8 d,8 d4. c4. 
-    f8 d g4 f4 e8 c8~ c8 d4.  f8 d  g4 f4 e8 c4 d4. 
+    f8 d g4 f4 e8 c8~ c8 d4.  f8 d  g4 f4 e8 c8~ c8 d4. 
   }
 }
 
@@ -16,7 +16,7 @@ melodieb = \relative c''{
   \numericTimeSignature
   \repeat volta 4 {
     r8 c8 d e f g4 r8   r4 g8 f ees d4.    c8 bes g4 c8 a4.  \break
-    r8 d8 c4 bes8 a g4~  g8 f4.   r8 c'8 bes4 a8 g f8 e8~ e2  \break
+    r8 d8 c4 bes8 a g4~  g8 f4.   r8 c'8 bes4 a8 g f8 e8~ e f4.  \break
   }
 }
 

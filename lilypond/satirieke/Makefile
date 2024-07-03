@@ -1,4 +1,4 @@
-TITRE = satirieke
+TITRE = satirikiki
 
 all: $(TITRE)_do.pdf $(TITRE)_sib.pdf $(TITRE)_mib.pdf
 
