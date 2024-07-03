@@ -159,7 +159,9 @@ repete = [ ( ("01_originaux","Morceaux"),
              [("04_on_est_la","onestla","On est là (même si Macron ne veut pas) / Trad."),
               ("07_saint_thomas_58","saint_thomas5","Saint Thomas 5/8 / Sonny Rollins"),
               ("13_risasdebolivia","risas","Risas de Bolivia / Trad. bolivien"),
-              ("24_oblivion","oblivion","Oblivion / Astor Piazzola")
+              ("24_oblivion","oblivion","Oblivion / Astor Piazzola"),
+              ("","butnotforme","But not for me / Gershwin"),
+              ("","timeaftertime","Time after time / Styne")
               ]),
            ( ("backtrack","Back-tracks"),
              [ ("kro","","Kronembourg-Virus"),
