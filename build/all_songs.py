@@ -151,7 +151,7 @@ repete = [ ( ("01_originaux","Morceaux"),
                ("17_c_est_pas_une_punition_han","punition","C'est pas une punition-han"),
                ("43_chasse_a_l_homme","chasse_a_l_homme","Chasse à l'homme"),
                ("","danse","Danse de (la fin de) l'abondance"),
-               ("../kk","kk","En Chapelure (C. Cartier)"),
+               ("../k250/kk","kk","En Chapelure (C. Cartier)"),
                ("","bouguyblouz", "Bouguy Blouz (M. Nataf)"),
                ("","togo","Togo (H. Texier)")
               ]),
@@ -168,5 +168,10 @@ repete = [ ( ("01_originaux","Morceaux"),
                ("le_meilleur_sb","","Le meilleur est à venir (sans basse)"),
                ("triton","","La revanche du Triton"),
                ("triton_sb","","La revanche du Triton (sans basse)"),
-            ])
+              ])
           ]
+
+k250 =  [  ( ("k250","Arrangements"),
+            [ ("kk","kk","En Chapelure (C. Cartier)")
+            ])
+        ]

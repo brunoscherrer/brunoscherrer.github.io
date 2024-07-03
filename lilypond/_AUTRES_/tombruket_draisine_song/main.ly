@@ -21,14 +21,14 @@ harmonie =  \chordmode{
   \time 9/8
     \repeat volta 2 {
       \repeat volta 2 {
-	g1:min7 s8 | s1 s8 | s1 s8 | \break
-	bes2:maj7 s8 c4.:min7 s8  | g1:min7 s8 | d1:min7 s8 | \break
-	ees1:maj7 s8 | a1:min7 s8 | d1:7 s8 | s1 s8 | \break
+	g2:min7 s8 f4./g s8 | ees1:maj7/g s8 | d1/g s8 | \break
+	bes2:maj7 s8 c4.:min s8  | g1:min s8 | d1:min s8 | \break
+	ees1:maj7 s8 | a1:min s8 | d1 s8 | s1 s8 | \break
       }
     aes1:maj7 s8 | bes1:maj7 s8 | c1:min9 s8 | \break
-    d1:min7 s8 | ees1:maj7 s8 | s1 s8 \break
-    f2 s8 ees4.:maj7 s8 | d1:7 s8 | f1 s8 \break
-    | a1 s8 | d1:7 s8 | s1 s8 | aes1:maj7 s8 | s1 s8 \break
+    d1:min s8 | ees1:maj7 s8 | s1 s8 \break
+    f2 s8 ees4.:maj7 s8 | d1 s8 | f1 s8 \break
+    | a1:5+ s8 | d1 s8 | s1 s8 | aes1:maj7 s8 | s1 s8 \break
   }
 }
 

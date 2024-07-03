@@ -4,6 +4,7 @@
 cp index.html ..
 cp selection.html ..
 cp repete.html ..
+cp k250.html ..
 
 ./generate_all_pdf.py
 

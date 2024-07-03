@@ -1,0 +1,67 @@
+indent = 0
+
+melodie =  \relative c'{
+  \key c \major
+  \numericTimeSignature
+  \time 12/8
+  \repeat volta 4 {
+  r4. r4  f8 c' ees4 bes4.  bes8 g4 a4 d,8 d4. c4. | \break
+  f8 d g8~ g4 f8 e c4 d4.  f8 d g8~ g4 f8 e c4 d4. | \break
+}
+}
+
+
+basse = \relative c'{
+  \time 12/8
+  \repeat volta 4 {
+    d2.~ d4.  bes4.~ bes4. ees4. a2. |
+    g2. a4. bes2.~ bes4. c4. d4. 
+  }
+}
+
+
+harmonie =  \chordmode{  
+  \repeat volta 4 {
+    d1:min11  s8 bes2 s8 s8  ees4. d2.:min/a
+    g2.:min a4:min  s8 bes2. s8  s4 c4. d4.:min
+  }
+}
+
+
+
+\header {
+  title = #(string-append "Bulkamer" ton )
+  tagline =  ""
+  composer = "Julien Lourau"
+}
+
+
+
+\score{
+  <<
+    \new ChordNames {
+      \transpose c \noteCibleTransposition{
+	\harmonie
+      }
+    }
+    \new Staff { 
+      \transpose c \noteCibleTransposition {
+      \basse
+      }
+    }
+    \new Staff { 
+      \transpose c \noteCibleTransposition {
+      \melodie
+      }
+    }
+  >>
+  \layout{
+    \context {
+      \Score
+      proportionalNotationDuration = #(ly:make-moment 4 30     )   }
+  }
+}
+
+
+
+

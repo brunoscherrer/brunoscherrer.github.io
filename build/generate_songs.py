@@ -3,7 +3,7 @@
 import sys
 from all_songs import *
 
-for (songlist,head,fic,foot) in [ (songs,"header","index","foot"),(selection,"header2","selection","foot2"),(repete,"header3","repete","foot3") ]:
+for (songlist,head,fic,foot) in [ (songs,"header","index","foot"),(selection,"header2","selection","foot2"),(repete,"header3","repete","foot3"),(k250,"header4","k250","foot4") ]:
 
     sys.stderr.write("Génération du fichier "+fic+".html...\n")
 
