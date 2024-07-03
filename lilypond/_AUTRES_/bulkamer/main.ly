@@ -3,17 +3,20 @@ indent = 0
 melodie =  \relative c'{
   \key c \major
   \numericTimeSignature
-  \repeat volta 4 {
-  r4. r4  f8 c' ees4 bes4.  bes8 g4 a4 d,8 d4. c4. 
-  f8 d g8~ g4 f8 e c4 d4.  f8 d g8~ g4 f8 e c4 d4. 
-}
+  \time 4/4 
+  \repeat volta 4
+  {
+    r4 r4  f4 c'8 ees8~ | ees8 bes4.  bes8 g4 a8~  a8 d,8 d4. c4. 
+    f8 d g4 f4 e8 c8~ c8 d4.  f8 d  g4 f4 e8 c4 d4. 
+  }
 }
 
 
-basse = \relative c'{
+melodieb = \relative c''{
+  \numericTimeSignature
   \repeat volta 4 {
-    \time 9/8 d2.~ d4.  bes2. ees4. \time 6/8 d2. \break
-    \time 9/8 g4.~ g4. a4. bes2.~ bes4. \time 6/8 c4. d4. \break
+    r8 c8 d e f g4 r8   r4 g8 f ees d4.    c8 bes g4 c8 a4.  \break
+    r8 d8 c4 bes8 a g4~  g8 f4.   r8 c'8 bes4 a8 g f8 e8~ e2  \break
   }
 }
 
@@ -44,12 +47,12 @@ harmonie =  \chordmode{
     }
     \new Staff { 
       \transpose c \noteCibleTransposition {
-      \basse
+      \melodie
       }
     }
     \new Staff { 
       \transpose c \noteCibleTransposition {
-      \melodie
+      \melodieb
       }
     }
   >>
