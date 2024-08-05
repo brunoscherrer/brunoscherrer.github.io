@@ -88,8 +88,8 @@ songs = [ ( ("01_originaux","Morceaux originaux"),
               ("21_la_sicilienne","","La Sicilienne impaire / Gabriel Fauré"),
               ("22_exit_music","","Exit Music (for a PDG) / Radiohead"),
               ("23_the_final_countdown","","The Final Countdown / Europe"),
-              ("24_oblivion","oblivion","Oblivion / Astor Piazzola")
-            ])
+              ("24_oblivion","oblivion","Oblivion / Astor Piazzola"),
+              ("25_le_jour_de_mon_enterrement","","Le jour de mon enterrement / Mesdames (Juliette Cordel)")])
           ]
  
 selection = [ ( ("01_originaux","Morceaux originaux"), 
