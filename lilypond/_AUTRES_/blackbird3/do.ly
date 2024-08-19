@@ -8,9 +8,10 @@ ton = ""
 
 \score {
   <<
-    \new Staff \with {midiInstrument = #"electric piano 1"} << \unfoldRepeats{\melodie }  >>
+%    \new Staff \with {midiInstrument = #"electric piano 1"} << \unfoldRepeats{\melodie }  >>
+				%
     \new Staff \with {midiInstrument = #"electric piano 1"} << \unfoldRepeats{\melodieb }  >>
-    \new Staff \with {midiInstrument = #"electric piano 1"} << \unfoldRepeats{\melodiec }  >>
+    %\new Staff \with {midiInstrument = #"electric piano 1"} << \unfoldRepeats{\melodiec }  >>
 %    \new Staff \with {midiInstrument = #"electric piano 1"} << \unfoldRepeats{\harmonie } >> 
   >>
 \midi{ \tempo 4 = 100 }

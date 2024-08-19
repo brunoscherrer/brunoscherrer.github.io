@@ -61,7 +61,8 @@ songs = [ ( ("01_originaux","Morceaux originaux"),
               ("","pour_manu","Pour Manu"),
               ("satirikiki","satirikiki","Satirikiki"),
               ("","without_mi","Without mi"),
-              ("","zarbi","Zarbi")
+              ("","zarbi","Zarbi"),
+              ("","emotion_du_petit_bonhomme","Emotion du petit bonhomme")
               #("","","Dans ta F.A.C.E. 2 !")
               ] ),
           ( ("02_reprises","Reprises"),

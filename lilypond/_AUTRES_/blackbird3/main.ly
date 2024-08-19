@@ -111,16 +111,16 @@ harmonie =  \chordmode{
 	\harmonie
       }
     }
-    \new Staff { 
-      \transpose c \noteCibleTransposition {
-      \melodiec
-      }
-    }
-    \new Staff { 
-      \transpose c \noteCibleTransposition {
-      \melodie
-      }
-    }
+%    \new Staff { 
+%      \transpose c \noteCibleTransposition {
+%      \melodiec
+%      }
+%    }
+%    \new Staff { 
+%      \transpose c \noteCibleTransposition {
+%      \melodie
+%      }
+%    }
     \new Staff { 
       \transpose c \noteCibleTransposition {
       \melodieb
