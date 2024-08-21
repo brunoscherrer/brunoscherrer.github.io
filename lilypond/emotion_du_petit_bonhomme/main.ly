@@ -17,7 +17,7 @@ melodie =  \relative c''{
   \repeat volta 3 {
     r8. a g' a, f' | r b, a' b, g' | r aes, f' aes, e' |  r a, f' a, e' \break
   }
-  r bes e bes f' | r bes, g' bes, a' | r gis, gis' gis, a' | r e b' e, d' \break
+  r bes e bes f' | r bes, g' bes, a' | r b, gis' b, a' | r e b' e, d' \break
 }
   }
 
@@ -27,7 +27,7 @@ harmonie = \chordmode{
   \tuplet 8/9 {
     \repeat volta 2 {
     \repeat unfold  2 { a1:min9  | c:maj7 | g:maj7 | d:9 }
-    d:min9 | b:3-.5-.7 | a:min9 | aes:3-.5+ |
+    d:min9 | b:3-.5-.7 | a:min9 | e:7/aes |
     d:7 | d:5+.7 | fis:7 | c:5+.7 |
   }
   }
@@ -36,7 +36,7 @@ harmonie = \chordmode{
   \tuplet 16/15 {
     \repeat volta 2 {
     \repeat volta 3 {
-      f1:maj7 | g:9 | aes:3-.5+ | a:min9 |
+      f1:maj7 | g:9 | e:7/aes | a:min9 |
     }
     bes:maj7 | s | e:5+.7 | s 
     }
