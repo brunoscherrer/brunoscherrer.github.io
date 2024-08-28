@@ -8,9 +8,9 @@ melodieb =  \relative c''{
   \repeat volta 2 {
     c1 |  r2 \tuplet 3/2 {e4. f4 g8~} | 
     g1 | r2 e4 f4  | \break 
-\tuplet 3/2 {g4. g4  g8~} \tuplet 3/2 {g4 g4. g8~} | \tuplet 3/2 {g4 f2}  \tuplet 3/2 {e4. f4 d8~} | d1 | r2  d4 e4 | 
-  f4 f8~ f4  f4 f8~|  f2 e4 d4 | \break
-  e4 e8~ e4  e4 e8~|  e2 d4 c4 | 
+\tuplet 3/2 {g4. g4  g8~} \tuplet 3/2 {g4 g4. g8~} | \tuplet 3/2 {g4 f2}  \tuplet 3/2 {e4. f4 d8~} | d1 | r2  d4 e4 | \break
+  f4 f8~ f4  f4 f8~|  f2 e4 d4 | 
+  e4 e8~ e4  e4 e8~|  e2 d4 c4 | \break
     d4 d8~ d4 d4 d8~ | \tuplet 3/2 {d4 c2} \tuplet 3/2 { b4. d4 c8~} |
     c2 r2 | r2 \tuplet 3/2 {e4. d4 c8 \laissezVibrer} | \break
   }

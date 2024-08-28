@@ -164,6 +164,7 @@ repete = [ ( ("01_originaux","Morceaux"),
                  ("","togo","Togo (H. Texier)"),
                  ("20_la_revolte_reggae","revolte","La révolte reggae / Sébastien Faure"),
                  ("04_on_est_la","onestla","On est là (même si Macron ne veut pas) / Trad."),
+                 ("23_the_final_countdown","compte_a_rebours_final","The Final Countdown / Europe"),
                  ("07_saint_thomas_58","saint_thomas5","Saint Thomas 5/8 / Sonny Rollins"),
                  ("13_risasdebolivia","risas","Risas de Bolivia / Trad. bolivien")         
              ])]
