@@ -40,8 +40,8 @@ harmonie =  \chordmode{
     f:9 s | bes:sus bes:7 | ees:9 s | bes:min7 ees:sus
   }
   \alternative {
-    {  aes1:maj7 | des:9 | ees:maj7 | s |
-       f:min7 | s2 c:5+.7 | f1:min7 | bes:7 }
+    {  aes1:maj7 | des:9 | ees:maj7 | c:min7 |
+       f:min7 | c:5+.7 | f1:min7 | bes:7 }
     {aes1:maj7 | des:9 | ees:maj7 | g2:5+.7 c:5+.7 |
        f1:min9 | bes:7 | ees:maj7 | f2:min7 bes:7}
   }

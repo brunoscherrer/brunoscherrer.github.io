@@ -27,8 +27,8 @@ melodie =  \relative c'{
 harmonie =  \chordmode{  
   \partial 4 s4
   f1:min9 | g:dim | aes:6 | bes2:min7 c:7 |
-  des1:maj7 | ees:6 | c:7/e | f:min9 |
-  ees:7 | c2:9-/e c:7/e | s s | des:maj7/f f:min7 |
+  des1:maj7 | ees:6 | c:7/e | f:3-.6.9 |
+  ees:7 | c:9-/e | c:7/e | f:min7 |
   des1:maj7 | c:7 | des:maj7 | c:aug
 
   f1:maj7 | fis:dim | g:min7 | c:7 |

@@ -31,14 +31,14 @@ harmonie =  \chordmode{
   a:min7 | d:9 | g:sus | g:9
 
   c1:maj7 | d2:min7 g:sus | c1:maj7 | d2:min7 g4:sus g:9 |
-  c1:maj7 | a:min7/c | b:3-.5-.7 | e:7.9- |
+  c1:maj7 | s | b:3-.5-.7 | e:7.9- |
   a2:min a:min/g | fis2:3-.5-.7 b:7.9- | e1:min7 | a:7.9- |
   d:min7 | e2:3-.5-.7 a:5+.7 | d1:9 | g2.:sus g4:7.9-
 
   c1:maj7 | d2:min7 g:sus | c1:maj7 | d2:min7 g4:sus g:9 |
   c1:maj7 | g2:min7 c:7 | f1:maj7 | f2:min7  f:min6 |
   c1:6/g |  fis2:3-.5-.7 f:min7 | e1:min7 | d2:sus d:7 |
-  c1:6/g | d2:min7 g:7.9- | c1:6 | s
+  c1:6/g | d2:min7/g g:7.9- | c1:6 | s
 }
 
 
