@@ -155,7 +155,8 @@ repete = [ ( ("01_originaux","Morceaux"),
                ("30_bolerototo_newage","bolero","Boléro-toto, version New-Age-Olympique"),
                ("13_samba_calorea","samba_calorea","Samba Calor-é-a"),
                ("17_c_est_pas_une_punition_han","punition","C'est pas une punition-han"),
-               ("45_oudea_cassetoi","oudea_cassetoi","Ou-dé-a, Casse-toi-d'la !")
+               ("45_oudea_cassetoi","oudea_cassetoi","Ou-dé-a, Casse-toi-d'la !"),
+               ("","sur_un_air_de_jazz","Sur un aire de jazz")
               ]),
            ( ("02_reprises","Arrangements"),
              [
@@ -167,7 +168,8 @@ repete = [ ( ("01_originaux","Morceaux"),
                  ("04_on_est_la","onestla","On est là (même si Macron ne veut pas) / Trad."),
                  ("23_the_final_countdown","compte_a_rebours_final","The Final Countdown / Europe"),
                  ("07_saint_thomas_58","saint_thomas5","Saint Thomas 5/8 / Sonny Rollins"),
-                 ("13_risasdebolivia","risas","Risas de Bolivia / Trad. bolivien")         
+                 ("13_risasdebolivia","risas","Risas de Bolivia / Trad. bolivien"),
+                 ("","grana_od_bora","Grana od bora (trad/Bojan Z)")
              ])]
              
 k250 =  [  ( ("k250","Arrangements"),
