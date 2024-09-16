@@ -50,6 +50,7 @@ songs = [ ( ("01_originaux","Morceaux originaux"),
               ("49_pour_manu","pour_manu","Pour Manu"),
               ("50_emotion_petit_bonhomme","emotion_du_petit_bonhomme","Emotion du petit bonhomme"),
               ("51_satirikiki","satirikiki","Satirikiki"),
+              ("52_sur_un_air_de_jazz","sur_un_air_de_jazz","Sur un air de jazz"),
               ("","samba","Samba ni chaussettes"),
               ("","joie_bonheur","Joie & bonheur"),
               ("","blues","Blues"),
@@ -62,8 +63,8 @@ songs = [ ( ("01_originaux","Morceaux originaux"),
               ("","mineur_majeur","Mineur/Majeur"),
               ("","naine_des_neiges","La naine des neiges"),
               ("","without_mi","Without mi"),
-              ("","zarbi","Zarbi"),
-              ("","sur_un_air_de_jazz","Sur un air de jazz")
+              ("","zarbi","Zarbi")
+              
               #("","","Dans ta F.A.C.E. 2 !")
               ] ),
           ( ("02_reprises","Reprises"),
@@ -156,7 +157,7 @@ repete = [ ( ("01_originaux","Morceaux"),
                ("13_samba_calorea","samba_calorea","Samba Calor-é-a"),
                ("17_c_est_pas_une_punition_han","punition","C'est pas une punition-han"),
                ("45_oudea_cassetoi","oudea_cassetoi","Ou-dé-a, Casse-toi-d'la !"),
-               ("","sur_un_air_de_jazz","Sur un aire de jazz")
+               ("52_sur_un_air_de_jazz","sur_un_air_de_jazz","Sur un air de jazz")
               ]),
            ( ("02_reprises","Arrangements"),
              [
