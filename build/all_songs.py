@@ -155,7 +155,7 @@ repete = [ ( ("01_originaux","Morceaux"),
                ("43_chasse_a_l_homme","chasse_a_l_homme","Chasse à l'homme"),
                ("30_bolerototo_newage","bolero","Boléro-toto, version New-Age-Olympique"),
                ("13_samba_calorea","samba_calorea","Samba Calor-é-a"),
-               ("17_c_est_pas_une_punition_han","punition","C'est pas une punition-han"),
+               ("17_c_est_pas_une_punition_han_2","punition","C'est pas une punition-han"),
                ("45_oudea_cassetoi","oudea_cassetoi","Ou-dé-a, Casse-toi-d'la !"),
                ("52_sur_un_air_de_jazz","sur_un_air_de_jazz","Sur un air de jazz")
               ]),
