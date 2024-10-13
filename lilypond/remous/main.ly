@@ -39,7 +39,7 @@ harmonie =  \chordmode{
     \repeat unfold 2 {
     
     \repeat volta 2 {g1:min7  a:3-.5-.7  bes:maj7   c:min7 }
-    d:5+.7   ees:maj7   e:3-.5-.7   f2:7 d:5+.7-/fis
+    d:5+.7   ees:maj7   e:3-.5-.7   f2:7 d:5+.7/fis
   }
 
     g:min7

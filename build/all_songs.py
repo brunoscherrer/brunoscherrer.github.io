@@ -171,7 +171,9 @@ repete = [ ( ("01_originaux","Morceaux"),
                  ("23_the_final_countdown","compte_a_rebours_final","The Final Countdown / Europe"),
                  ("07_saint_thomas_58","saint_thomas5","Saint Thomas 5/8 / Sonny Rollins"),
                  ("13_risasdebolivia","risas","Risas de Bolivia / Trad. bolivien"),
-                 ("","grana_od_bora","Grana od bora (trad/Bojan Z)")
+                 ("","grana_od_bora","Grana od bora (trad/Bojan Z)"),
+                 ("01_prog_to_log_2000","prog","Prog-to-log 2000"),
+                 ("53_remous","remous","Remous")
              ])]
              
 k250 =  [  ( ("k250","Arrangements"),
