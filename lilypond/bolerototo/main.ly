@@ -52,10 +52,10 @@ voix_b = \relative c'''{
   }
 				%
   \repeat volta 2 {
-     g,2~ g8  f16  ees  c8-. r8 r2 | r8  g'-.  g-.  g-.   g-.  f-.  aes4. g4   f16  ees |  bes4. c~ | c2. r2. r2.
+     g2~ g8  f16  ees  c8-. r8 r2 | r8  g'-.  g-.  g-.   g-.  f-.  aes4. g4   f16  ees |  bes4. c~ | c2. r2. r2.
    }
   
-  ees'2~ ees8 des | c2~ c8 bes | c2~ c8 des | ees2~ ees8 f | f2.~ | f2~ f8 aes | f2.  r
+  ees2~ ees8 des | c2~ c8 bes | c2~ c8 des | ees2~ ees8 f | f2.~ | f2~ f8 aes | f2.  r
   ees2~ ees8 des | c2~ c8 bes | a2~ a8 gis | fis2~ fis8 e | fis2.~ | fis | f!~   f |
   
 }
@@ -74,10 +74,10 @@ voix_a= \relative c''{
   }
 				%
   \repeat volta 2 {
-    des,2~ des8 c16 bes16 f8-. r8 r2 | r8 bes-.   bes-.  bes-.   bes-.   aes-.  c2~ c8  bes16 aes | g4. aes~ | aes2. r2. r2.
+    des2~ des8 c16 bes16 f8-. r8 r2 | r8 bes-.   bes-.  bes-.   bes-.   aes-.  c2~ c8  bes16 aes | g4. aes~ | aes2. r2. r2.
   }
   
-  ges''2~ ges8 f | ges2~ ges8 f | ges2~ ges8 f | f2~ f8 des | c2.~ | c2~ c8 des | c2.  r
+  ges'2~ ges8 f | ges2~ ges8 f | ges2~ ges8 f | f2~ f8 des | c2.~ | c2~ c8 des | c2.  r
   ges'2~ ges8 f | ges2~ ges8 f | e2~ e8 dis | e2~ e8 fis | g2.~ |  g~ | g~ | g 
 }
 
