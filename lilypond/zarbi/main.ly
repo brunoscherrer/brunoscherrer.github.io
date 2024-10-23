@@ -5,10 +5,10 @@ melodie =  \relative c''{
   \numericTimeSignature
   \time 3/4
   \repeat volta 2 {
-    f8 d~ d2 | f8 c~ c2 | ges4. f8. ees8. | des2. |
+    f8 d~ d2 | f8 c~ c2 | fis,4. eis8. dis8. | des2. |
   } \break
   \repeat volta 2 {
-    f8 aes~ aes2 | f8 aes~ aes2 | aes8 fes~ fes2 | ees2. |
+    f8 aes~ aes2 | f8 aes~ aes2 | gis8 e~ e2 | dis2. |
   } \break
 }
 
