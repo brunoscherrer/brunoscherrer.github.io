@@ -52,6 +52,7 @@ songs = [ ( ("01_originaux","Morceaux originaux"),
               ("51_satirikiki","satirikiki","Satirikiki"),
               ("52_sur_un_air_de_jazz","sur_un_air_de_jazz","Sur un air de jazz"),
               ("53_remous","remous","Remous"),
+              ("54_ponyonoke","ponyonoke","Ponyonoke dans le château sur la falaise"),
               ("","samba","Samba ni chaussettes"),
               ("","joie_bonheur","Joie & bonheur"),
               ("","blues","Blues"),
@@ -64,9 +65,7 @@ songs = [ ( ("01_originaux","Morceaux originaux"),
               ("","mineur_majeur","Mineur/Majeur"),
               ("","naine_des_neiges","La naine des neiges"),
               ("","without_mi","Without mi"),
-              ("","zarbi","Zarbi"),
-              ("","ponyonoke","Ponyonoke dans le château sur la falaise")
-              
+              ("","zarbi","Zarbi")
               #("","","Dans ta F.A.C.E. 2 !")
               ] ),
           ( ("02_reprises","Reprises"),
