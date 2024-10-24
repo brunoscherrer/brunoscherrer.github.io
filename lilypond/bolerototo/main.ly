@@ -104,7 +104,7 @@ harmonie =  \chordmode{
 
 
 \header {
-  title = #(string-append "Bolerototo (pour Arnaud)" ton )
+  title = #(string-append "Bolerototo" ton )
   tagline =  ""
   composer = "B. Scherrer"
 }
