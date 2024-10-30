@@ -1,0 +1,65 @@
+indent = 0
+
+melodie =  \relative c''{
+  \key g \major
+  \numericTimeSignature
+  \time 4/4
+
+  \mark \markup \box \bold {Intro}
+  r1 | r1 | r1 | r1 | \break
+
+   \mark \markup \box \bold {A}
+  r2 a | f4 g a g~ | g e d cis~ | cis d cis r | \break
+  r2 a' | f4 g a g~ | g e d cis~ | cis d e r | \break
+  r2 a |f4 g a e~ | e a2 b4~ | b a b c~ | c4 g2 fis!4~ | fis! e d r | \break
+  e a2 b4~ | b a b2 | c4 g2 g4 | c g2 r4 | \break
+
+   \mark \markup \box \bold {B}
+  r4 a a a | a a a b | g g g g | a a a g | \break
+  g1 | r | r | r | \break
+  r4 g g g | g g g a | f f e d | e e d c | \break
+  d1 | r | r | r | \break
+}
+
+
+
+harmonie =  \chordmode{  
+  g1:6 | s | s | s |
+  d:min7 | d:min7/b | c | a:7
+  d:min7 | d:min7/b | c | a:7
+  d:min7 | d:min7/b | a:min7 | e:min7/b | c | d:7
+  a:min7 | e:min7 | f | g:sus
+  
+  d:min7 | d:min7/b | e:min7 | f | c | s | s | s
+  g | e:min7 | d:min7 | c | g:6 | s | s | s 
+}
+
+
+
+\header {
+  title = #(string-append "Les sagouins" ton )
+  tagline =  ""
+  composer = "Blair"
+}
+
+
+
+\score{
+  <<
+    \new ChordNames {
+      \transpose c \noteCibleTransposition{
+	\harmonie
+      }
+    }
+    \new Staff { 
+      \transpose c \noteCibleTransposition {
+      \melodie
+      }
+    }
+  >>
+  \layout{ \context {      \Score      proportionalNotationDuration = #(ly:make-moment 4 30     )   } }
+}
+
+
+
+
