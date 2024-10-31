@@ -130,58 +130,58 @@ pd = \lyricmode {
 }
 
 
-\markup {
-	\small {
-		\concat {
-		  \column {
+% \markup {
+% 	\small {
+% 		\concat {
+% 		  \column {
 		    
-		    "Tous les matins Gontran" "se réjouit d'être un gros porc," 
-		    "quand il se marre en vomissant ça fait" "\"glou glou\" les enfants crient \"encore!\""
-		    "et lorsqu'ils le taquinent" "en rapp'lant à son souvenir"
-		    "que le dégoût d'être un nabot" "ne le fera jamais grandir,"
-		    "il s'enferme chez lui pour se recueillir,"
-		    "et il regarde en souriant" "s'étaler sous ses grand yeux gloutons"
-		    "les sentiments vulgaires à la télévision"
-		    "les sentiments vulgaires à la télévision"
-		    " "
+% 		    "Tous les matins Gontran" "se réjouit d'être un gros porc," 
+% 		    "quand il se marre en vomissant ça fait" "\"glou glou\" les enfants crient \"encore!\""
+% 		    "et lorsqu'ils le taquinent" "en rapp'lant à son souvenir"
+% 		    "que le dégoût d'être un nabot" "ne le fera jamais grandir,"
+% 		    "il s'enferme chez lui pour se recueillir,"
+% 		    "et il regarde en souriant" "s'étaler sous ses grand yeux gloutons"
+% 		    "les sentiments vulgaires à la télévision"
+% 		    "les sentiments vulgaires à la télévision"
+% 		    " "
 		    
-		    "Dehors complaisamment les lépreux" "comparent leurs croûtes."
-		    "En noir en rouge en blanc" "dans la rue partout s'ébattent les scouts."
-		    "\"Enfin libres\" crient-ils" "en s'embrassant avec émoi"
-		    "Si honteux hier encore" "ils sont si fiers de leurs ténias"
-		    "depuis qu'ils savent que toute la troupe en a"
-		    "tandis qu'un jeune coeur meurtri" "chante avec bruyante passion"
-		    "ses sentiments vulgaires à la télévision"
-		    "ses sentiments vulgaires à la télévision"
+% 		    "Dehors complaisamment les lépreux" "comparent leurs croûtes."
+% 		    "En noir en rouge en blanc" "dans la rue partout s'ébattent les scouts."
+% 		    "\"Enfin libres\" crient-ils" "en s'embrassant avec émoi"
+% 		    "Si honteux hier encore" "ils sont si fiers de leurs ténias"
+% 		    "depuis qu'ils savent que toute la troupe en a"
+% 		    "tandis qu'un jeune coeur meurtri" "chante avec bruyante passion"
+% 		    "ses sentiments vulgaires à la télévision"
+% 		    "ses sentiments vulgaires à la télévision"
 			  
 			  
-		  }
-		  \hspace #3
-		  \column {
-		    "On sonn' c'est la voisin'" "qui vient s'écouter parler d'elle"
-		    "\"moi j'sui du genr' qui, j'suis comm ça,"
-		    "j'estime avoir droit, j'suis pas d'celles"
-		    "et si j'ai changé j'y peux rien" 
-		    "je le quitte il le faut...\"" 
-		    "Mais au milieu de sa phras'"
-		    "Gontran l'étouffe avec un poireau"
-		    "Et jusque dans ses ultimes soubresauts"
-		    "L'on sent nager en elle" "comme l'eau dans un poisson"
-		    "les sentiments vulgaires de la télévision"
-		    "les sentiments vulgaires de la télévision"
-		    " "
+% 		  }
+% 		  \hspace #3
+% 		  \column {
+% 		    "On sonn' c'est la voisin'" "qui vient s'écouter parler d'elle"
+% 		    "\"moi j'sui du genr' qui, j'suis comm ça,"
+% 		    "j'estime avoir droit, j'suis pas d'celles"
+% 		    "et si j'ai changé j'y peux rien" 
+% 		    "je le quitte il le faut...\"" 
+% 		    "Mais au milieu de sa phras'"
+% 		    "Gontran l'étouffe avec un poireau"
+% 		    "Et jusque dans ses ultimes soubresauts"
+% 		    "L'on sent nager en elle" "comme l'eau dans un poisson"
+% 		    "les sentiments vulgaires de la télévision"
+% 		    "les sentiments vulgaires de la télévision"
+% 		    " "
 		    
-		    "Au tribunal, Gontran, " " serein expose sa défense:"
-		    "\"Désolé j'aurais tant  préféré" "pouvoir regretter mon geste;"
-		    "Et n'allez pas croire que" "j'agisse ainsi par malveillance,"
-		    "Mais pour en aimer quelques uns" "il me faut détester le reste.\""
-		    "Et tandis qu'on le conduit à la potence,"
-		    "Les rebelles en troupeau" "bénissent dans leur communion"
-		    "les sentiments vulgaires à la télévision"
-		    "les sentiments vulgaires à la télévision"
+% 		    "Au tribunal, Gontran, " " serein expose sa défense:"
+% 		    "\"Désolé j'aurais tant  préféré" "pouvoir regretter mon geste;"
+% 		    "Et n'allez pas croire que" "j'agisse ainsi par malveillance,"
+% 		    "Mais pour en aimer quelques uns" "il me faut détester le reste.\""
+% 		    "Et tandis qu'on le conduit à la potence,"
+% 		    "Les rebelles en troupeau" "bénissent dans leur communion"
+% 		    "les sentiments vulgaires à la télévision"
+% 		    "les sentiments vulgaires à la télévision"
 			
-			}
-		}
-	}
-}
+% 			}
+% 		}
+% 	}
+% }
 

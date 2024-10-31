@@ -105,7 +105,7 @@ pd = \lyricmode {
 \header {
   title = #(string-append "Pomme de terre" ton )
   tagline =  ""
-  composer = "Blair"
+  composer = "Blair (arr. BS)"
 }
 
 
@@ -122,13 +122,13 @@ pd = \lyricmode {
 	\melodie
       }
     }
-    \new Lyrics \lyricsto "one" {\set fontSize = #0
+    \new Lyrics \lyricsto "one" {\set fontSize = #-1
       \pa \pd
     }
-    \new Lyrics \lyricsto "one" {\set fontSize = #0
+    \new Lyrics \lyricsto "one" {\set fontSize = #-1
       \pb
 			       }
-    \new Lyrics \lyricsto "one" {\set fontSize = #0
+    \new Lyrics \lyricsto "one" {\set fontSize = #-1
 				 \pc
 			       }
   >>

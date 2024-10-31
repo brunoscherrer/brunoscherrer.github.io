@@ -3,7 +3,6 @@ indent = 0
 melodie =  \relative c''{
   \key d \major
   \numericTimeSignature \time 4/4
-  r1
   e
 }
 
@@ -13,7 +12,6 @@ pa = \lyricmode {
 
 
 harmonie = \chordmode {
-  r1
   e:3-.5-.7  a:min7  d:dim  c:maj7
   f:3-.5-.7  a:min7   d:6   aes2:7  bes:7
   g1:min d:min f:min c
