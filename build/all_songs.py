@@ -54,6 +54,7 @@ songs = [ ( ("01_originaux","Morceaux originaux"),
               ("53_remous","remous","Remous"),
               ("54_ponyonoke_2","ponyonoke","Ponyonoke dans le château sur la falaise"),
               ("55_descente_au_klezmeristan","descente","Descente au Klezmeristan"),
+              ("56_5a7","5a7","Cinq à sept"),
               ("","samba","Samba ni chaussettes"),
               ("","joie_bonheur","Joie & bonheur"),
               ("","blues","Blues"),
@@ -66,8 +67,7 @@ songs = [ ( ("01_originaux","Morceaux originaux"),
               ("","mineur_majeur","Mineur/Majeur"),
               ("","naine_des_neiges","La naine des neiges"),
               ("","without_mi","Without mi"),
-              ("","zarbi","Zarbi"),
-              ("","5a7","Cinq à sept")
+              ("","zarbi","Zarbi")
               #("","","Dans ta F.A.C.E. 2 !")
               ] ),
           ( ("02_reprises","Reprises"),
