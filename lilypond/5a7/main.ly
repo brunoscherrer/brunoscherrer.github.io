@@ -68,7 +68,7 @@ harmonie =  \chordmode{
 
 
 \header {
-  title = #(string-append "5 à 7" ton )
+  title = #(string-append "Cinq à sept" ton )
   tagline =  ""
   composer = "B. Scherrer"
 }
