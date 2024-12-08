@@ -1,0 +1,80 @@
+indent = 0
+
+melodie =  \relative c''{
+  \key bes \major
+  \numericTimeSignature
+  \time 5/4
+  \repeat volta 2 {
+  \tuplet 4/3 {r4 g c d} \tuplet 3/2 {ees f f}
+  \tuplet 4/3 {f ees d c} \tuplet 3/2 {bes g f}
+  \tuplet 4/3 {bes g2.} r2
+}
+  \alternative {
+    {r2. r2}
+    {r2. r2}
+  }
+  r2. r2 r2. r2
+}
+
+basse = \relative c{
+  \clef bass
+  \key bes \major
+  \numericTimeSignature
+  \time 5/4
+  \repeat volta 2 {c4. c  d4 d  ees4. ees  d4 d  c4. c  d4 d}
+  \alternative {
+    { ees4. ees   d4 d }
+    { ees4. ees   e4 e } 
+  }
+  f4. f  g4 g  aes4. aes  g4 g  f4. f  g4 g  aes4. aes   g4 g  
+}
+
+
+harmonie =  \chordmode{  
+  \time 5/4
+  
+  \repeat volta 2 {
+    c2.:min7 d2:min7 | ees2.:maj7 d2:min7 |  c2.:min7 d2:min7 | 
+  }
+  \alternative {
+    { ees2.:maj7 d2:min7 }
+    { ees2.:maj7 e2:3-.5-.7 } 
+  } \break
+  
+  f2.:min7 g2:min7 | aes2.:maj7 g2:min7 |f2.:min7 g2:min7 | aes2.:maj7 g2:min7 |
+}
+
+
+
+\header {
+  title = #(string-append "5 à 7" ton )
+  tagline =  ""
+  composer = "B. Scherrer"
+}
+
+
+
+\score{
+  <<
+    \new ChordNames {
+      \transpose c \noteCibleTransposition{
+	\harmonie
+      }
+    }
+    \new Staff { 
+      \transpose c \noteCibleTransposition {
+      \melodie
+      }
+    }
+    \new Staff { 
+      \transpose c \noteCibleTransposition {
+      \basse
+      }
+    }
+  >>
+  \layout{ \context {      \Score      proportionalNotationDuration = #(ly:make-moment 4 30     )   } }
+}
+
+
+
+
