@@ -1,7 +1,6 @@
 indent = 0
 
 melodie =  \relative c'''{
-  \key c \major
   \numericTimeSignature
   \time 7/4
   \repeat volta 2 {
@@ -18,8 +17,7 @@ melodie =  \relative c'''{
 }
 
 pont =  \relative c''{
-  \key c \major
-  \numericTimeSignature
+    \numericTimeSignature
   \time 11/4
   \repeat volta 2 {
     f1~ f2.  r2  g8 f ees c |
@@ -30,8 +28,7 @@ pont =  \relative c''{
 
 bassepont = \relative c{
   \clef bass
-  \key c \major
-  \numericTimeSignature
+    \numericTimeSignature
   \time 11/4
   \repeat volta 2 {
   \repeat unfold 4 { 
