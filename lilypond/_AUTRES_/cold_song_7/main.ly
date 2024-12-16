@@ -43,7 +43,7 @@ harmonie =  \chordmode{
 
 
 \header {
-  title = #(string-append "Cold song (what power art thou)" ton )
+  title = #(string-append "Chanson froide réchauffée (d'après Cold Song)" ton )
   tagline =  ""
   composer = "H. Purcell (arr. BS)"
 }

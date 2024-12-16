@@ -95,8 +95,8 @@ songs = [ ( ("01_originaux","Morceaux originaux"),
               ("22_exit_music","","Exit Music (for a PDG) / Radiohead"),
               ("23_the_final_countdown","compte_a_rebours_final","The Final Countdown / Europe"),
               ("24_oblivion","oblivion","Oblivion / Astor Piazzola"),
-              ("25_le_jour_de_mon_enterrement","","Le jour de mon enterrement / Mesdames (Juliette Cordel)"),
-              ("26_cold_song","cold_song","Cold song (H. Purcell)")
+              ("25_le_jour_de_mon_enterrement","","Le jour de mon enterrement / Mesdames"),
+              ("26_cold_song","cold_song","Chanson froide (réchauffée) / Henry Purcell")
              ])
           
           ]
