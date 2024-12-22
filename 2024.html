@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr">
+  
+<head>
+    <meta charset="UTF-8">
+    <title>Musique (Bruno Scherrer)</title>
+
+    <style>
+      table, th, td {
+	  border: 0px solid black;
+      }
+      #playlist .nosong {
+	  color:grey;
+      }
+      #playlist .song{
+          color:black;
+          text-decoration: none;
+      }
+      #playlist .current-song{
+          color:red;
+      }
+    </style>
+
+    <script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+
+    <script src="audioPlayer.js"></script>
+    
+</head>
+
+<body>
+
+
+<hr>
+
+  <table id="playlist">
+
+    <tbody>
+
+      
+      <tr>
+	<td colspan="3">
+	  <center>
+	  <audio src="mp3/acoustic/01_agent000.mp3" controls id="audioPlayer" style="width: 700px;">
+            Désolé, votre navigateur ne gère pas HTML5!
+	  </audio>
+	  </center>
+	</td>
+      </tr>
+	
+<tr> <td colspan="3"> <b><center>--- 2024 ---</center></b></td></tr>
+<tr>	<td> <a class="song current-song"href="mp3/01_originaux/47_samedi_matin.mp3">1. Samedi matin</a>   </td>  <td> <a href="mp3/01_originaux/47_samedi_matin.mp3" download>mp3</a></td>   <td> </td> </tr>
+<tr>	<td> <a class="song"href="mp3/01_originaux/48_provisoire.mp3">2. Provisoire</a>   </td>  <td> <a href="mp3/01_originaux/48_provisoire.mp3" download>mp3</a></td>   <td> </td> </tr>
+<tr>	<td> <a class="song"href="mp3/01_originaux/49_pour_manu.mp3">3. Pour Manu</a>   </td>  <td> <a href="mp3/01_originaux/49_pour_manu.mp3" download>mp3</a></td>   <td> </td> </tr>
+<tr>	<td> <a class="song"href="mp3/01_originaux/50_emotion_petit_bonhomme.mp3">4. Emotion du petit bonhomme</a>   </td>  <td> <a href="mp3/01_originaux/50_emotion_petit_bonhomme.mp3" download>mp3</a></td>   <td> </td> </tr>
+<tr>	<td> <a class="song"href="mp3/01_originaux/51_satirikiki.mp3">5. Satirikiki</a>   </td>  <td> <a href="mp3/01_originaux/51_satirikiki.mp3" download>mp3</a></td>   <td> </td> </tr>
+<tr>	<td> <a class="song"href="mp3/01_originaux/52_sur_un_air_de_jazz.mp3">6. Sur un air de jazz</a>   </td>  <td> <a href="mp3/01_originaux/52_sur_un_air_de_jazz.mp3" download>mp3</a></td>   <td> </td> </tr>
+<tr>	<td> <a class="song"href="mp3/01_originaux/53_remous.mp3">7. Remous</a>   </td>  <td> <a href="mp3/01_originaux/53_remous.mp3" download>mp3</a></td>   <td> </td> </tr>
+<tr>	<td> <a class="song"href="mp3/01_originaux/54_ponyonoke_2.mp3">8. Ponyonoke dans le château sur la falaise</a>   </td>  <td> <a href="mp3/01_originaux/54_ponyonoke_2.mp3" download>mp3</a></td>   <td> </td> </tr>
+<tr>	<td> <a class="song"href="mp3/01_originaux/55_descente_au_klezmeristan.mp3">9. Descente au Klezmeristan</a>   </td>  <td> <a href="mp3/01_originaux/55_descente_au_klezmeristan.mp3" download>mp3</a></td>   <td> </td> </tr>
+<tr>	<td> <a class="song"href="mp3/01_originaux/56_5a7.mp3">10. Cinq à sept</a>   </td>  <td> <a href="mp3/01_originaux/56_5a7.mp3" download>mp3</a></td>   <td> </td> </tr>
+<tr>	<td> <a class="song"href="mp3/01_originaux/../02_reprises/26_cold_song.mp3">11. Chanson froide (réchauffée) / Henry Purcell</a>   </td>  <td> <a href="mp3/01_originaux/../02_reprises/26_cold_song.mp3" download>mp3</a></td>   <td> </td> </tr>
+
+
+
+      
+      
+    </tbody>
+    
+  </table>
+  
+<hr>
+
+
+<br>
+
+
+
+
+<script>
+  // loads the audio player
+  audioPlayer();
+</script>
+
+</body>
+
+</html>

@@ -181,10 +181,19 @@ repete = [ ( ("01_originaux","Morceaux"),
                  ("","grana_od_bora","Grana od bora (trad/Bojan Z)")
             ])]
              
-k250 =  [  ( ("k250","Arrangements"),
-            [ ("kk","kk","En Chapelure (C. Cartier)"),
-              ("","bulkamer","Bulkamer (J. Lourau)"),
-              ("","draisine_song", "Draisine Song (Tonbruket)"),
-              ("../01_originaux/satirikiki","satirikiki","Satirikiki")
-            ])
-        ]
+selection2024 = [ ( ("01_originaux","2024"), 
+            [ 
+              ("47_samedi_matin","","Samedi matin"),
+              ("48_provisoire","","Provisoire"),
+              ("49_pour_manu","","Pour Manu"),
+              ("50_emotion_petit_bonhomme","","Emotion du petit bonhomme"),
+              ("51_satirikiki","","Satirikiki"),
+              ("52_sur_un_air_de_jazz","","Sur un air de jazz"),
+              ("53_remous","","Remous"),
+              ("54_ponyonoke_2","","Ponyonoke dans le château sur la falaise"),
+              ("55_descente_au_klezmeristan","","Descente au Klezmeristan"),
+              ("56_5a7","","Cinq à sept"),
+              ("../02_reprises/26_cold_song","","Chanson froide (réchauffée) / Henry Purcell")
+             ])
+          ]
+ 
