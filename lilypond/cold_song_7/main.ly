@@ -43,7 +43,7 @@ harmonie =  \chordmode{
     f1 bes1/d | ees1 c1:dim7 | \break
     bes1:min d1:dim7 | c1:min g1 | c1:min d1:7 | \break
     e1:3-.5-.7 f1:dim7 | g1:7/f | } c4.:7/e c2:min/ees | \tuplet 8/7 { bes1/d aes1/c |
-    b1:dim7 c1:min/a | g1:7 | s1 | c1:min | s1
+    b1:dim7 a:3-.5-.7 | g1:7 | s1 | c1:min | s1
 								     }
   }
 }
