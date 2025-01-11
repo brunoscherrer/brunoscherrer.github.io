@@ -1,0 +1,83 @@
+indent = 0
+
+melodie =  \relative c''{
+  \key c \major
+  \numericTimeSignature
+  \time 4/4
+  \mark \markup \box \bold A
+  \repeat volta 2 {
+    \tuplet 3/2 {e4 f8} \tuplet 3/2 {e4 e8~}  \tuplet 3/2 {e4 d8} \tuplet 3/2 {c4 c8~}   \tuplet 3/2 {c4 b8} \tuplet 3/2 {a4 gis8~}   gis2    \break
+    \tuplet 3/2 {e'4 g8} \tuplet 3/2 {f4 e8~}   e4 d4   \tuplet 3/2 {c4 b8} \tuplet 3/2 {a4 d8~}   d2    \break
+  }
+  \alternative {
+    { \tuplet 3/2 {a4 b8} \tuplet 3/2 {c4 d8~}   \tuplet 3/2 {d4 c8} \tuplet 3/2 {d4 e8~}   \tuplet 3/2 {e4 f8} \tuplet 3/2 {e4 e8~}   \tuplet 3/2 {e4 d8} \tuplet 3/2 {c4 d8~}    d1 r1 \break }
+   { \tuplet 3/2 {a4 d8} \tuplet 3/2 {c4 b8~}   \tuplet 3/2 {b4 c8} \tuplet 3/2 {d4 ees8~}   \tuplet 3/2 {ees4 f8} \tuplet 3/2 {ees4 d8~}   \tuplet 3/2 {d4 c8} \tuplet 3/2 {bes4 cis8~}    cis1 r1 \break }
+  }
+  
+  \mark \markup \box \bold B
+  \repeat volta 2 {
+  \tuplet 3/2 {a'4 bes8} \tuplet 3/2 {a4 g8}   a4 g   fis4 \tuplet 3/2 {d4 fis8}   r2 \break
+  \tuplet 3/2 {a4 bes8} \tuplet 3/2 {a4 g8}   a4 g   fis4 \tuplet 3/2 {d4 b8}   r2 \break
+  \tuplet 3/2 {g'4 a8} \tuplet 3/2 {g4 f8}   g2    \tuplet 3/2 {f4 g8} \tuplet 3/2 {f4 d8}   f4 \tuplet 3/2 {d4 c8~}   \break
+  c1   r1 \break
+}
+\mark \markup \box \bold C
+    \tuplet 3/2 {e4 f8} \tuplet 3/2 {e4 e8~}  \tuplet 3/2 {e4 d8} \tuplet 3/2 {c4 c8~}    \tuplet 3/2 {c4 b8} \tuplet 3/2 {a4 gis8~}   gis2    \break
+    \tuplet 3/2 {e'4 g8} \tuplet 3/2 {f4 e8~}   e4 d4   \tuplet 3/2 {c4 b8} \tuplet 3/2 {a4 d8~}   d2    \break
+   \tuplet 3/2 {a4 d8} \tuplet 3/2 {c4 b8~}   \tuplet 3/2 {b4 c8} \tuplet 3/2 {d4 e8~}   \tuplet 3/2 {e4 f8} \tuplet 3/2 {e4 e8~}   \tuplet 3/2 {e4 d8} \tuplet 3/2 {c4 g'8~}    g1 r1\break 
+}
+
+
+
+harmonie =  \chordmode{  
+  \time 4/4
+  % A
+  \repeat volta 2 {
+    c2:maj7   e:7   f:maj7   e:7   
+    c2:maj7   e:7   f:maj7   aes:dim7  
+  }
+  \alternative {
+    { f:maj7   g:7   aes:dim7   a:min7   bes:maj7   s s s}
+    { f:maj7   g:7   aes:maj7   bes:maj7   a:maj7   s s s}
+  }
+  % B
+  \repeat volta 2 {
+    bes2:maj7    s   g:maj7   s  bes2:maj7    s   g:maj7   s  
+    ees2:maj7    s   bes:maj7   s   aes2:maj7    s   s   s
+  }
+  % C
+  c2:maj7   e:7   f:maj7   e:7   
+  c2:maj7   e:7   f:maj7   aes:dim7  
+  f:maj7   g:7   aes:dim7   a:min7   aes:maj7   s s s
+}
+
+
+
+
+\header {
+  title = #(string-append "Cha-Cha" ton )
+  tagline =  ""
+  composer = "B. Scherrer"
+}
+
+
+
+\score{
+  <<
+    \new ChordNames {
+      \transpose c \noteCibleTransposition{
+	\harmonie
+      }
+    }
+    \new Staff { 
+      \transpose c \noteCibleTransposition {
+      \melodie
+      }
+    }
+  >>
+  \layout{ \context {      \Score      proportionalNotationDuration = #(ly:make-moment 4 30     )   } }
+}
+
+
+
+
