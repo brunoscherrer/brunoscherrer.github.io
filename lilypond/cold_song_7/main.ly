@@ -1,6 +1,6 @@
 indent = 0
 
-melodie =  \transpose c a {
+melodie =  {
 
   \relative c'{
 
@@ -26,7 +26,7 @@ melodie =  \transpose c a {
 
 
 harmonie =  \chordmode{
-  \transpose c a {
+   {
   \time 7/8
   \tuplet 8/7 {				%
     c1:min f1:min/c | bes1/d ees1 | c1:5+.7 f1/a | g1:7/b c1:min  \break
