@@ -167,7 +167,10 @@ repete = [ ( ("01_originaux","Morceaux"),
                ("45_oudea_cassetoi","oudea_cassetoi","Ou-dé-a, Casse-toi-d'la !"),
                ("52_sur_un_air_de_jazz","sur_un_air_de_jazz","Sur un air de jazz"),
                ("01_prog_to_log_2000","prog","Prog-to-log 2000"),
-               ("53_remous","remous","Remous")
+               ("53_remous","remous","Remous"),
+               ("56_5a7","5a7","Cinq à sept"),
+               ("57_croisiere","croisiere","Croisière sur le Styx"),
+               ("58_moerci_doerien","moerci_doerien","Moerci Doerien")
               ]),
            ( ("02_reprises","Arrangements"),
              [
@@ -180,7 +183,8 @@ repete = [ ( ("01_originaux","Morceaux"),
                  ("23_the_final_countdown","compte_a_rebours_final","The Final Countdown / Europe"),
                  ("07_saint_thomas_58","saint_thomas5","Saint Thomas 5/8 / Sonny Rollins"),
                  ("13_risasdebolivia","risas","Risas de Bolivia / Trad. bolivien"),
-                 ("","grana_od_bora","Grana od bora (trad/Bojan Z)")
+                 ("","grana_od_bora","Grana od bora (trad/Bojan Z)"),
+                 ("../02_reprises/26_cold_song","","Chanson froide (réchauffée) / Henry Purcell")
             ])]
              
 selection2024 = [ ( ("01_originaux","2024"), 
