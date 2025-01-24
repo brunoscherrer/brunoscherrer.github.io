@@ -184,7 +184,7 @@ repete = [ ( ("01_originaux","Morceaux"),
                  ("07_saint_thomas_58","saint_thomas5","Saint Thomas 5/8 / Sonny Rollins"),
                  ("13_risasdebolivia","risas","Risas de Bolivia / Trad. bolivien"),
                  ("","grana_od_bora","Grana od bora (trad/Bojan Z)"),
-                 ("../02_reprises/26_cold_song","","Chanson froide (réchauffée) / Henry Purcell")
+                 ("../02_reprises/26_cold_song","cold_song","Chanson froide (réchauffée) / Henry Purcell")
             ])]
              
 selection2024 = [ ( ("01_originaux","2024"), 
