@@ -7,7 +7,7 @@ melodie =  \relative c''{
   \mark \markup \box \bold A
 
   \repeat volta 2 {
-  e2 \tuplet 3/2 {e8( f e} \tuplet 3/2 {d c) d(} \tuplet 3/2 {e f gis,~} gis2.) | r4 a b c | \tuplet 3/2 {d4 d c} \tuplet 3/2 {d c4. e8~} | \break
+  e2 \tuplet 3/2 {e8( f e} \tuplet 3/2 {d c) d(} \tuplet 3/2 {e f gis,~} gis2.) | r4 a b c | \tuplet 3/2 {d4 d c} \tuplet 3/2 {d c e~} | \break
   e2 \tuplet 3/2 {e8( f e} \tuplet 3/2 {d c) d(} \tuplet 3/2 {e f gis,~} gis2.) | r4 a b c | \tuplet 3/2 {d4 d c} a2 | \break
 }
   \alternative {
@@ -23,7 +23,7 @@ melodie =  \relative c''{
   c1   r1 \break
 }
 \mark \markup \box \bold C
-   e2 \tuplet 3/2 {e8( f e} \tuplet 3/2 {d c) d(} \tuplet 3/2 {e f gis,~} gis2.) | r4 a b c | \tuplet 3/2 {d4 d c} \tuplet 3/2 {d c4. e8~} | \break
+   e2 \tuplet 3/2 {e8( f e} \tuplet 3/2 {d c) d(} \tuplet 3/2 {e f gis,~} gis2.) | r4 a b c | \tuplet 3/2 {d4 d c} \tuplet 3/2 {d c e~} | \break
   e2 \tuplet 3/2 {e8( f e} \tuplet 3/2 {d c) d(} \tuplet 3/2 {e f gis,~} gis2.) | r4 a b c | \tuplet 3/2 {d4 d c} a2 | \break
 
   r4 <f a> <g b> <a c> | <b d>2 <c e>4 <d f> | <c e>2 <b d>2 | <a c>2. <e a>4 | <g c>1 | r1 \break

@@ -54,12 +54,12 @@ harmonie =  \chordmode{
   \time 5/4
   \repeat volta 2 {
   c2.:min7 bes2:7/d | ees2.:maj7 f2:min7 |  c2.:min7 bes2:7/d |  ees2.:maj7 f2:min7 |
-  c2.:min7 bes2:7/d | ees2.:maj7 e2:3-.5-.7 |  f2.:min7 g2:min7 | aes2.:maj7 bes2:7  
+  c2.:min7 bes2:7/d | ees2.:maj7 e2:dim7 |  f2.:min7 g2:min7 | aes2.:maj7 bes2:7  
   f2.:min7 g2:min7 | aes2.:maj7 bes2:7 |f2.:min7 g2:min7 | aes2.:maj7 bes2:7 |
   f2.:min7 g2:min7 | aes2.:maj7 b2:dim7 | c2.:min7 bes2:7/d | ees2.:maj7 f2:min7 |
 }
   ees2.:min7 f2:min7 | ges2.:maj7 aes2:7 |  ees2.:min7 f2:min7 |  ges2.:maj7 aes2:7 |
-   ees2.:min7 f2:min7 | ges2.:maj7 g2:3-.5-.7 |  aes2.:min7 bes2:min7 | ces2.:maj7 des2:7  
+   ees2.:min7 f2:min7 | ges2.:maj7 g2:dim7 |  aes2.:min7 bes2:min7 | ces2.:maj7 des2:7  
   aes2.:min7 bes2:min7 | ces2.:maj7 des2:7 |aes2.:min7 bes2:min7 | ces2.:maj7 des2:7 |
   aes2.:min7 bes2:min7 | ces2.:maj7 b2:dim7 | c2.:min7 bes2:7/d | ees2.:maj7 f2:min7 |
 }
