@@ -13,9 +13,9 @@ melodie =  \relative c''{
 
 harmonie =  \chordmode{  
   \time 3/4
-  \repeat unfold 2 { c2.:9 c:5+.9 c:6.9 c:5+.9 }
-  \repeat unfold 2 { e2.:9 e:5+.9 e:6.9 e:5+.9 }
-  \repeat unfold 2 { aes2.:9 aes:5+.9 aes:6.9 aes:5+.9 }
+  \repeat unfold 2 { c2.:3-.9 c:3-.5+.9 c:3-.6.9 c:3-.5+.9 }
+  \repeat unfold 2 { e2.:3-.9 e:3-.5+.9 e:3-.6.9 e:3-.5+.9 }
+  \repeat unfold 2 { aes2.:3-.9 aes:3-.5+.9 aes:3-.6.9 aes:3-.5+.9 }
 }
 
 
