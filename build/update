@@ -2,7 +2,7 @@
 
 ./generate_songs.py
 cp index.html ..
-cp selection.html ..
+cp lbd.html ..
 cp repete.html ..
 cp 2024.html ..
 

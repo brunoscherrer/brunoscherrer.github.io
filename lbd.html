@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+  
+<head>
+    <meta charset="UTF-8">
+    <title>Musique (Bruno Scherrer)</title>
+
+    <style>
+      table, th, td {
+	  border: 0px solid black;
+      }
+      #playlist .nosong {
+	  color:grey;
+      }
+      #playlist .song{
+          color:black;
+          text-decoration: none;
+      }
+      #playlist .current-song{
+          color:red;
+      }
+    </style>
+
+    <script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+
+    <script src="audioPlayer.js"></script>
+    
+</head>
+
+<body>
+
+<p> Musique (originale, reprises, arrangements) par Bruno Scherrer.
+  Partitions pdf et fichiers midi générés via lilypond (<a href="https://github.com/brunoscherrer/brunoscherrer.github.io/tree/master/lilypond">sources</a>). 
+  Enregistrements mp3 réalisés sur Yamaha MOXF8.
+</p>
+
+<hr>
+
+  <table id="playlist">
+
+    <tbody>
+
+      
+      <tr>
+	<td colspan="3">
+	  <center>
+	  <audio src="mp3/acoustic/01_agent000.mp3" controls id="audioPlayer" style="width: 700px;">
+            Désolé, votre navigateur ne gère pas HTML5!
+	  </audio>
+	  </center>
+	</td>
+      </tr>
+	
+<tr> <td colspan="3"> <b><center>--- Morceaux ---</center></b></td></tr>
+<tr>	<td> <a class="song current-song"href="mp3/01_originaux/06_wuhan_connect.mp3">1. Wuhan connect</a>   </td>  <td> <a href="mp3/01_originaux/06_wuhan_connect.mp3" download>mp3</a></td>   <td> &nbsp;&nbsp;  <a href="pdf/wuhan_connect_do.pdf" target="_blank">do</a> - <a href="pdf/wuhan_connect_sib.pdf" target="_blank">si♭</a> - <a href="pdf/wuhan_connect_mib.pdf" target="_blank">mi♭</a>  &nbsp;&nbsp;  <a href="midi/wuhan_connect_do.midi" target="_blank">midi</a> </td>  </tr>
+<tr>	<td> <a class="song"href="mp3/01_originaux/10_agent000.mp3">2. Agent 000</a>   </td>  <td> <a href="mp3/01_originaux/10_agent000.mp3" download>mp3</a></td>   <td> &nbsp;&nbsp;  <a href="pdf/agent000_do.pdf" target="_blank">do</a> - <a href="pdf/agent000_sib.pdf" target="_blank">si♭</a> - <a href="pdf/agent000_mib.pdf" target="_blank">mi♭</a>  &nbsp;&nbsp;  <a href="midi/agent000_do.midi" target="_blank">midi</a> </td>  </tr>
+<tr>	<td> <a class="song"href="mp3/01_originaux/25_lemeilleurestavenir.mp3">3. Le meilleur est à venir</a>   </td>  <td> <a href="mp3/01_originaux/25_lemeilleurestavenir.mp3" download>mp3</a></td>   <td> &nbsp;&nbsp;  <a href="pdf/lemeilleur_do.pdf" target="_blank">do</a> - <a href="pdf/lemeilleur_sib.pdf" target="_blank">si♭</a> - <a href="pdf/lemeilleur_mib.pdf" target="_blank">mi♭</a>  &nbsp;&nbsp;  <a href="midi/lemeilleur_do.midi" target="_blank">midi</a> </td>  </tr>
+<tr>	<td> <a class="song"href="mp3/01_originaux/26_reverie.mp3">4. Rêverie</a>   </td>  <td> <a href="mp3/01_originaux/26_reverie.mp3" download>mp3</a></td>   <td> &nbsp;&nbsp;  <a href="pdf/reverie_do.pdf" target="_blank">do</a> - <a href="pdf/reverie_sib.pdf" target="_blank">si♭</a> - <a href="pdf/reverie_mib.pdf" target="_blank">mi♭</a>  &nbsp;&nbsp;  <a href="midi/reverie_do.midi" target="_blank">midi</a> </td>  </tr>
+<tr>	<td> <a class="song"href="mp3/01_originaux/47_samedi_matin.mp3">5. Samedi matin</a>   </td>  <td> <a href="mp3/01_originaux/47_samedi_matin.mp3" download>mp3</a></td>   <td> &nbsp;&nbsp;  <a href="pdf/samedi_do.pdf" target="_blank">do</a> - <a href="pdf/samedi_sib.pdf" target="_blank">si♭</a> - <a href="pdf/samedi_mib.pdf" target="_blank">mi♭</a>  &nbsp;&nbsp;  <a href="midi/samedi_do.midi" target="_blank">midi</a> </td>  </tr>
+
+
+
+      
+      
+    </tbody>
+    
+  </table>
+  
+<hr>
+
+<p> Intégrale des partitions pdf: <a href="pdf/lbd_do.pdf" download>do</a> - <a href="pdf/lbd_sib.pdf" download>si♭</a> - <a href="pdf/lbd_mib.pdf" download>mi♭</a>
+</p>
+
+
+<script>
+  // loads the audio player
+  audioPlayer();
+</script>
+
+</body>
+
+</html>

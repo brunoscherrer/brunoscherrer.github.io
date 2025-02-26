@@ -3,11 +3,11 @@
 
 import os
 
-from all_songs import songs,repete
+from all_songs import songs,repete,lbd
 
 
 
-for (filename,source) in [("all",songs), ("repete",repete)]:
+for (filename,source) in [("all",songs), ("repete",repete), ("lbd",lbd)]:
 
     pdflist = []
     songlist = []
