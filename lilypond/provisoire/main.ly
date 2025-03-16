@@ -33,6 +33,7 @@ melodie =  \relative c'{
   {a,8 bes[ bes] c[ c] e[ e] |} {a,8 bes[ bes] c[ c] f[ f] |}
  \break
   \time 9/8
+  \tempo \markup { \note {4} #1 " = " \note {4.} #1 }
   c'2~ c8 bes2  a1~ a8~
   a1~ a8
   r1 r8 r1 r8 \break
