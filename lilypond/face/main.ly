@@ -5,21 +5,22 @@ melodie =  \relative c'''{
   \numericTimeSignature
   \time 9/8
   \repeat volta 2 {
-    c2.~ c8 b a | e2.~ e4. | r4 c8 d4 c8 d4  c8 | d e g,~ g2. |
-    g8 a4~ a4. r4 b8 | c2.~ c4. | r4. {c4 b a } | 
+    c2.~ c8 b a | e2.~ e4. | r4 c8 d4 c8 d4  c8 | d e g,~ g2. | \break
+    g8 a4~ a4. r4 b8 | c2.~ c4. | r4. {c4 b a } |  
   }
   \alternative{
-    {gis4.~ gis4 e8~ e4. |}
+    {gis4.~ gis4 e8~ e4. |} 
     {gis2. r4. |}
-  }
+  } \break
+  
   \repeat volta 2 {
-    a2.~ a4 b8 | c2.~ c4 d8 | ees4. d c4 b8~ | b8 a4~ a2. |
+    a2.~ a4 b8 | c2.~ c4 d8 | ees4. d c4 b8~ | b8 a4~ a2. | \break
     g2.~ g8 a8 b | 
   }
   \alternative {
     {a2.~ a4 b8 | c4. b a4 c8~ | c8 b2 r8 \tuplet 4/3 {c8 b a g} |}
     {a2. a4 fis8~ | fis2. r4. | r2. r4.}
-  }
+  } \break
   
   
 }
@@ -72,7 +73,7 @@ harmonie =  \chordmode{
       }
     }
   >>
-  \layout{ \context {      \Score      proportionalNotationDuration = #(ly:make-moment 4 40     )   } }
+  \layout{ \context {      \Score      proportionalNotationDuration = #(ly:make-moment 4 20     )   } }
 }
 
 

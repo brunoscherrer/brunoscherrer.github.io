@@ -108,7 +108,10 @@ lbd = [ ( ("01_originaux","Morceaux"),
               ("10_agent000","agent000","Agent 000"),  
               ("25_lemeilleurestavenir","lemeilleur","Le meilleur est à venir"),
               ("26_reverie","reverie","Rêverie"),
-              ("47_samedi_matin","samedi","Samedi matin")
+              ("47_samedi_matin","samedi","Samedi matin"),
+              ("48_provisoire","provisoire","Provisoire"),
+              ("","face","Dans ta F.A.C.E. !"),
+              ("20_rdv_cascade_pisse","cascade_pisse","Rendez-vous à la cascade de la pisse")
             ] )
           ]
  

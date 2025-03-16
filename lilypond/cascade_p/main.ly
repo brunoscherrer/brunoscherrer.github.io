@@ -30,6 +30,13 @@ melodie =  \relative c''{
 
 % changer fis:min7 en fis:3-.5-.7- (plutot non)
 
+
+\paper {
+  system-system-spacing = #'((basic-distance . 0.3) (padding . 0.45))
+  %ragged-last-bottom = ##f
+  %ragged-bottom = ##f
+}
+
 harmoniea =  \chordmode{
   \repeat volta 2 { ees2.:maj7 | f:min7 | g:min7 | fis:min7 | f:min7 | s | }
   \alternative {
@@ -75,7 +82,8 @@ harmonie =  {
       }
     }
   >>
-  \layout{ \context {      \Score      proportionalNotationDuration = #(ly:make-moment 2 10    )   } }
+  \layout{ \context {      \Score      proportionalNotationDuration = #(ly:make-moment 4 30    )   } }
+
 }
 
 
