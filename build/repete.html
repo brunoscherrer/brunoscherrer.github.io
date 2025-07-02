@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="fr">
+  
+<head>
+    <meta charset="UTF-8">
+    <title>Musique (Bruno Scherrer)</title>
+
+    <style>
+      table, th, td {
+	  border: 0px solid black;
+      }
+      #playlist .nosong {
+	  color:grey;
+      }
+      #playlist .song{
+          color:black;
+          text-decoration: none;
+      }
+      #playlist .current-song{
+          color:red;
+      }
+    </style>
+
+    <script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+
+    <script src="audioPlayer.js"></script>
+    
+</head>
+
+<body>
+
+
+<hr>
+
+  <table id="playlist">
+
+    <tbody>
+
+      
+      <tr>
+	<td colspan="3">
+	  <center>
+	  <audio src="mp3/acoustic/01_agent000.mp3" controls id="audioPlayer" style="width: 700px;">
+            Désolé, votre navigateur ne gère pas HTML5!
+	  </audio>
+	  </center>
+	</td>
+      </tr>
+	
+<tr> <td colspan="3"> <b><center>--- Morceaux ---</center></b></td></tr>
+<tr>	<td> <a class="song current-song"href="mp3/01_originaux/12_kronembourgvirus.mp3">1. Kronembourg-Virus Valse</a>   </td>  <td> <a href="mp3/01_originaux/12_kronembourgvirus.mp3" download>mp3</a></td>   <td> &nbsp;&nbsp;  <a href="pdf/kroagent_do.pdf" target="_blank">do</a> - <a href="pdf/kroagent_sib.pdf" target="_blank">si♭</a> - <a href="pdf/kroagent_mib.pdf" target="_blank">mi♭</a>  &nbsp;&nbsp;  <a href="midi/kroagent_do.midi" target="_blank">midi</a> </td>  </tr>
+<tr>	<td> <a class="song"href="mp3/01_originaux/10_agent000.mp3">2. Agent 000</a>   </td>  <td> <a href="mp3/01_originaux/10_agent000.mp3" download>mp3</a></td>   <td> &nbsp;&nbsp;  <a href="pdf/kroagent_do.pdf" target="_blank">do</a> - <a href="pdf/kroagent_sib.pdf" target="_blank">si♭</a> - <a href="pdf/kroagent_mib.pdf" target="_blank">mi♭</a>  &nbsp;&nbsp;  <a href="midi/kroagent_do.midi" target="_blank">midi</a> </td>  </tr>
+<tr>	<td> <a class="song"href="mp3/01_originaux/14_la_demoiselle_de_montreal.mp3">3. La demoiselle de Montréal</a>   </td>  <td> <a href="mp3/01_originaux/14_la_demoiselle_de_montreal.mp3" download>mp3</a></td>   <td> &nbsp;&nbsp;  <a href="pdf/pour_perrine_do.pdf" target="_blank">do</a> - <a href="pdf/pour_perrine_sib.pdf" target="_blank">si♭</a> - <a href="pdf/pour_perrine_mib.pdf" target="_blank">mi♭</a>  &nbsp;&nbsp;  <a href="midi/pour_perrine_do.midi" target="_blank">midi</a> </td>  </tr>
+<tr>	<td> <a class="song"href="mp3/01_originaux/26_reverie.mp3">4. Rêverie</a>   </td>  <td> <a href="mp3/01_originaux/26_reverie.mp3" download>mp3</a></td>   <td> &nbsp;&nbsp;  <a href="pdf/reverie_do.pdf" target="_blank">do</a> - <a href="pdf/reverie_sib.pdf" target="_blank">si♭</a> - <a href="pdf/reverie_mib.pdf" target="_blank">mi♭</a>  &nbsp;&nbsp;  <a href="midi/reverie_do.midi" target="_blank">midi</a> </td>  </tr>
+<tr>	<td> <a class="song"href="mp3/01_originaux/29_volet.mp3">5. Coucher de soleil (derrière un volet bloqué)</a>   </td>  <td> <a href="mp3/01_originaux/29_volet.mp3" download>mp3</a></td>   <td> &nbsp;&nbsp;  <a href="pdf/volet_do.pdf" target="_blank">do</a> - <a href="pdf/volet_sib.pdf" target="_blank">si♭</a> - <a href="pdf/volet_mib.pdf" target="_blank">mi♭</a>  &nbsp;&nbsp;  <a href="midi/volet_do.midi" target="_blank">midi</a> </td>  </tr>
+<tr>	<td> <a class="song"href="mp3/01_originaux/11_rencontre_du_3eme_type.mp3">6. Rencontre du 3ème type</a>   </td>  <td> <a href="mp3/01_originaux/11_rencontre_du_3eme_type.mp3" download>mp3</a></td>   <td> &nbsp;&nbsp;  <a href="pdf/3emetype_do.pdf" target="_blank">do</a> - <a href="pdf/3emetype_sib.pdf" target="_blank">si♭</a> - <a href="pdf/3emetype_mib.pdf" target="_blank">mi♭</a>  &nbsp;&nbsp;  <a href="midi/3emetype_do.midi" target="_blank">midi</a> </td>  </tr>
+<tr>	<td> <a class="song"href="mp3/01_originaux/27_larevanchedutriton.mp3">7. La revanche du Triton</a>   </td>  <td> <a href="mp3/01_originaux/27_larevanchedutriton.mp3" download>mp3</a></td>   <td> &nbsp;&nbsp;  <a href="pdf/larevanchedutriton_do.pdf" target="_blank">do</a> - <a href="pdf/larevanchedutriton_sib.pdf" target="_blank">si♭</a> - <a href="pdf/larevanchedutriton_mib.pdf" target="_blank">mi♭</a>  &nbsp;&nbsp;  <a href="midi/larevanchedutriton_do.midi" target="_blank">midi</a> </td>  </tr>
+<tr>	<td> <a class="song"href="mp3/01_originaux/25_lemeilleurestavenir.mp3">8. Le meilleur est à venir</a>   </td>  <td> <a href="mp3/01_originaux/25_lemeilleurestavenir.mp3" download>mp3</a></td>   <td> &nbsp;&nbsp;  <a href="pdf/lemeilleur_do.pdf" target="_blank">do</a> - <a href="pdf/lemeilleur_sib.pdf" target="_blank">si♭</a> - <a href="pdf/lemeilleur_mib.pdf" target="_blank">mi♭</a>  &nbsp;&nbsp;  <a href="midi/lemeilleur_do.midi" target="_blank">midi</a> </td>  </tr>
+<tr>	<td> <a class="song"href="mp3/01_originaux/04_samba_lek.mp3">9. Samba Lek'</a>   </td>  <td> <a href="mp3/01_originaux/04_samba_lek.mp3" download>mp3</a></td>   <td> &nbsp;&nbsp;  <a href="pdf/samba_lek_do.pdf" target="_blank">do</a> - <a href="pdf/samba_lek_sib.pdf" target="_blank">si♭</a> - <a href="pdf/samba_lek_mib.pdf" target="_blank">mi♭</a>  &nbsp;&nbsp;  <a href="midi/samba_lek_do.midi" target="_blank">midi</a> </td>  </tr>
+<tr>	<td> <a class="song"href="mp3/01_originaux/../k250/kk.mp3">10. En Chapelure (C. Cartier)</a>   </td>  <td> <a href="mp3/01_originaux/../k250/kk.mp3" download>mp3</a></td>   <td> &nbsp;&nbsp;  <a href="pdf/kk_do.pdf" target="_blank">do</a> - <a href="pdf/kk_sib.pdf" target="_blank">si♭</a> - <a href="pdf/kk_mib.pdf" target="_blank">mi♭</a>  &nbsp;&nbsp;  <a href="midi/kk_do.midi" target="_blank">midi</a> </td>  </tr>
+<tr>	<td class="nosong"> 11. Bouguy Blouz (M. Nataf) </td>   <td> </td> <td> &nbsp;&nbsp;  <a href="pdf/bouguyblouz_do.pdf" target="_blank">do</a> - <a href="pdf/bouguyblouz_sib.pdf" target="_blank">si♭</a> - <a href="pdf/bouguyblouz_mib.pdf" target="_blank">mi♭</a>  &nbsp;&nbsp;  <a href="midi/bouguyblouz_do.midi" target="_blank">midi</a> </td>  </tr>
+<tr>	<td> <a class="song"href="mp3/01_originaux/13_samba_calorea.mp3">12. Samba Calor-é-a</a>   </td>  <td> <a href="mp3/01_originaux/13_samba_calorea.mp3" download>mp3</a></td>   <td> &nbsp;&nbsp;  <a href="pdf/samba_calorea_do.pdf" target="_blank">do</a> - <a href="pdf/samba_calorea_sib.pdf" target="_blank">si♭</a> - <a href="pdf/samba_calorea_mib.pdf" target="_blank">mi♭</a>  &nbsp;&nbsp;  <a href="midi/samba_calorea_do.midi" target="_blank">midi</a> </td>  </tr>
+<tr>	<td> <a class="song"href="mp3/01_originaux/38_perdre_son_temps.mp3">13. Perdre son temps</a>   </td>  <td> <a href="mp3/01_originaux/38_perdre_son_temps.mp3" download>mp3</a></td>   <td> &nbsp;&nbsp;  <a href="pdf/perdresontemps_do.pdf" target="_blank">do</a> - <a href="pdf/perdresontemps_sib.pdf" target="_blank">si♭</a> - <a href="pdf/perdresontemps_mib.pdf" target="_blank">mi♭</a>  &nbsp;&nbsp;  <a href="midi/perdresontemps_do.midi" target="_blank">midi</a> </td>  </tr>
+<tr>	<td> <a class="song"href="mp3/01_originaux/42_ca_tourne.mp3">14. Planète ça tourne</a>   </td>  <td> <a href="mp3/01_originaux/42_ca_tourne.mp3" download>mp3</a></td>   <td> &nbsp;&nbsp;  <a href="pdf/ca_tourne_do.pdf" target="_blank">do</a> - <a href="pdf/ca_tourne_sib.pdf" target="_blank">si♭</a> - <a href="pdf/ca_tourne_mib.pdf" target="_blank">mi♭</a>  &nbsp;&nbsp;  <a href="midi/ca_tourne_do.midi" target="_blank">midi</a> </td>  </tr>
+<tr>	<td> <a class="song"href="mp3/01_originaux/43_chasse_a_l_homme.mp3">15. Chasse à l'homme</a>   </td>  <td> <a href="mp3/01_originaux/43_chasse_a_l_homme.mp3" download>mp3</a></td>   <td> &nbsp;&nbsp;  <a href="pdf/chasse_a_l_homme_do.pdf" target="_blank">do</a> - <a href="pdf/chasse_a_l_homme_sib.pdf" target="_blank">si♭</a> - <a href="pdf/chasse_a_l_homme_mib.pdf" target="_blank">mi♭</a>  &nbsp;&nbsp;  <a href="midi/chasse_a_l_homme_do.midi" target="_blank">midi</a> </td>  </tr>
+<tr>	<td> <a class="song"href="mp3/01_originaux/30_bolerototo_newage.mp3">16. Boléro-toto, version New-Age-Olympique</a>   </td>  <td> <a href="mp3/01_originaux/30_bolerototo_newage.mp3" download>mp3</a></td>   <td> &nbsp;&nbsp;  <a href="pdf/bolero_do.pdf" target="_blank">do</a> - <a href="pdf/bolero_sib.pdf" target="_blank">si♭</a> - <a href="pdf/bolero_mib.pdf" target="_blank">mi♭</a>  &nbsp;&nbsp;  <a href="midi/bolero_do.midi" target="_blank">midi</a> </td>  </tr>
+<tr>	<td> <a class="song"href="mp3/01_originaux/13_samba_calorea.mp3">17. Samba Calor-é-a</a>   </td>  <td> <a href="mp3/01_originaux/13_samba_calorea.mp3" download>mp3</a></td>   <td> &nbsp;&nbsp;  <a href="pdf/samba_calorea_do.pdf" target="_blank">do</a> - <a href="pdf/samba_calorea_sib.pdf" target="_blank">si♭</a> - <a href="pdf/samba_calorea_mib.pdf" target="_blank">mi♭</a>  &nbsp;&nbsp;  <a href="midi/samba_calorea_do.midi" target="_blank">midi</a> </td>  </tr>
+<tr>	<td> <a class="song"href="mp3/01_originaux/17_c_est_pas_une_punition_han_2.mp3">18. C'est pas une punition-han</a>   </td>  <td> <a href="mp3/01_originaux/17_c_est_pas_une_punition_han_2.mp3" download>mp3</a></td>   <td> &nbsp;&nbsp;  <a href="pdf/punition_do.pdf" target="_blank">do</a> - <a href="pdf/punition_sib.pdf" target="_blank">si♭</a> - <a href="pdf/punition_mib.pdf" target="_blank">mi♭</a>  &nbsp;&nbsp;  <a href="midi/punition_do.midi" target="_blank">midi</a> </td>  </tr>
+<tr>	<td> <a class="song"href="mp3/01_originaux/45_oudea_cassetoi.mp3">19. Ou-dé-a, Casse-toi-d'la !</a>   </td>  <td> <a href="mp3/01_originaux/45_oudea_cassetoi.mp3" download>mp3</a></td>   <td> &nbsp;&nbsp;  <a href="pdf/oudea_cassetoi_do.pdf" target="_blank">do</a> - <a href="pdf/oudea_cassetoi_sib.pdf" target="_blank">si♭</a> - <a href="pdf/oudea_cassetoi_mib.pdf" target="_blank">mi♭</a>  &nbsp;&nbsp;  <a href="midi/oudea_cassetoi_do.midi" target="_blank">midi</a> </td>  </tr>
+<tr>	<td> <a class="song"href="mp3/01_originaux/52_sur_un_air_de_jazz.mp3">20. Sur un air de jazz</a>   </td>  <td> <a href="mp3/01_originaux/52_sur_un_air_de_jazz.mp3" download>mp3</a></td>   <td> &nbsp;&nbsp;  <a href="pdf/sur_un_air_de_jazz_do.pdf" target="_blank">do</a> - <a href="pdf/sur_un_air_de_jazz_sib.pdf" target="_blank">si♭</a> - <a href="pdf/sur_un_air_de_jazz_mib.pdf" target="_blank">mi♭</a>  &nbsp;&nbsp;  <a href="midi/sur_un_air_de_jazz_do.midi" target="_blank">midi</a> </td>  </tr>
+<tr>	<td> <a class="song"href="mp3/01_originaux/01_prog_to_log_2000.mp3">21. Prog-to-log 2000</a>   </td>  <td> <a href="mp3/01_originaux/01_prog_to_log_2000.mp3" download>mp3</a></td>   <td> &nbsp;&nbsp;  <a href="pdf/prog_do.pdf" target="_blank">do</a> - <a href="pdf/prog_sib.pdf" target="_blank">si♭</a> - <a href="pdf/prog_mib.pdf" target="_blank">mi♭</a>  &nbsp;&nbsp;  <a href="midi/prog_do.midi" target="_blank">midi</a> </td>  </tr>
+<tr>	<td> <a class="song"href="mp3/01_originaux/53_remous.mp3">22. Remous</a>   </td>  <td> <a href="mp3/01_originaux/53_remous.mp3" download>mp3</a></td>   <td> &nbsp;&nbsp;  <a href="pdf/remous_do.pdf" target="_blank">do</a> - <a href="pdf/remous_sib.pdf" target="_blank">si♭</a> - <a href="pdf/remous_mib.pdf" target="_blank">mi♭</a>  &nbsp;&nbsp;  <a href="midi/remous_do.midi" target="_blank">midi</a> </td>  </tr>
+<tr>	<td> <a class="song"href="mp3/01_originaux/56_5a7.mp3">23. Cinq à sept</a>   </td>  <td> <a href="mp3/01_originaux/56_5a7.mp3" download>mp3</a></td>   <td> &nbsp;&nbsp;  <a href="pdf/5a7_do.pdf" target="_blank">do</a> - <a href="pdf/5a7_sib.pdf" target="_blank">si♭</a> - <a href="pdf/5a7_mib.pdf" target="_blank">mi♭</a>  &nbsp;&nbsp;  <a href="midi/5a7_do.midi" target="_blank">midi</a> </td>  </tr>
+<tr>	<td> <a class="song"href="mp3/01_originaux/57_croisiere.mp3">24. Croisière sur le Styx</a>   </td>  <td> <a href="mp3/01_originaux/57_croisiere.mp3" download>mp3</a></td>   <td> &nbsp;&nbsp;  <a href="pdf/croisiere_do.pdf" target="_blank">do</a> - <a href="pdf/croisiere_sib.pdf" target="_blank">si♭</a> - <a href="pdf/croisiere_mib.pdf" target="_blank">mi♭</a>  &nbsp;&nbsp;  <a href="midi/croisiere_do.midi" target="_blank">midi</a> </td>  </tr>
+<tr>	<td> <a class="song"href="mp3/01_originaux/58_moerci_doerien.mp3">25. Moerci Doerien</a>   </td>  <td> <a href="mp3/01_originaux/58_moerci_doerien.mp3" download>mp3</a></td>   <td> &nbsp;&nbsp;  <a href="pdf/moerci_doerien_do.pdf" target="_blank">do</a> - <a href="pdf/moerci_doerien_sib.pdf" target="_blank">si♭</a> - <a href="pdf/moerci_doerien_mib.pdf" target="_blank">mi♭</a>  &nbsp;&nbsp;  <a href="midi/moerci_doerien_do.midi" target="_blank">midi</a> </td>  </tr>
+
+<tr> <td colspan="3"> <b><center>--- Arrangements ---</center></b></td></tr>
+<tr>	<td> <a class="song"href="mp3/02_reprises/24_oblivion.mp3">26. Oblivion / Astor Piazzola</a>   </td>  <td> <a href="mp3/02_reprises/24_oblivion.mp3" download>mp3</a></td>   <td> &nbsp;&nbsp;  <a href="pdf/oblivion_do.pdf" target="_blank">do</a> - <a href="pdf/oblivion_sib.pdf" target="_blank">si♭</a> - <a href="pdf/oblivion_mib.pdf" target="_blank">mi♭</a>  &nbsp;&nbsp;  <a href="midi/oblivion_do.midi" target="_blank">midi</a> </td>  </tr>
+<tr>	<td class="nosong"> 27. But not for me / Gershwin </td>   <td> </td> <td> &nbsp;&nbsp;  <a href="pdf/butnotforme_do.pdf" target="_blank">do</a> - <a href="pdf/butnotforme_sib.pdf" target="_blank">si♭</a> - <a href="pdf/butnotforme_mib.pdf" target="_blank">mi♭</a>  &nbsp;&nbsp;  <a href="midi/butnotforme_do.midi" target="_blank">midi</a> </td>  </tr>
+<tr>	<td class="nosong"> 28. Time after time / Styne </td>   <td> </td> <td> &nbsp;&nbsp;  <a href="pdf/timeaftertime_do.pdf" target="_blank">do</a> - <a href="pdf/timeaftertime_sib.pdf" target="_blank">si♭</a> - <a href="pdf/timeaftertime_mib.pdf" target="_blank">mi♭</a>  &nbsp;&nbsp;  <a href="midi/timeaftertime_do.midi" target="_blank">midi</a> </td>  </tr>
+<tr>	<td class="nosong"> 29. Togo (H. Texier) </td>   <td> </td> <td> &nbsp;&nbsp;  <a href="pdf/togo_do.pdf" target="_blank">do</a> - <a href="pdf/togo_sib.pdf" target="_blank">si♭</a> - <a href="pdf/togo_mib.pdf" target="_blank">mi♭</a>  &nbsp;&nbsp;  <a href="midi/togo_do.midi" target="_blank">midi</a> </td>  </tr>
+<tr>	<td> <a class="song"href="mp3/02_reprises/20_la_revolte_reggae.mp3">30. La révolte reggae / Sébastien Faure</a>   </td>  <td> <a href="mp3/02_reprises/20_la_revolte_reggae.mp3" download>mp3</a></td>   <td> &nbsp;&nbsp;  <a href="pdf/revolte_do.pdf" target="_blank">do</a> - <a href="pdf/revolte_sib.pdf" target="_blank">si♭</a> - <a href="pdf/revolte_mib.pdf" target="_blank">mi♭</a>  &nbsp;&nbsp;  <a href="midi/revolte_do.midi" target="_blank">midi</a> </td>  </tr>
+<tr>	<td> <a class="song"href="mp3/02_reprises/04_on_est_la.mp3">31. On est là (même si Macron ne veut pas) / Trad.</a>   </td>  <td> <a href="mp3/02_reprises/04_on_est_la.mp3" download>mp3</a></td>   <td> &nbsp;&nbsp;  <a href="pdf/onestla_do.pdf" target="_blank">do</a> - <a href="pdf/onestla_sib.pdf" target="_blank">si♭</a> - <a href="pdf/onestla_mib.pdf" target="_blank">mi♭</a>  &nbsp;&nbsp;  <a href="midi/onestla_do.midi" target="_blank">midi</a> </td>  </tr>
+<tr>	<td> <a class="song"href="mp3/02_reprises/23_the_final_countdown.mp3">32. The Final Countdown / Europe</a>   </td>  <td> <a href="mp3/02_reprises/23_the_final_countdown.mp3" download>mp3</a></td>   <td> &nbsp;&nbsp;  <a href="pdf/compte_a_rebours_final_do.pdf" target="_blank">do</a> - <a href="pdf/compte_a_rebours_final_sib.pdf" target="_blank">si♭</a> - <a href="pdf/compte_a_rebours_final_mib.pdf" target="_blank">mi♭</a>  &nbsp;&nbsp;  <a href="midi/compte_a_rebours_final_do.midi" target="_blank">midi</a> </td>  </tr>
+<tr>	<td> <a class="song"href="mp3/02_reprises/07_saint_thomas_58.mp3">33. Saint Thomas 5/8 / Sonny Rollins</a>   </td>  <td> <a href="mp3/02_reprises/07_saint_thomas_58.mp3" download>mp3</a></td>   <td> &nbsp;&nbsp;  <a href="pdf/saint_thomas5_do.pdf" target="_blank">do</a> - <a href="pdf/saint_thomas5_sib.pdf" target="_blank">si♭</a> - <a href="pdf/saint_thomas5_mib.pdf" target="_blank">mi♭</a>  &nbsp;&nbsp;  <a href="midi/saint_thomas5_do.midi" target="_blank">midi</a> </td>  </tr>
+<tr>	<td> <a class="song"href="mp3/02_reprises/13_risasdebolivia.mp3">34. Risas de Bolivia / Trad. bolivien</a>   </td>  <td> <a href="mp3/02_reprises/13_risasdebolivia.mp3" download>mp3</a></td>   <td> &nbsp;&nbsp;  <a href="pdf/risas_do.pdf" target="_blank">do</a> - <a href="pdf/risas_sib.pdf" target="_blank">si♭</a> - <a href="pdf/risas_mib.pdf" target="_blank">mi♭</a>  &nbsp;&nbsp;  <a href="midi/risas_do.midi" target="_blank">midi</a> </td>  </tr>
+<tr>	<td class="nosong"> 35. Grana od bora (trad/Bojan Z) </td>   <td> </td> <td> &nbsp;&nbsp;  <a href="pdf/grana_od_bora_do.pdf" target="_blank">do</a> - <a href="pdf/grana_od_bora_sib.pdf" target="_blank">si♭</a> - <a href="pdf/grana_od_bora_mib.pdf" target="_blank">mi♭</a>  &nbsp;&nbsp;  <a href="midi/grana_od_bora_do.midi" target="_blank">midi</a> </td>  </tr>
+<tr>	<td> <a class="song"href="mp3/02_reprises/../02_reprises/26_cold_song.mp3">36. Chanson froide (réchauffée) / Henry Purcell</a>   </td>  <td> <a href="mp3/02_reprises/../02_reprises/26_cold_song.mp3" download>mp3</a></td>   <td> &nbsp;&nbsp;  <a href="pdf/cold_song_do.pdf" target="_blank">do</a> - <a href="pdf/cold_song_sib.pdf" target="_blank">si♭</a> - <a href="pdf/cold_song_mib.pdf" target="_blank">mi♭</a>  &nbsp;&nbsp;  <a href="midi/cold_song_do.midi" target="_blank">midi</a> </td>  </tr>
+
+
+
+      
+      
+    </tbody>
+    
+  </table>
+  
+<hr>
+
+<p> Intégrale des partitions pdf: <a href="pdf/repete_do.pdf" download>do</a> - <a href="pdf/repete_sib.pdf" download>si♭</a> - <a href="pdf/repete_mib.pdf" download>mi♭</a>
+<br>
+
+
+
+
+<script>
+  // loads the audio player
+  audioPlayer();
+</script>
+
+</body>
+
+</html>

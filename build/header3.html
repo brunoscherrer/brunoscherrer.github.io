@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+  
+<head>
+    <meta charset="UTF-8">
+    <title>Musique (Bruno Scherrer)</title>
+
+    <style>
+      table, th, td {
+	  border: 0px solid black;
+      }
+      #playlist .nosong {
+	  color:grey;
+      }
+      #playlist .song{
+          color:black;
+          text-decoration: none;
+      }
+      #playlist .current-song{
+          color:red;
+      }
+    </style>
+
+    <script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+
+    <script src="audioPlayer.js"></script>
+    
+</head>
+
+<body>
+
+
+<hr>
+
+  <table id="playlist">
+
+    <tbody>
+
+      
+      <tr>
+	<td colspan="3">
+	  <center>
+	  <audio src="mp3/acoustic/01_agent000.mp3" controls id="audioPlayer" style="width: 700px;">
+            Désolé, votre navigateur ne gère pas HTML5!
+	  </audio>
+	  </center>
+	</td>
+      </tr>
+	
