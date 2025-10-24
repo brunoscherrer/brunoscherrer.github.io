@@ -57,6 +57,7 @@ songs = [ ( ("01_originaux","Morceaux originaux"),
               ("56_5a7","5a7","Cinq à sept"),
               ("57_croisiere","croisiere","Croisière sur le Styx"),
               ("58_moerci_doerien","moerci_doerien","Moerci Doerien"),
+              ("","mardi_prison","Mardi, prison de la santé"),
               ("","samba","Samba ni chaussettes"),
               ("","joie_bonheur","Joie & bonheur"),
               ("","blues","Blues"),
@@ -140,7 +141,8 @@ repete = [ ( ("01_originaux","Morceaux"),
                ("53_remous","remous","Remous"),
                ("56_5a7","5a7","Cinq à sept"),
                ("57_croisiere","croisiere","Croisière sur le Styx"),
-               ("58_moerci_doerien","moerci_doerien","Moerci Doerien")
+               ("58_moerci_doerien","moerci_doerien","Moerci Doerien"),
+               ("","mardi_prison","Mardi, prison de la santé")
               ]),
            ( ("02_reprises","Arrangements"),
              [
