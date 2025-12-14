@@ -1,6 +1,6 @@
 indent = 0
 
-melodie =  \relative c'{
+melodie =  \relative c''{
   \key ees \major
   \numericTimeSignature
   \time 7/8
