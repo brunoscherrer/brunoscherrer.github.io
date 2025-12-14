@@ -18,15 +18,15 @@ melodie =  \relative c'{
   }
 
   \mark \markup \box \bold {B}
-  r8 bes4 c des4 | ees4 des c bes8 | des2~ des8[ c bes] | a2 r4. | \break
+  r8 bes,4 c des4 | ees4 des c bes8 | des2~ des8[ c bes] | a2 r4. | \break
   r8 bes4 c des4 | ees4 des c bes8 | des2~ des8[ c des] | c2 r4. | \break
 
   \mark \markup \box \bold {C}
   bes4 bes8 f4 bes4 | bes2 des8[ c bes]
-  bes4 bes8 f4 bes4 | bes2 d!8[ c bes] 
-  bes4 bes8 f4 bes4 | bes2 des8[ c bes] \break
-  bes4 bes8 ges4 bes4 | bes2 r4. | 
-  r8 e,[ ges g] a[ bes c] | des4 c bes a8 |  c4 a8 f4 ees | f2 r4. \break 
+  bes4 bes8 f4 bes4 | bes2 d!8[ c bes] \break
+  bes4 bes8 f4 bes4 | bes2 des8[ c bes] 
+  bes4 bes8 ges4 bes4 | bes2 r4. | \break
+  r8 e[ ges g] a[ bes c] | des4 c bes a8 |  c4 a8 f4 ees | f2 r4. \break 
   r8 f[ ges a] bes[ c des] | ees4 des c bes8 | b4 aes g f8 | g4 f ees d8 \break
 
   \mark \markup \box \bold {A'}
