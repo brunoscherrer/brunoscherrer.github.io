@@ -75,9 +75,9 @@ harmonie =  \chordmode{
     { f2:min7  g4.:7 | aes2:maj7 g4.:7/b | c2:min c4.:3-.7+ |  c2:min7  c4.:min6}
   }
 
-  bes2:min bes4.:3-.7+ |  bes2:min7  bes4.:min6 | bes2:3-.6- bes4.:min | ees2:min7 f4.:7
-  bes2:min bes4.:3-.7+ |  bes2:min7  bes4.:min6 | bes2:3-.6- bes4.:min | ees2:min7 s4. |
-  des2:6.7+ s4. | s2 s4. | c2:4.7 s4. | s2 s4. |
+  bes2:min bes4.:3-.7+/a |  bes2:min7/aes  bes4.:min6/g | ges2:maj7 f4.:7 | ees2:min7 f4.:7
+  bes2:min bes4.:3-.7+/a |  bes2:min7/aes  bes4.:min6/g | ges2:maj7 f4.:7 | ees2:min7 s4. |
+  des2:6.7+ s4. | s2 s4. | c2:sus7 s4. | s2 s4. |
   bes2/d s4. | s2 s4. | ees2:min7 s4. | s2 s4. | 
   e2:3-.5-.7- s4. | s2 s4. | f2:7 s4. | s2 s4. |
   ges2:maj7 s4. | s2 s4. g2:7 s4. | s2 s4.
