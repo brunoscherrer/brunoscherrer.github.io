@@ -71,7 +71,8 @@ songs = [ ( ("01_originaux","Morceaux originaux"),
               ("","mineur_majeur","Mineur/Majeur"),
               ("","naine_des_neiges","La naine des neiges"),
               ("","without_mi","Without mi"),
-              ("","zarbi","Zarbi")
+              ("","zarbi","Zarbi"),
+              ("","swing","Ca swingue à Caracas")
               #("","","Dans ta F.A.C.E. 2 !")
               ] ),
           ( ("02_reprises","Reprises"),
