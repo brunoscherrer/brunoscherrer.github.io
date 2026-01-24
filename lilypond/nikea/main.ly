@@ -66,8 +66,8 @@ melodieb =  \relative c'{
   
 harmonie =  \chordmode{
   \repeat volta 2 {
-    c2:min c4.:3-.7+ |  c2:min7  c4.:min6 | c2:3-.6- c4.:min | f2:min7 g4.:7 
-    c2:min c4.:3-.7+ |  c2:min7  c4.:min6 | c2:3-.6- c4.:min | f2:min7 g4.:7
+    c2:min c4.:3-.7+ |  c2:min7  c4.:min6 | c2:3-.6- c4.:min | f2:min7/c g4.:7/c 
+    c2:min c4.:3-.7+ |  c2:min7  c4.:min6 | c2:3-.6- c4.:min | f2:min7/c g4.:7/c
     aes2:maj7 a4.:3-.5-.7 | bes2:maj7 g4.:7/b | c2:min bes4./d | ees2:maj7 e4.:3-.5-.7
   }
   \alternative {
