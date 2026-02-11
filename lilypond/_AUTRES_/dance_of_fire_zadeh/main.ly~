@@ -1,0 +1,88 @@
+indent = 0
+
+melodie =  \relative c''{
+  \key bes \minor
+  \numericTimeSignature
+  \time 3/8
+  \partial 4. {r4.}
+  \repeat volta 2 {
+    \repeat unfold 140 {r4.}
+    }
+}
+
+
+
+harmonie =  \chordmode{  
+  \partial 4. {s4.}
+
+  \repeat volta 2 {
+    
+  \mark \markup \bold \box{A1}
+  bes2.:min | bes:3-.7+/a | bes:min7/aes | g:3-.5-.7 \break
+  ges:maj7 | f4.:min7 bes:min7 | ees:min7 aes:7 | des4.:maj7 | c:3-.5-.7 f:7 \break
+
+  \mark \markup \bold \box{A2}
+  bes2.:min | bes:3-.7+/a | bes:min7/aes | g:3-.5-.7 \break
+  ges:maj7 | f4.:min7 bes:min7 | ees:min7 aes:7 | des aes:min | des:7 \break
+
+  \mark \markup \bold \box{B}
+  ges2.:maj7 |  g4.:3-.5-.7  g:3-.5-.7/f |  e:3-.5-.7- des:3-.5-.7-  | c:7 f:min7 | \break
+  f2.:3-.5-.7 | f2.:3-.5-.7/ees | d4.:3-.5-.7- b:3-.5-.7+ | bes:7.9- ees:min7 | \break
+  ees2.:3-.5-.7 | aes:7 | aes:7.9-/c | \break
+
+  \mark \markup \bold \box{C}
+  des:min7 | des:7/ces | bes:3-.5-.7 | ees4.:3-.5-.7 a:7.11+ | \break
+  aes2.:7.9- | aes2.:7.9- | a4.:maj7 a:3-.5-.7+ | \break
+  a4.:maj7 a:3-.5-.7+ | des2.:7.9- |  des2.:7.9-  \break
+
+  \mark \markup \bold \box{D}
+  ges4.:min7 ges:min7/fes | ees2.:7.9- | aes4. a/g | \break
+  aes/ges des:min/fes | ees:min7 ees:min7/des | c:3-.5-.7 f:7.9- \break
+
+  \mark \markup \bold \box{A1}
+  bes2.:min | bes:3-.7+/a | bes:min7/aes | g:3-.5-.7 \break
+  ges:maj7 | f4.:min7 bes:min7 | ees:min7 aes:7 | des4.:maj7 | c:3-.5-.7 f:7 \break
+
+  \mark \markup \bold \box{A2}
+  bes2.:min | bes:3-.7+/a | bes:min7/aes | g:3-.5-.7 \break
+  ges:maj7 | f4.:min7 bes:min7 | ees:min7 aes:7 | des aes:min | des:7 \break
+
+  \mark \markup \bold \box{E}
+  ges2.:maj7 | c4.:3-.5-.7 f:7  |  bes:min7 des:7 |  \break
+  ges2.:maj7 | c4.:3-.5-.7 f:7  |  bes:min7 des:7 | \break
+
+  \mark \markup \bold \box{F}
+  c4.:3-.5-.7 f:7  |  bes:min7 des:7 | c4.:3-.5-.7 f:7  |  
+
+  }
+}
+
+
+
+\header {
+  title = #(string-append "Dance of Fire" ton )
+  tagline =  ""
+  composer = "Aziza Mustafa Zadeh"
+}
+
+
+
+\score{
+  <<
+    \new ChordNames {
+      \transpose c \noteCibleTransposition{
+	\harmonie
+      }
+    }
+    \new Staff { 
+      \transpose c \noteCibleTransposition {
+      \melodie
+      }
+    }
+  >>
+  \layout{ \context {      \Score      proportionalNotationDuration = #(ly:make-moment 4 30     )   } }
+}
+
+
+
+
