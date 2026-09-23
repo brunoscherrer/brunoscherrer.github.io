@@ -117,7 +117,7 @@ harmonie =  \chordmode{
  %     }
   %  }
   >>
-  \layout{ \context {      \Score      proportionalNotationDuration = #(ly:make-moment 4 30     )   } }
+  \layout{ \context {      \Score      proportionalNotationDuration = #(ly:make-moment 4 30)   } }
 }
 
 

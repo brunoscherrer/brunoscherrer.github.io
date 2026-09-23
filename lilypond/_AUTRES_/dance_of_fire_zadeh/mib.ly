@@ -1,7 +1,7 @@
 \version "2.18.2"	
 
-noteCibleTransposition =   a,   % c         % d pour Si b %  a, pour Mi b
+noteCibleTransposition =   b,   % c         % d pour Si b %  a, pour Mi b
 
-ton = " (mi bémol)"
+ton = " (version simple)"
 
 \include "main.ly"

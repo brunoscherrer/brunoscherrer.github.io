@@ -1,6 +1,6 @@
 indent = 0
 
-#(set-default-paper-size "a4" 'landscape)
+%#(set-default-paper-size "a4" 'landscape)
 
 melodie =  \relative c''{
   \key c \major
@@ -72,7 +72,7 @@ harmonie =  \chordmode{
       }
     }
   >>
-  \layout{ \context {      \Score      proportionalNotationDuration = #(ly:make-moment 1/8     )   } }
+  \layout{ \context {      \Score      proportionalNotationDuration = #(ly:make-moment 1/4     )   } }
 }
 
 

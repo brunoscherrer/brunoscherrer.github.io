@@ -40,8 +40,8 @@ melodie =  \relative c'{
     \repeat unfold 2 {r8 c16 des ees f ees8 des16 c bes a | bes4 des16 ees f4. | }
     r8 c16 des ees f ees8 des16 c bes a 
     }
-  }
 }
+
 
 
 
@@ -70,7 +70,7 @@ harmonie =  \chordmode{
 
   \mark \markup \bold \box{D}
   ges4.:min7 ges:min7/fes | ees2.:7.9- | aes4. a/g | \break
-  aes/ges des:min/fes | ees:min7 ees:min7/des | c:3-.5-.7 f:7.9- \break
+  aes/ges fes | ees:min7 ees:min7/des | c:3-.5-.7 f:7.9- \break
 
   \mark \markup \bold \box{A1}
   bes2.:min | bes:3-.7+/a | bes:min7/aes | g:3-.5-.7 \break
