@@ -8,8 +8,13 @@ ton = ""
 
 \score {
   <<
-    \new Staff \with {midiInstrument = #"electric piano 1"}<< \unfoldRepeats{\melodie}  >>
     \new Staff \with {midiInstrument = #"electric piano 1"} <<  \unfoldRepeats{\transpose c c \harmonie} >> 
+    \new Staff \with {midiInstrument = #"electric piano 1"}<< \unfoldRepeats{\melodie}  >>
+%    \new Lyrics \lyricsto "one" {
+%      \pa \pb \pc \pf
+%    }
+
+
   >>
 \midi{ \tempo 4 = 150 }
 }
